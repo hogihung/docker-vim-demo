@@ -1,0 +1,14 @@
+" Relative line number toggle
+nnoremap <C-n> :call NumberToggle()<cr>
+
+" PUT FUNCTIONS FROM HERE DOWN
+" ----------------------------
+function! NumberToggle()
+  if(&relativenumber == 1)
+    set nornu
+  else
+    set rnu
+  endif
+endfunc
+
+" COMMENT: save the file ->  :w

@@ -1,0 +1,10 @@
+" Clone the Solarized repo:
+" git clone https://github.com/lifepillar/vim-solarized8.git ~/.vim/pack/themes/opt/solarized8
+
+" Configure color theme
+let g:solarized_termcolors=256
+syntax enable
+set background=dark
+colorscheme solarized8
+
+" COMMENT: save the file ->  :w

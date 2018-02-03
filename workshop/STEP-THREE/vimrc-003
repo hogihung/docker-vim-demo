@@ -1,0 +1,33 @@
+" Map Vim Window navigation
+nnoremap <C-j> <C-w><C-j>
+nnoremap <C-k> <C-w><C-k>
+nnoremap <C-l> <C-w><C-l>
+nnoremap <C-h> <C-w><C-h>
+
+" Handle whitespace based on file type
+if has("autocmd")
+  " enable file type detection
+  filetype on
+
+  " Languages which are picky about tabs vs. spaces
+  autocmd FileType make setlocal ts=8 sts=8 sw=8 noexpandtab
+  autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+
+  " Customization based on house-style (arbitrary)
+  autocmd FileType html setlocal ts=2 sts=2 sw=2 expandtab
+  autocmd FileType css setlocal ts=2 sts=2 sw=2 expandtab
+  "autocmd FileType javascript setlocal ts=4 sts=4 sw=4 noexpandtab
+  autocmd FileType perl setlocal ts=4 sts=4 sw=4 noexpandtab
+
+  " Treat .rss files as XML
+  autocmd BufNewFile,BufRead *.rss setfiletype xml
+
+  " Remove trailing whitespace automatically while a file
+  " is saved, for the defined file extensions:
+  autocmd BufWritePre *.txt,*.rb,*.erb :call <SID>StripTrailingWhitespaces()
+endif
+
+" Turn on ruby compiler for vim
+autocmd FileType ruby compiler ruby
+
+" COMMENT: save the file ->  :w

@@ -1,0 +1,26 @@
+" COMMENT: The following goes DIRECTLY after the line:   filetype off (approx
+"          line 6)
+
+" set the runtime path to include Vundle and initialize
+" url: https://github.com/gmarik/Vundle.vim
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+" call bundle #begin('~/some/path/here')
+
+" let Vundle manage Vundle, required
+Plugin 'gmarik/Vundle.vim'
+
+" Keep Plugin commands between vundle#begin/end.
+" Plugin on GitHub repo
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+
+" All of your Plugins must be added before the following line
+call vundle#end()		" required
+filetype plugin indent on	" required
+
+" COMMENT: save the file ->  :w
+" COMMENT: type the following ->  :source%
+" COMMENT: type the following ->  :PluginInstall
+
