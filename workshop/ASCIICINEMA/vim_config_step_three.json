@@ -1,0 +1,1010 @@
+{
+  "version": 1,
+  "width": 160,
+  "height": 40,
+  "duration": 59.946362,
+  "command": null,
+  "title": "Vim Config - Step Three",
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.063573,
+      "\u001b]0;jfhogarty@workshop-one: ~\u0007\u001b[01;32mjfhogarty@workshop-one\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      11.649157,
+      "cat docker-vim-demo/workshop/STEP-THREE/vimrc-003 >> .vimrc"
+    ],
+    [
+      0.989148,
+      "\r\n"
+    ],
+    [
+      0.00449,
+      "\u001b]0;jfhogarty@workshop-one: ~\u0007\u001b[01;32mjfhogarty@workshop-one\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      4.252521,
+      "c"
+    ],
+    [
+      0.234024,
+      "a"
+    ],
+    [
+      0.12521,
+      "t"
+    ],
+    [
+      0.135329,
+      " "
+    ],
+    [
+      0.193595,
+      "."
+    ],
+    [
+      0.167521,
+      "v"
+    ],
+    [
+      0.176168,
+      "i"
+    ],
+    [
+      0.096555,
+      "m"
+    ],
+    [
+      0.306118,
+      "r"
+    ],
+    [
+      0.239574,
+      "c"
+    ],
+    [
+      0.496844,
+      "\r\n"
+    ],
+    [
+      0.001467,
+      "\" Author:       John F. Hogarty"
+    ],
+    [
+      0.000123,
+      "\r\n"
+    ],
+    [
+      9.3e-05,
+      "\" Email:        hogihung@gmail.com"
+    ],
+    [
+      9.9e-05,
+      "\r\n"
+    ],
+    [
+      8.5e-05,
+      "\" --------------------------------------"
+    ],
+    [
+      9.2e-05,
+      "\r\n"
+    ],
+    [
+      6.7e-05,
+      "set nocompatible"
+    ],
+    [
+      7.9e-05,
+      "\t"
+    ],
+    [
+      6.4e-05,
+      "\t"
+    ],
+    [
+      0.000214,
+      "\" be iMproved, required"
+    ],
+    [
+      4.5e-05,
+      "\r\n"
+    ],
+    [
+      0.000395,
+      "filetype off  "
+    ],
+    [
+      0.00022,
+      "\t"
+    ],
+    [
+      6.4e-05,
+      "\t"
+    ],
+    [
+      5.8e-05,
+      "\t"
+    ],
+    [
+      6.7e-05,
+      "\" required"
+    ],
+    [
+      5.6e-05,
+      "\r\n"
+    ],
+    [
+      5.1e-05,
+      "\r\n"
+    ],
+    [
+      5.1e-05,
+      "\" Set basic setup"
+    ],
+    [
+      5.1e-05,
+      "\r\n"
+    ],
+    [
+      5.2e-05,
+      "syntax on                    \" Enable syntax highlighting"
+    ],
+    [
+      7.5e-05,
+      "\r\n"
+    ],
+    [
+      7.6e-05,
+      "set encoding=utf-8           \" Add support for Unicode characters (used in listchars below)"
+    ],
+    [
+      6.8e-05,
+      "\r\n"
+    ],
+    [
+      0.000108,
+      "set shell=bash               \" Can switch to zsh if you use z-shell"
+    ],
+    [
+      5.8e-05,
+      "\r\n"
+    ],
+    [
+      7.2e-05,
+      "set number                   \" Enables line numbering"
+    ],
+    [
+      5.3e-05,
+      "\r\n"
+    ],
+    [
+      6.1e-05,
+      "set t_Co=256                 \" Set terminal colors to 256"
+    ],
+    [
+      6.1e-05,
+      "\r\n"
+    ],
+    [
+      7.2e-05,
+      "set listchars=tab:▸\\ ,eol:¬  \" Use same symbols as TextMate for tabstops and EOLs"
+    ],
+    [
+      5.5e-05,
+      "\r\n"
+    ],
+    [
+      6.4e-05,
+      "set laststatus=2             \" Display vim status bar"
+    ],
+    [
+      6.2e-05,
+      "\r\n"
+    ],
+    [
+      6.2e-05,
+      "set updatecount=0            \" Disable swap files"
+    ],
+    [
+      5.2e-05,
+      "\r\n"
+    ],
+    [
+      5.2e-05,
+      "set splitright               \" Put new file to right on vertical split"
+    ],
+    [
+      5e-05,
+      "\r\n"
+    ],
+    [
+      5.2e-05,
+      "set splitbelow               \" Put new file to bottom on horizontal split"
+    ],
+    [
+      6.2e-05,
+      "\r\n"
+    ],
+    [
+      5.2e-05,
+      "set relativenumber           \" Set relative numbering (set rnu / set nornu)"
+    ],
+    [
+      5.1e-05,
+      "\r\n"
+    ],
+    [
+      5.1e-05,
+      "\r\n"
+    ],
+    [
+      6.6e-05,
+      "\r\n"
+    ],
+    [
+      6e-05,
+      "\" Change leader, which defaults as backslash, to the comma key"
+    ],
+    [
+      5.1e-05,
+      "\r\n"
+    ],
+    [
+      5.2e-05,
+      "let mapleader = \",\""
+    ],
+    [
+      5.4e-05,
+      "\r\n"
+    ],
+    [
+      5.5e-05,
+      "\r\n"
+    ],
+    [
+      5.1e-05,
+      "\" Swap the less used semi-colon for colon"
+    ],
+    [
+      5.2e-05,
+      "\r\n"
+    ],
+    [
+      6.2e-05,
+      "nnoremap ; :"
+    ],
+    [
+      6e-05,
+      "\r\n"
+    ],
+    [
+      5.1e-05,
+      "\r\n"
+    ],
+    [
+      5.1e-05,
+      "\" Auto save files when switching focus"
+    ],
+    [
+      5.7e-05,
+      "\r\n"
+    ],
+    [
+      5.1e-05,
+      "autocmd FocusLost * silent! wall"
+    ],
+    [
+      0.000117,
+      "\r\n"
+    ],
+    [
+      6.1e-05,
+      "\r\n"
+    ],
+    [
+      6.2e-05,
+      "\" Adjusting tab spacing, use softtabs"
+    ],
+    [
+      8.6e-05,
+      "\r\n"
+    ],
+    [
+      5.5e-05,
+      "set tabstop=2"
+    ],
+    [
+      5e-05,
+      "\r\n"
+    ],
+    [
+      5.1e-05,
+      "set softtabstop=2"
+    ],
+    [
+      5.8e-05,
+      "\r\n"
+    ],
+    [
+      5.3e-05,
+      "set shiftwidth=2"
+    ],
+    [
+      6.8e-05,
+      "\r\n"
+    ],
+    [
+      5.2e-05,
+      "set expandtab"
+    ],
+    [
+      5.1e-05,
+      "\r\n"
+    ],
+    [
+      6.6e-05,
+      "\r\n"
+    ],
+    [
+      6.6e-05,
+      "\" Set Vim Explorer to display like NERDTree"
+    ],
+    [
+      5.9e-05,
+      "\r\n"
+    ],
+    [
+      5.2e-05,
+      "let g:netrw_liststyle=3"
+    ],
+    [
+      5.1e-05,
+      "\r\n"
+    ],
+    [
+      6e-05,
+      "\r\n"
+    ],
+    [
+      6.1e-05,
+      "\" Add some column when exceeding the 80th column"
+    ],
+    [
+      5.5e-05,
+      "\r\n"
+    ],
+    [
+      6.4e-05,
+      "highlight ColorColumn ctermbg=magenta"
+    ],
+    [
+      6.3e-05,
+      "\r\n"
+    ],
+    [
+      5.9e-05,
+      "call matchadd('ColorColumn', '\\%81v', 100)"
+    ],
+    [
+      5.2e-05,
+      "\r\n"
+    ],
+    [
+      5.7e-05,
+      "\" use below line instead of the above for a solid column"
+    ],
+    [
+      5.2e-05,
+      "\r\n"
+    ],
+    [
+      5.1e-05,
+      "\"set colorcolumn=81"
+    ],
+    [
+      6.5e-05,
+      "\r\n"
+    ],
+    [
+      5.1e-05,
+      "\r\n"
+    ],
+    [
+      6.3e-05,
+      "\" Invisible character colors"
+    ],
+    [
+      6.2e-05,
+      "\r\n"
+    ],
+    [
+      5.2e-05,
+      "highlight NonText guifg=#4a4a59"
+    ],
+    [
+      5.9e-05,
+      "\r\n"
+    ],
+    [
+      5.9e-05,
+      "highlight SpecialKey guifg=#4a4a59"
+    ],
+    [
+      5e-05,
+      "\r\n"
+    ],
+    [
+      9.1e-05,
+      "\r\n"
+    ],
+    [
+      5.2e-05,
+      "\" Shortcut for rapid toggle 'set list'"
+    ],
+    [
+      7e-05,
+      "\r\n"
+    ],
+    [
+      0.000103,
+      "nmap <leader>sl :set list!<CR>"
+    ],
+    [
+      0.000151,
+      "\r\n\r\n\" Disable vim auto-paste (corrects too much identing)\r\nmap <leader>p :set paste<CR>o<esc>\"*]p:set nopaste<cr>\r\n\r\n\" Shortcut for identing entire page\r\nmap <leader>i mmgg=G`m<CR>\r\n\r\n\" Search configuration\r\nset incsearch     \" Highlight while searching\r\nset hlsearch      \" Highlight all matches after entering search pattern\r\n\" Toggle highlighting off\r\nnmap <le"
+    ],
+    [
+      0.000199,
+      "ader>h :nohlsearch<cr>\r\n\r\nset ignorecase    \" Case insensitive pattern matching\r\nset smartcase     \" Overrides ignorecase if pattern contains upcase\r\n\r\n\" COMMENT: save the file ->  :w\r\n\" Map Vim Window navigation\r\nnnoremap <C-j> <C-w><C-j>\r\nnnoremap <C-k> <C-w><C-k>\r\nnnoremap <C-l> <C-w><C-l>\r\nnnoremap <C-h> <C-w><C-h>"
+    ],
+    [
+      0.000857,
+      "\r\n\r\n\" Handle whitespace based on file type\r\nif has(\"autocmd\")\r\n  \" enable file type detection\r\n  filetype on\r\n\r\n  \" Languages which are picky about tabs vs. spaces\r\n  autocmd FileType make setlocal ts=8 sts=8 sw=8 noexpandtab\r\n  autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab\r\n\r\n  \" Customization based on house-style (arbitrary)\r\n  autocmd FileType html setlocal ts=2 sts=2 sw=2 expandtab\r\n  autocmd FileType css setlocal ts=2 sts=2 sw=2 expandtab\r\n  \"autocmd FileType javascript setlocal ts=4 sts=4 sw=4 noexpandtab\r\n  autocmd FileType perl setlocal ts=4 sts=4 sw=4 noexpandtab\r\n\r\n  \" Treat .rss files as XML\r\n  autocmd BufNewFile,BufRead *.rss setfiletype xml\r\n\r\n  \" Remove trailing whitespace automatically while a file\r\n  \" is saved, for the defined file extensions:\r\n  autocmd BufWritePre *.txt,*.rb,*.erb :call <SID>StripTrailingWhitespaces()\r\nendif\r\n\r\n\" Turn on ruby compiler for vim\r\nautocmd FileType ruby compiler ruby\r\n"
+    ],
+    [
+      0.000112,
+      "\r\n\" COMMENT: save the file ->  :w\r\n\u001b]0;jfhogarty@workshop-one: ~\u0007\u001b[01;32mjfhogarty@workshop-one\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      5.149018,
+      "v"
+    ],
+    [
+      0.360098,
+      "i"
+    ],
+    [
+      0.182342,
+      "m"
+    ],
+    [
+      0.078611,
+      " "
+    ],
+    [
+      0.199947,
+      "."
+    ],
+    [
+      1.058499,
+      "v"
+    ],
+    [
+      0.165084,
+      "i"
+    ],
+    [
+      0.072488,
+      "m"
+    ],
+    [
+      0.157386,
+      "r"
+    ],
+    [
+      0.211362,
+      "c"
+    ],
+    [
+      1.031919,
+      "\r\n"
+    ],
+    [
+      0.107852,
+      "\u001b[?1049h\u001b[?1h\u001b="
+    ],
+    [
+      0.000171,
+      "\u001b[2;1H▽\u001b[6n"
+    ],
+    [
+      0.0001,
+      "\u001b[2;1H  \u001b[1;1H"
+    ],
+    [
+      0.001184,
+      "\u001b]11;?\u0007"
+    ],
+    [
+      0.002136,
+      "\u001b[1;40r\u001b[?12;25h\u001b[?12l\u001b[?25h\u001b[27m\u001b[23m\u001b[m\u001b[H\u001b[2J\u001b[?25l\u001b[40;1H\".vimrc\""
+    ],
+    [
+      0.000251,
+      " 100L, 3304C"
+    ],
+    [
+      0.012998,
+      "\u001b[>c"
+    ],
+    [
+      0.012157,
+      "\u001b[1;1H\u001b[38;5;130m1   \u001b[m\u001b[34m\"\u001b[m \u001b[35mAuthor:\u001b[m\u001b[34m       John F. Hogarty\u001b[m\r\n\u001b[38;5;130m  1 \u001b[m\u001b[34m\"\u001b[m \u001b[35mEmail:\u001b[m\u001b[34m        hogihung@gmail.com\u001b[m\r\n\u001b[38;5;130m  2 \u001b[m\u001b[34m\" --------------------------------------\u001b[m\r\n\u001b[38;5;130m  3 set\u001b[m \u001b[35mnocompatible\u001b[m    \u001b[34m\" be iMproved, required\u001b[m\r\n\u001b[38;5;130m  4 filetype\u001b[m \u001b[32moff\u001b[m\u001b[8C\u001b[34m\" required\u001b[m\r\n\u001b[38;5;130m  5 \r\n  6 \u001b[m\u001b[34m\" Set basic setup\u001b[m\r\n\u001b[38;5;130m  7 syntax\u001b[m \u001b[32mon\u001b[m\u001b[20C\u001b[34m\" Enable syntax highlighting\u001b[m\r\n\u001b[38;5;130m  8 set\u001b[m \u001b[35mencoding\u001b[m=utf-8\u001b[11C\u001b[34m\" Add support for Unicode characters (used in listc\u001b[m\u001b[34m\u001b[105mh\u001b[m\u001b[34mars below)\u001b[m\r\n\u001b[38;5;130m  9 set\u001b[m \u001b[35mshell\u001b[m=bash\u001b[15C\u001b[34m\" Can switch to zsh if you use z-shell\u001b[m\r\n\u001b[38;5;130m 10 set\u001b[m \u001b[35mnumber\u001b[m\u001b[19C\u001b[34m\" Enables line numbering\u001b[m\r\n\u001b[38;5;130m 11 set\u001b[m \u001b[35mt_Co\u001b[m=256\u001b[17C\u001b[34m\" Set terminal colors to 256\u001b[m\r\n\u001b[38;5;130m 12 set\u001b[m \u001b[35mlistchars\u001b[m=tab\u001b[38;5;130m:\u001b[m▸\\ \u001b[38;5;130m,\u001b[meol\u001b[38;5;130m:\u001b[m¬  \u001b[34m\" Use same symbols as TextMate"
+    ],
+    [
+      0.00011,
+      " for tabstops and EOL\u001b[m\u001b[34m\u001b[105ms\u001b[m\r\n\u001b[38;5;130m 13 set\u001b[m \u001b[35mlaststatus\u001b[m=2\u001b[13C\u001b[34m\" Display vim status bar\u001b[m\r\n\u001b[38;5;130m 14 set\u001b[m \u001b[35mupdatecount\u001b[m=0\u001b[12C\u001b[34m\" Disable swap files\u001b[m\r\n\u001b[38;5;130m 15 set\u001b[m \u001b[35msplitright\u001b[m\u001b[15C\u001b[34m\" Put new file to right on vertical split\u001b[m\r\n\u001b[38;5;130m 16 set\u001b[m \u001b[35msplitbelow\u001b[m\u001b[15C\u001b[34m\" Put new file to bottom on horizontal split\u001b[m\r\n\u001b[38;5;130m 17 set\u001b[m \u001b[35mrelativenumber\u001b[m\u001b[11C\u001b[34m\" Set relative numbering (set rnu / set nornu)\u001b[m\r\n\u001b[38;5;130m 18 \r\n 19 \r\n 20 \u001b[m\u001b[34m\" Change leader, which defaults as backslash, to the comma key\u001b[m\r\n\u001b[38;5;130m 21 let\u001b[m \u001b[36mmapleader\u001b[m \u001b[38;5;130m=\u001b[m \u001b[31m\",\"\u001b[m\r\n\u001b[38;5;130m 22 \r\n 23 \u001b[m\u001b[34m\" Swap the less used semi-colon for colon\u001b[m\r\n\u001b[38;5;130m 24 nnoremap\u001b[m ; :\r\n\u001b[38;5;130m 25 \r\n 26 \u001b[m\u001b[34m\" Auto save files when switching focus\u001b[m\r\n\u001b[38;5;130m 27 autocmd\u001b[m \u001b[32mFocusLost\u001b[m * \u001b[38;5;130msilent\u001b[m! \u001b[38;5;130mwall\r\n 28 \r\n 29 \u001b[m\u001b[34m\" Adjusting tab spacing, use softtabs\u001b[m\r\n\u001b[38;5;130m 30 set"
+    ],
+    [
+      0.001493,
+      "\u001b[m \u001b[35mtabstop\u001b[m=2\r\n\u001b[38;5;130m 31 set\u001b[m \u001b[35msofttabstop\u001b[m=2\r\n\u001b[38;5;130m 32 set\u001b[m \u001b[35mshiftwidth\u001b[m=2\r\n\u001b[38;5;130m 33 set\u001b[m \u001b[35mexpandtab\u001b[m\r\n\u001b[38;5;130m 34 \r\n 35 \u001b[m\u001b[34m\" Set Vim Explorer to display like NERDTree\u001b[m\r\n\u001b[38;5;130m 36 let\u001b[m \u001b[36mg:netrw_liststyle\u001b[m\u001b[38;5;130m=\u001b[m\u001b[31m3\u001b[m\r\n\u001b[38;5;130m 37 \u001b[m\r\n\u001b[1m\u001b[7m.vimrc                                                                                                                                        1,1            Top\u001b[1;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.720308,
+      "\u001b[?25l\u001b[m\r\u001b[38;5;130m  1\r\n2  \r\n  1\r\n  2\r\n  3\r\n  4\r\n  5\r\n  6\r\n  7\r\n  8\r\n  9\r\n 10\r\n 11\r\n 12\r\n 13\r\n 14\r\n 15\r\n 16\r\n 17\r\n 18\r\n 19\r\n 20\r\n 21\r\n 22\r\n 23\r\n 24\r\n 25\r\n 26\r\n 27\r\n 28\r\n 29\r\n 30\r\n 31\r\n 32\r\n 33\r\n 34\r\n 35\r\n 36\u001b[m\u001b[39;143H\u001b[1m\u001b[7m2,\u001b[2;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.246135,
+      "\u001b[?25l\u001b[m\u001b[1;3H\u001b[38;5;130m2\r\n  1\r\n3  \r\n  1\r\n  2\r\n  3\r\n  4\r\n  5\r\n  6\r\n  7\r\n  8\r\n  9\r\n 10\r\n 11\r\n 12\r\n 13\r\n 14\r\n 15\r\n 16\r\n 17\r\n 18\r\n 19\r\n 20\r\n 21\r\n 22\r\n 23\r\n 24\r\n 25\r\n 26\r\n 27\r\n 28\r\n 29\r\n 30\r\n 31\r\n 32\r\n 33\r\n 34\r\n 35\u001b[m\u001b[39;143H\u001b[1m\u001b[7m3,\u001b[3;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.197591,
+      "\u001b[?25l\u001b[m\u001b[1;3H\u001b[38;5;130m3\r\n  2\r\n  1\r\n4  \r\n  1\r\n  2\r\n  3\r\n  4\r\n  5\r\n  6\r\n  7\r\n  8\r\n  9\r\n 10\r\n 11\r\n 12\r\n 13\r\n 14\r\n 15\r\n 16\r\n 17\r\n 18\r\n 19\r\n 20\r\n 21\r\n 22\r\n 23\r\n 24\r\n 25\r\n 26\r\n 27\r\n 28\r\n 29\r\n 30\r\n 31\r\n 32\r\n 33\r\n 34\u001b[m\u001b[39;143H\u001b[1m\u001b[7m4,\u001b[4;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.152812,
+      "\u001b[?25l\u001b[m\u001b[1;3H\u001b[38;5;130m4\r\n  3\r\n  2\r\n  1\r\n5  \r\n  1\r\n  2\r\n  3\r\n  4\r\n  5\r\n  6\r\n  7\r\n  8\r\n  9\r\n 10\r\n 11\r\n 12\r\n 13\r\n 14\r\n 15\r\n 16\r\n 17\r\n 18\r\n 19\r\n 20\r\n 21\r\n 22\r\n 23\r\n 24\r\n 25\r\n 26\r\n 27\r\n 28\r\n 29\r\n 30\r\n 31\r\n 32\r\n 33\u001b[m\u001b[39;143H\u001b[1m\u001b[7m5,\u001b[5;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.16929,
+      "\u001b[?25l\u001b[m\u001b[1;3H\u001b[38;5;130m5\r\n  4\r\n  3\r\n  2\r\n  1\r\n6  \r\n  1\r\n  2\r\n  3\r\n  4\r\n  5\r\n  6\r\n  7\r\n  8\r\n  9\r\n 10\r\n 11\r\n 12\r\n 13\r\n 14\r\n 15\r\n 16\r\n 17\r\n 18\r\n 19\r\n 20\r\n 21\r\n 22\r\n 23\r\n 24\r\n 25\r\n 26\r\n 27\r\n 28\r\n 29\r\n 30\r\n 31\r\n 32\u001b[m\u001b[39;143H\u001b[1m\u001b[7m6,0-1\u001b[6;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.499106,
+      "\u001b[?25l\u001b[m\u001b[1;3H\u001b[38;5;130m6\r\n  5\r\n  4\r\n  3\r\n  2\r\n  1\r\n7  \r\n  1\r\n  2\r\n  3\r\n  4\r\n  5\r\n  6\r\n  7\r\n  8\r\n  9\r\n 10\r\n 11\r\n 12\r\n 13\r\n 14\r\n 15\r\n 16\r\n 17\r\n 18\r\n 19\r\n 20\r\n 21\r\n 22\r\n 23\r\n 24\r\n 25\r\n 26\r\n 27\r\n 28\r\n 29\r\n 30\r\n 31\u001b[m\u001b[39;143H\u001b[1m\u001b[7m7,1   \u001b[7;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.084535,
+      "\u001b[?25l\u001b[m\u001b[1;3H\u001b[38;5;130m7\r\n  6\r\n  5\r\n  4\r\n  3\r\n  2\r\n  1\r\n8  \r\n  1\r\n  2\r\n  3\r\n  4\r\n  5\r\n  6\r\n  7\r\n  8\r\n  9\r\n 10\r\n 11\r\n 12\r\n 13\r\n 14\r\n 15\r\n 16\r\n 17\r\n 18\r\n 19\r\n 20\r\n 21\r\n 22\r\n 23\r\n 24\r\n 25\r\n 26\r\n 27\r\n 28\r\n 29\r\n 30\u001b[m\u001b[39;143H\u001b[1m\u001b[7m8,\u001b[8;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.107053,
+      "\u001b[?25l\u001b[m\u001b[1;3H\u001b[38;5;130m8\r\n  7\r\n  6\r\n  5\r\n  4\r\n  3\r\n  2\r\n  1\r\n9  \r\n  1\r\n  2\r\n  3\r\n  4\r\n  5\r\n  6\r\n  7\r\n  8\r\n  9\r\n 10\r\n 11\r\n 12\r\n 13\r\n 14\r\n 15\r\n 16\r\n 17\r\n 18\r\n 19\r\n 20\r\n 21\r\n 22\r\n 23\r\n 24\r\n 25\r\n 26\r\n 27\r\n 28\r\n 29\u001b[m\u001b[39;143H\u001b[1m\u001b[7m9,\u001b[9;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.0779,
+      "\u001b[?25l\u001b[m\u001b[1;3H\u001b[38;5;130m9\r\n  8\r\n  7\r\n  6\r\n  5\r\n  4\r\n  3\r\n  2\r\n  1\r\n10 \r\n  1\r\n  2\r\n  3\r\n  4\r\n  5\r\n  6\r\n  7\r\n  8\r\n  9\r\n 10\r\n 11\r\n 12\r\n 13\r\n 14\r\n 15\r\n 16\r\n 17\r\n 18\r\n 19\r\n 20\r\n 21\r\n 22\r\n 23\r\n 24\r\n 25\r\n 26\r\n 27\r\n 28\u001b[m\u001b[39;143H\u001b[1m\u001b[7m10,1\u001b[10;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.085552,
+      "\u001b[?25l\u001b[m\u001b[1;2H\u001b[38;5;130m10\r\n  9\r\n  8\r\n  7\r\n  6\r\n  5\r\n  4\r\n  3\r\n  2\r\n  1\r\n11 \r\n  1\r\n  2\r\n  3\r\n  4\r\n  5\r\n  6\r\n  7\r\n  8\r\n  9\r\n 10\r\n 11\r\n 12\r\n 13\r\n 14\r\n 15\r\n 16\r\n 17\r\n 18\r\n 19\r\n 20\r\n 21\r\n 22\r\n 23\r\n 24\r\n 25\r\n 26\r\n 27\u001b[m\u001b[39;144H\u001b[1m\u001b[7m1,\u001b[11;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.089354,
+      "\u001b[?25l\u001b[m\u001b[1;3H\u001b[38;5;130m1\r\n 10\r\n  9\r\n  8\r\n  7\r\n  6\r\n  5\r\n  4\r\n  3\r\n  2\r\n  1\r\n12 \r\n  1\r\n  2\r\n  3\r\n  4\r\n  5\r\n  6\r\n  7\r\n  8\r\n  9\r\n 10\r\n 11\r\n 12\r\n 13\r\n 14\r\n 15\r\n 16\r\n 17\r\n 18\r\n 19\r\n 20\r\n 21\r\n 22\r\n 23\r\n 24\r\n 25\r\n 26\u001b[m\u001b[39;144H\u001b[1m\u001b[7m2,\u001b[12;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.111542,
+      "\u001b[?25l\u001b[m\u001b[1;3H\u001b[38;5;130m2\r\n 11\r\n 10\r\n  9\r\n  8\r\n  7\r\n  6\r\n  5\r\n  4\r\n  3\r\n  2\r\n  1\r\n13 \r\n  1\r\n  2\r\n  3\r\n  4\r\n  5\r\n  6\r\n  7\r\n  8\r\n  9\r\n 10\r\n 11\r\n 12\r\n 13\r\n 14\r\n 15\r\n 16\r\n 17\r\n 18\r\n 19\r\n 20\r\n 21\r\n 22\r\n 23\r\n 24\r\n 25\u001b[m\u001b[39;144H\u001b[1m\u001b[7m3,\u001b[13;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.067777,
+      "\u001b[?25l\u001b[m\u001b[1;3H\u001b[38;5;130m3\r\n 12\r\n 11\r\n 10\r\n  9\r\n  8\r\n  7\r\n  6\r\n  5\r\n  4\r\n  3\r\n  2\r\n  1\r\n14 \r\n  1\r\n  2\r\n  3\r\n  4\r\n  5\r\n  6\r\n  7\r\n  8\r\n  9\r\n 10\r\n 11\r\n 12\r\n 13\r\n 14\r\n 15\r\n 16\r\n 17\r\n 18\r\n 19\r\n 20\r\n 21\r\n 22\r\n 23\r\n 24\u001b[m\u001b[39;144H\u001b[1m\u001b[7m4,\u001b[14;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.088417,
+      "\u001b[?25l\u001b[m\u001b[1;3H\u001b[38;5;130m4\r\n 13\r\n 12\r\n 11\r\n 10\r\n  9\r\n  8\r\n  7\r\n  6\r\n  5\r\n  4\r\n  3\r\n  2\r\n  1\r\n15 \r\n  1\r\n  2\r\n  3\r\n  4\r\n  5\r\n  6\r\n  7\r\n  8\r\n  9\r\n 10\r\n 11\r\n 12\r\n 13\r\n 14\r\n 15\r\n 16\r\n 17\r\n 18\r\n 19\r\n 20\r\n 21\r\n 22\r\n 23\u001b[m\u001b[39;144H\u001b[1m\u001b[7m5,\u001b[15;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.084931,
+      "\u001b[?25l\u001b[m\u001b[1;3H\u001b[38;5;130m5\r\n 14\r\n 13\r\n 12\r\n 11\r\n 10\r\n  9\r\n  8\r\n  7\r\n  6\r\n  5\r\n  4\r\n  3\r\n  2\r\n  1\r\n16 \r\n  1\r\n  2\r\n  3\r\n  4\r\n  5\r\n  6\r\n  7\r\n  8\r\n  9\r\n 10\r\n 11\r\n 12\r\n 13\r\n 14\r\n 15\r\n 16\r\n 17\r\n 18\r\n 19\r\n 20\r\n 21\r\n 22\u001b[m\u001b[39;144H\u001b[1m\u001b[7m6,\u001b[16;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.156668,
+      "\u001b[?25l\u001b[m\u001b[1;3H\u001b[38;5;130m6\r\n 15\r\n 14\r\n 13\r\n 12\r\n 11\r\n 10\r\n  9\r\n  8\r\n  7\r\n  6\r\n  5\r\n  4\r\n  3\r\n  2\r\n  1\r\n17 \r\n  1\r\n  2\r\n  3\r\n  4\r\n  5\r\n  6\r\n  7\r\n  8\r\n  9\r\n 10\r\n 11\r\n 12\r\n 13\r\n 14\r\n 15\r\n 16\r\n 17\r\n 18\r\n 19\r\n 20\r\n 21\u001b[m\u001b[39;144H\u001b[1m\u001b[7m7,\u001b[17;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.185719,
+      "\u001b[?25l\u001b[m\u001b[1;3H\u001b[38;5;130m7\r\n 16\r\n 15\r\n 14\r\n 13\r\n 12\r\n 11\r\n 10\r\n  9\r\n  8\r\n  7\r\n  6\r\n  5\r\n  4\r\n  3\r\n  2\r\n  1\r\n18 \r\n  1\r\n  2\r\n  3\r\n  4\r\n  5\r\n  6\r\n  7\r\n  8\r\n  9\r\n 10\r\n 11\r\n 12\r\n 13\r\n 14\r\n 15\r\n 16\r\n 17\r\n 18\r\n 19\r\n 20\u001b[m\u001b[39;144H\u001b[1m\u001b[7m8,\u001b[18;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.189636,
+      "\u001b[?25l\u001b[m\u001b[1;3H\u001b[38;5;130m8\r\n 17\r\n 16\r\n 15\r\n 14\r\n 13\r\n 12\r\n 11\r\n 10\r\n  9\r\n  8\r\n  7\r\n  6\r\n  5\r\n  4\r\n  3\r\n  2\r\n  1\r\n19 \r\n  1\r\n  2\r\n  3\r\n  4\r\n  5\r\n  6\r\n  7\r\n  8\r\n  9\r\n 10\r\n 11\r\n 12\r\n 13\r\n 14\r\n 15\r\n 16\r\n 17\r\n 18\r\n 19\u001b[m\u001b[39;144H\u001b[1m\u001b[7m9,0-1\u001b[19;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.15528,
+      "\u001b[?25l\u001b[m\u001b[1;3H\u001b[38;5;130m9\r\n 18\r\n 17\r\n 16\r\n 15\r\n 14\r\n 13\r\n 12\r\n 11\r\n 10\r\n  9\r\n  8\r\n  7\r\n  6\r\n  5\r\n  4\r\n  3\r\n  2\r\n  1\r\n20 \r\n  1\r\n  2\r\n  3\r\n  4\r\n  5\r\n  6\r\n  7\r\n  8\r\n  9\r\n 10\r\n 11\r\n 12\r\n 13\r\n 14\r\n 15\r\n 16\r\n 17\r\n 18\u001b[m\u001b[39;143H\u001b[1m\u001b[7m20,\u001b[20;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.506676,
+      "\u001b[?25l\u001b[m\u001b[40;1H\u001b[K\u001b[40;1H:"
+    ],
+    [
+      0.000326,
+      "\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.280688,
+      "s"
+    ],
+    [
+      0.001561,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.193895,
+      "e"
+    ],
+    [
+      0.001446,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.134649,
+      "t"
+    ],
+    [
+      0.001351,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.137966,
+      "\u001b[?25l \u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.808449,
+      "o\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.575586,
+      "\u001b[?25l\u001b[40;6H\u001b[K\u001b[40;6H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.231882,
+      "n\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.079925,
+      "o"
+    ],
+    [
+      0.00138,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.613569,
+      "r\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.215023,
+      "n\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.354213,
+      "u\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.5014,
+      "\r"
+    ],
+    [
+      0.01392,
+      "\u001b[?25l\u001b[1;2H\u001b[38;5;130m 1\r\n  2\r\n  3\r\n  4\r\n  \r\n  6\r\n  7\r\n  8\r\n  9\r\n\r\n 11\r\n 12\r\n 13\r\n 14\r\n 1\r\n 16\r\n 17\r\n 18\r\n 19\r\n 20\r\n 2\r\n 2\r\n 2\r\n 2\r\n 2\r\n 2\r\n 2\r\n 2\r\n 2\r\n 3\r\n 3\r\n 3\r\n 3\r\n 3\r\n 3\r\n 3\r\n 3\r\n 3\u001b[20;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.044116,
+      "\u001b[?25l\u001b[m\u001b[40;1H\u001b[K\u001b[40;1H/"
+    ],
+    [
+      0.000152,
+      "\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.335807,
+      "C"
+    ],
+    [
+      0.001338,
+      "\u001b[?25l"
+    ],
+    [
+      0.017689,
+      "\u001b[21;7H\u001b[7m\u001b[34mC\u001b[m\u001b[39;144H\u001b[1m\u001b[7m1,3   \r\n\u001b[m/C"
+    ],
+    [
+      0.001379,
+      "\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.251024,
+      "O"
+    ],
+    [
+      0.001284,
+      "\u001b[?25l"
+    ],
+    [
+      0.016644,
+      "\u001b[27m\u001b[23m\u001b[m\u001b[H\u001b[2J\u001b[1;1H\u001b[38;5;130m 49 \u001b[m\u001b[34m\" Shortcut for rapid toggle 'set list'\u001b[m\r\n\u001b[38;5;130m 50 nmap\u001b[m \u001b[35m<leader>\u001b[msl :set list!\u001b[35m<CR>\u001b[m\r\n\u001b[38;5;130m 51 \r\n 52 \u001b[m\u001b[34m\" Disable vim auto-paste (corrects too much identing)\u001b[m\r\n\u001b[38;5;130m 53 map\u001b[m \u001b[35m<leader>\u001b[mp :set paste\u001b[35m<CR>\u001b[mo\u001b[35m<esc>\u001b[m\"*]p:set nopaste\u001b[35m<cr>\u001b[m\r\n\u001b[38;5;130m 54 \r\n 55 \u001b[m\u001b[34m\" Shortcut for identing entire page\u001b[m\r\n\u001b[38;5;130m 56 map\u001b[m \u001b[35m<leader>\u001b[mi mmgg=G`m\u001b[35m<CR>\u001b[m\r\n\u001b[38;5;130m 57 \r\n 58 \u001b[m\u001b[34m\" Search configuration\u001b[m\r\n\u001b[38;5;130m 59 set\u001b[m \u001b[35mincsearch\u001b[m     \u001b[34m\" Highlight while searching\u001b[m\r\n\u001b[38;5;130m 60 set\u001b[m \u001b[35mhlsearch\u001b[m      \u001b[34m\" Highlight all matches after entering search pattern\u001b[m\r\n\u001b[38;5;130m 61 \u001b[m\u001b[34m\" Toggle highlighting off\u001b[m\r\n\u001b[38;5;130m 62 nmap\u001b[m \u001b[35m<leader>\u001b[mh :nohlsearch\u001b[35m<cr>\u001b[m\r\n\u001b[38;5;130m 63 \r\n 64 set\u001b[m \u001b[35mignorecase\u001b[m    \u001b[34m\" Case insensitive pattern matching\u001b[m\r\n\u001b[38;5;130m 65 set\u001b[m \u001b[35msmartcase\u001b[m     \u001b[34m\" Overrides ignorecase if pattern c"
+    ],
+    [
+      4.3e-05,
+      "ontains upcase\u001b[m\r\n\u001b[38;5;130m 66 \r\n 67 \u001b[m\u001b[34m\"\u001b[m \u001b[7m\u001b[35mCO\u001b[m\u001b[35mMMENT:\u001b[m\u001b[34m save the file ->  :w\u001b[m\r\n\u001b[38;5;130m 68 \u001b[m\u001b[34m\" Map Vim Window navigation\u001b[m\r\n\u001b[38;5;130m 69 nnoremap\u001b[m \u001b[35m<C-j>\u001b[m \u001b[35m<C-w><C-j>\u001b[m\r\n\u001b[38;5;130m 70 nnoremap\u001b[m \u001b[35m<C-k>\u001b[m \u001b[35m<C-w><C-k>\u001b[m\r\n\u001b[38;5;130m 71 nnoremap\u001b[m \u001b[35m<C-l>\u001b[m \u001b[35m<C-w><C-l>\u001b[m\r\n\u001b[38;5;130m 72 nnoremap\u001b[m \u001b[35m<C-h>\u001b[m \u001b[35m<C-w><C-h>\u001b[m\r\n\u001b[38;5;130m 73 \r\n 74 \u001b[m\u001b[34m\" Handle whitespace based on file type\u001b[m\r\n\u001b[38;5;130m 75 if\u001b[m \u001b[36mhas\u001b[m\u001b[35m(\u001b[m\u001b[31m\"autocmd\"\u001b[m\u001b[35m)\u001b[m\r\n\u001b[38;5;130m 76 \u001b[m\u001b[34m  \" enable file type detection\u001b[m\r\n\u001b[38;5;130m 77 \u001b[m  \u001b[38;5;130mfiletype\u001b[m \u001b[32mon\u001b[m\r\n\u001b[38;5;130m 78 \r\n 79 \u001b[m\u001b[34m  \" Languages which are picky about tabs vs. spaces\u001b[m\r\n\u001b[38;5;130m 80 \u001b[m  \u001b[38;5;130mautocmd\u001b[m \u001b[32mFileType\u001b[m make \u001b[38;5;130msetlocal\u001b[m \u001b[35mts\u001b[m=8 \u001b[35msts\u001b[m=8 \u001b[35msw\u001b[m=8 \u001b[35mnoexpandtab\u001b[m\r\n\u001b[38;5;130m 81 \u001b[m  \u001b[38;5;130mautocmd\u001b[m \u001b[32mFileType\u001b[m yaml \u001b[38;5;130msetlocal\u001b[m \u001b[35mts\u001b[m=2 \u001b[35msts"
+    ],
+    [
+      0.002839,
+      "\u001b[m=2 \u001b[35msw\u001b[m=2 \u001b[35mexpandtab\u001b[m\r\n\u001b[38;5;130m 82 \r\n 83 \u001b[m\u001b[34m  \" Customization based on house-style (arbitrary)\u001b[m\r\n\u001b[38;5;130m 84 \u001b[m  \u001b[38;5;130mautocmd\u001b[m \u001b[32mFileType\u001b[m html \u001b[38;5;130msetlocal\u001b[m \u001b[35mts\u001b[m=2 \u001b[35msts\u001b[m=2 \u001b[35msw\u001b[m=2 \u001b[35mexpandtab\u001b[m\r\n\u001b[38;5;130m 85 \u001b[m  \u001b[38;5;130mautocmd\u001b[m \u001b[32mFileType\u001b[m css \u001b[38;5;130msetlocal\u001b[m \u001b[35mts\u001b[m=2 \u001b[35msts\u001b[m=2 \u001b[35msw\u001b[m=2 \u001b[35mexpandtab\u001b[m\r\n\u001b[38;5;130m 86 \u001b[m\u001b[34m  \"autocmd FileType javascript setlocal ts=4 sts=4 sw=4 noexpandtab\u001b[m\r\n\u001b[1m\u001b[7m.vimrc                                                                                                                                        67,3           77%\u001b[m\u001b[40;1H/CO"
+    ],
+    [
+      0.001196,
+      "\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.20011,
+      "M"
+    ],
+    [
+      0.001329,
+      "\u001b[?25l"
+    ],
+    [
+      0.020408,
+      "\u001b[19;9H\u001b[7m\u001b[35mM\u001b[40;5H"
+    ],
+    [
+      0.001238,
+      "\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.128948,
+      "\u001b[mM"
+    ],
+    [
+      0.001196,
+      "\u001b[?25l"
+    ],
+    [
+      0.020718,
+      "\u001b[19;10H\u001b[7m\u001b[35mM\u001b[40;6H"
+    ],
+    [
+      0.001252,
+      "\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.139572,
+      "\u001b[mE"
+    ],
+    [
+      0.001514,
+      "\u001b[?25l"
+    ],
+    [
+      0.021502,
+      "\u001b[19;11H\u001b[7m\u001b[35mE\u001b[40;7H"
+    ],
+    [
+      0.001365,
+      "\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.140177,
+      "\u001b[mN"
+    ],
+    [
+      0.001629,
+      "\u001b[?25l"
+    ],
+    [
+      0.025363,
+      "\u001b[19;12H\u001b[7m\u001b[35mN\u001b[40;8H"
+    ],
+    [
+      0.00124,
+      "\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.084418,
+      "\u001b[mT"
+    ],
+    [
+      0.001674,
+      "\u001b[?25l"
+    ],
+    [
+      0.033939,
+      "\u001b[19;13H\u001b[7m\u001b[35mT\u001b[40;9H"
+    ],
+    [
+      0.001321,
+      "\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.813218,
+      "\r"
+    ],
+    [
+      0.000457,
+      "\u001b[?25l"
+    ],
+    [
+      0.017894,
+      "\u001b[m\u001b[19;7H\u001b[35m\u001b[103mCOMMENT\u001b[19;7H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.605883,
+      "\u001b[?25l\u001b[m\u001b[39;146H\u001b[1m\u001b[7m1 \u001b[19;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.760317,
+      "\u001b[?25l\u001b[m\u001b[1C\u001b[34m Map Vim Window navigation\u001b[m\u001b[19;32H\u001b[K\u001b[20;5H\u001b[38;5;130mnnoremap\u001b[m \u001b[35m<C-j>\u001b[m \u001b[35m<C-w><C-j>\u001b[m\u001b[20;30H\u001b[K\u001b[21;17H\u001b[35mk\u001b[10Ck\u001b[22;17Hl\u001b[10Cl\u001b[23;17Hh\u001b[10Ch\u001b[m\u001b[24;5H\u001b[K\u001b[25;5H\u001b[34m\" Handle whitespace based on file type\u001b[m\u001b[26;5H\u001b[38;5;130mif\u001b[m \u001b[36mhas\u001b[m\u001b[35m(\u001b[m\u001b[31m\"autocmd\"\u001b[m\u001b[35m)\u001b[m\u001b[26;22H\u001b[K\u001b[27;5H\u001b[34m  \" enable file type detection\u001b[m\u001b[28;5H  \u001b[38;5;130mfiletype\u001b[m \u001b[32mon\u001b[m\u001b[28;18H\u001b[K\u001b[29;7H\u001b[K\u001b[30;5H\u001b[34m  \" Languages which are picky about tabs vs. spaces\u001b[m\u001b[31;5H  \u001b[38;5;130mautocmd\u001b[m \u001b[32mFileType\u001b[m make \u001b[38;5;130msetlocal\u001b[m \u001b[35mts\u001b[m=8 \u001b[35msts\u001b[m=8 \u001b[35msw\u001b[m=8 \u001b[35mnoexpandtab\u001b[m\u001b[32;24Hyaml\u001b[13C2\u001b[5C2\u001b[4C2 \u001b[35mexpandtab\u001b[m\u001b[32;63H\u001b[K\u001b[33;7H\u001b[K\u001b[34;5H\u001b[34m  \" Customization based on house-style (arbitrary)\u001b[m\u001b[35;5H  \u001b[38;5;130mautocmd\u001b[m \u001b[32mFileType\u001b[m html \u001b[38;5;130msetlocal\u001b[m \u001b[35mts\u001b[m=2 \u001b[35msts\u001b[m=2 \u001b[35msw\u001b[m=2 \u001b[35mexpandtab\u001b[m\u001b[36;24Hcss \u001b[38;5;130msetlocal\u001b[m \u001b[35mts\u001b[m=2 \u001b[35msts\u001b[m=2 \u001b[35msw\u001b[m=2 \u001b[35mexpandtab\u001b[m\u001b[36;62H\u001b[K\u001b[37;5H\u001b[34m  \"auto"
+    ],
+    [
+      6.4e-05,
+      "cmd FileType javascript setlocal ts=4 sts=4 sw=4 noexpandtab\u001b[m\u001b[38;5H  \u001b[38;5;130mautocmd\u001b[m \u001b[32mFileType\u001b[m perl \u001b[38;5;130msetlocal\u001b[m \u001b[35mts\u001b[m=4 \u001b[35msts\u001b[m=4 \u001b[35msw\u001b[m=4 \u001b[35mnoexpandtab\u001b[m\u001b[38;65H\u001b[K\u001b[39;8H\u001b[1m\u001b[7m[+]\u001b[148C8%\u001b[19;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.212475,
+      "\u0007\u001b[?25l\u001b[m\u001b[40;1H\u001b[K\u001b[40;1H:"
+    ],
+    [
+      0.000229,
+      "\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.168856,
+      "w"
+    ],
+    [
+      0.001413,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.087152,
+      "\r\u001b[?25l\".vimrc\""
+    ],
+    [
+      0.001011,
+      " 99L, 3272C written"
+    ],
+    [
+      0.000443,
+      "\u001b[39;8H\u001b[1m\u001b[7m    "
+    ],
+    [
+      0.000176,
+      "\u001b[19;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.569998,
+      "\u001b[?25l\u001b[m\u001b[40;1H/COMMENT\u001b[40;10H\u001b[K\u001b[40;1H"
+    ],
+    [
+      0.006868,
+      "\u001b[1;38r\u001b[1;1H\u001b[13M\u001b[1;40r\u001b[26;1H\u001b[38;5;130m 87 \r\n 88 \u001b[m\u001b[34m  \" Treat .rss files as XML\u001b[m\r\n\u001b[38;5;130m 89 \u001b[m  \u001b[38;5;130mautocmd\u001b[m \u001b[32mBufNewFile\u001b[m,\u001b[32mBufRead\u001b[m *.rss \u001b[38;5;130msetfiletype\u001b[m xml\r\n\u001b[38;5;130m 90 \r\n 91 \u001b[m\u001b[34m  \" Remove trailing whitespace automatically while a file\u001b[m\r\n\u001b[38;5;130m 92 \u001b[m\u001b[34m  \" is saved, for the defined file extensions:\u001b[m\r\n\u001b[38;5;130m 93 \u001b[m  \u001b[38;5;130mautocmd\u001b[m \u001b[32mBufWritePre\u001b[m *.txt,*.rb,*.erb :\u001b[38;5;130mcall\u001b[m \u001b[35m<SID>\u001b[mStripTrailingWhitespaces\u001b[35m()\u001b[m\r\n\u001b[38;5;130m 94 endif\r\n 95 \r\n 96 \u001b[m\u001b[34m\" Turn on ruby compiler for vim\u001b[m\r\n\u001b[38;5;130m 97 autocmd\u001b[m \u001b[32mFileType\u001b[m ruby \u001b[38;5;130mcompiler\u001b[m \u001b[38;5;130mruby\r\n 98 \r\n 99 \u001b[m\u001b[34m\"\u001b[m \u001b[35m\u001b[103mCOMMENT\u001b[m\u001b[35m:\u001b[m\u001b[34m save the file ->  :w\u001b[m\u001b[40;1H\u001b[K\u001b[39;143H\u001b[1m\u001b[7m99,3 \u001b[10CBot\u001b[38;7H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.046829,
+      "\u0007"
+    ],
+    [
+      0.184708,
+      "\u0007"
+    ],
+    [
+      0.749524,
+      "\u001b[?25l\u001b[m\r\u001b[94m~                                                                                                                                                               \u001b[m\u001b[39;8H\u001b[1m\u001b[7m[+]\u001b[133C8,0-1\u001b[37;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.0343,
+      "\u0007\u001b[?25l\r\n\r\n\r\n\u001b[m:\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.241499,
+      "w\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.132292,
+      "\r\u001b[?25l\".vimrc\""
+    ],
+    [
+      0.002239,
+      " 98L, 3240C written"
+    ],
+    [
+      0.00044,
+      "\u001b[39;8H\u001b[1m\u001b[7m    "
+    ],
+    [
+      0.000208,
+      "\u001b[37;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      6.665011,
+      "\u001b[?25l\u001b[27m\u001b[23m\u001b[m\u001b[H\u001b[2J\u001b[1;1H\u001b[38;5;130m  1 \u001b[m\u001b[34m\"\u001b[m \u001b[35mAuthor:\u001b[m\u001b[34m       John F. Hogarty\u001b[m\r\n\u001b[38;5;130m  2 \u001b[m\u001b[34m\"\u001b[m \u001b[35mEmail:\u001b[m\u001b[34m        hogihung@gmail.com\u001b[m\r\n\u001b[38;5;130m  3 \u001b[m\u001b[34m\" --------------------------------------\u001b[m\r\n\u001b[38;5;130m  4 set\u001b[m \u001b[35mnocompatible\u001b[m    \u001b[34m\" be iMproved, required\u001b[m\r\n\u001b[38;5;130m  5 filetype\u001b[m \u001b[32moff\u001b[m\u001b[8C\u001b[34m\" required\u001b[m\r\n\u001b[38;5;130m  6 \r\n  7 \u001b[m\u001b[34m\" Set basic setup\u001b[m\r\n\u001b[38;5;130m  8 syntax\u001b[m \u001b[32mon\u001b[m\u001b[20C\u001b[34m\" Enable syntax highlighting\u001b[m\r\n\u001b[38;5;130m  9 set\u001b[m \u001b[35mencoding\u001b[m=utf-8\u001b[11C\u001b[34m\" Add support for Unicode characters (used in listc\u001b[m\u001b[34m\u001b[105mh\u001b[m\u001b[34mars below)\u001b[m\r\n\u001b[38;5;130m 10 set\u001b[m \u001b[35mshell\u001b[m=bash\u001b[15C\u001b[34m\" Can switch to zsh if you use z-shell\u001b[m\r\n\u001b[38;5;130m 11 set\u001b[m \u001b[35mnumber\u001b[m\u001b[19C\u001b[34m\" Enables line numbering\u001b[m\r\n\u001b[38;5;130m 12 set\u001b[m \u001b[35mt_Co\u001b[m=256\u001b[17C\u001b[34m\" Set terminal colors to 256\u001b[m\r\n\u001b[38;5;130m 13 set\u001b[m \u001b[35mlistchars\u001b[m=tab\u001b[38;5;130m:\u001b[m▸\\ \u001b[38;5;130m,\u001b[meol\u001b[38;5;130m:\u001b[m¬  \u001b[34m\" Us"
+    ],
+    [
+      9.2e-05,
+      "e same symbols as TextMate for tabstops and EOL\u001b[m\u001b[34m\u001b[105ms\u001b[m\r\n\u001b[38;5;130m 14 set\u001b[m \u001b[35mlaststatus\u001b[m=2\u001b[13C\u001b[34m\" Display vim status bar\u001b[m\r\n\u001b[38;5;130m 15 set\u001b[m \u001b[35mupdatecount\u001b[m=0\u001b[12C\u001b[34m\" Disable swap files\u001b[m\r\n\u001b[38;5;130m 16 set\u001b[m \u001b[35msplitright\u001b[m\u001b[15C\u001b[34m\" Put new file to right on vertical split\u001b[m\r\n\u001b[38;5;130m 17 set\u001b[m \u001b[35msplitbelow\u001b[m\u001b[15C\u001b[34m\" Put new file to bottom on horizontal split\u001b[m\r\n\u001b[38;5;130m 18 set\u001b[m \u001b[35mrelativenumber\u001b[m\u001b[11C\u001b[34m\" Set relative numbering (set rnu / set nornu)\u001b[m\r\n\u001b[38;5;130m 19 \r\n 20 \r\n 21 \u001b[m\u001b[34m\" Change leader, which defaults as backslash, to the comma key\u001b[m\r\n\u001b[38;5;130m 22 let\u001b[m \u001b[36mmapleader\u001b[m \u001b[38;5;130m=\u001b[m \u001b[31m\",\"\u001b[m\r\n\u001b[38;5;130m 23 \r\n 24 \u001b[m\u001b[34m\" Swap the less used semi-colon for colon\u001b[m\r\n\u001b[38;5;130m 25 nnoremap\u001b[m ; :\r\n\u001b[38;5;130m 26 \r\n 27 \u001b[m\u001b[34m\" Auto save files when switching focus\u001b[m\r\n\u001b[38;5;130m 28 autocmd\u001b[m \u001b[32mFocusLost\u001b[m * \u001b[38;5;130msilent\u001b[m! \u001b[38;5;130mwall\r\n 29 \r\n 30 \u001b[m\u001b[34m\" Adjusting tab spacing, use softtabs"
+    ],
+    [
+      0.001877,
+      "\u001b[m\r\n\u001b[38;5;130m 31 set\u001b[m \u001b[35mtabstop\u001b[m=2\r\n\u001b[38;5;130m 32 set\u001b[m \u001b[35msofttabstop\u001b[m=2\r\n\u001b[38;5;130m 33 set\u001b[m \u001b[35mshiftwidth\u001b[m=2\r\n\u001b[38;5;130m 34 set\u001b[m \u001b[35mexpandtab\u001b[m\r\n\u001b[38;5;130m 35 \r\n 36 \u001b[m\u001b[34m\" Set Vim Explorer to display like NERDTree\u001b[m\r\n\u001b[38;5;130m 37 let\u001b[m \u001b[36mg:netrw_liststyle\u001b[m\u001b[38;5;130m=\u001b[m\u001b[31m3\u001b[m\r\n\u001b[38;5;130m 38 \u001b[m\r\n\u001b[1m\u001b[7m.vimrc                                                                                                                                        1,1            Top\u001b[1;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.333392,
+      "\u001b[?25l\u001b[40;1H\u001b[m:\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.612822,
+      "w\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.250803,
+      "q\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.360632,
+      "\r\u001b[?25l\".vimrc\""
+    ],
+    [
+      0.001608,
+      " 98L, 3240C written"
+    ],
+    [
+      0.102377,
+      "\r\r"
+    ],
+    [
+      0.000171,
+      "\r\n"
+    ],
+    [
+      0.000117,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      0.000328,
+      "\u001b[?12l\u001b[?25h\u001b[?1049l"
+    ],
+    [
+      0.002491,
+      "\u001b]0;jfhogarty@workshop-one: ~\u0007\u001b[01;32mjfhogarty@workshop-one\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      1.242851,
+      "e"
+    ],
+    [
+      0.239697,
+      "x"
+    ],
+    [
+      0.301586,
+      "i"
+    ],
+    [
+      0.103978,
+      "t"
+    ],
+    [
+      0.516001,
+      "\r\nexit\r\n"
+    ]
+  ]
+}

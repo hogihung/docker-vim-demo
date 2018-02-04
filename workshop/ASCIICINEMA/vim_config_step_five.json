@@ -1,0 +1,710 @@
+{
+  "version": 1,
+  "width": 160,
+  "height": 40,
+  "duration": 59.106799,
+  "command": null,
+  "title": "Vim Config - Step Five",
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.054912,
+      "\u001b]0;jfhogarty@workshop-one: ~\u0007\u001b[01;32mjfhogarty@workshop-one\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      10.914496,
+      "cat docker-vim-demo/workshop/STEP-FIVE/vimrc-005 >> .vimrc"
+    ],
+    [
+      0.879087,
+      "\r\n"
+    ],
+    [
+      0.002385,
+      "\u001b]0;jfhogarty@workshop-one: ~\u0007\u001b[01;32mjfhogarty@workshop-one\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      2.068807,
+      "v"
+    ],
+    [
+      0.239503,
+      "i"
+    ],
+    [
+      0.14091,
+      "m"
+    ],
+    [
+      0.136119,
+      " "
+    ],
+    [
+      0.642953,
+      "."
+    ],
+    [
+      0.173676,
+      "v"
+    ],
+    [
+      0.144597,
+      "i"
+    ],
+    [
+      0.10294,
+      "m"
+    ],
+    [
+      0.138164,
+      "r"
+    ],
+    [
+      0.336578,
+      "c"
+    ],
+    [
+      0.289322,
+      "\r\n"
+    ],
+    [
+      0.101441,
+      "\u001b[?1049h\u001b[?1h\u001b="
+    ],
+    [
+      0.000334,
+      "\u001b[2;1H▽\u001b[6n"
+    ],
+    [
+      0.000151,
+      "\u001b[2;1H  \u001b[1;1H"
+    ],
+    [
+      0.001254,
+      "\u001b]11;?\u0007"
+    ],
+    [
+      0.002445,
+      "\u001b[1;40r\u001b[?12;25h\u001b[?12l\u001b[?25h\u001b[27m\u001b[23m\u001b[m\u001b[H\u001b[2J\u001b[?25l\u001b[40;1H\".vimrc\""
+    ],
+    [
+      0.000358,
+      " 169L, 5016C"
+    ],
+    [
+      0.027756,
+      "\u001b[>c"
+    ],
+    [
+      0.019229,
+      "\u001b[1;1H\u001b[38;5;130m1   \u001b[m\u001b[34m\"\u001b[m \u001b[35mAuthor:\u001b[m\u001b[34m       John F. Hogarty\u001b[m\r\n\u001b[38;5;130m  1 \u001b[m\u001b[34m\"\u001b[m \u001b[35mEmail:\u001b[m\u001b[34m        hogihung@gmail.com\u001b[m\r\n\u001b[38;5;130m  2 \u001b[m\u001b[34m\" --------------------------------------\u001b[m\r\n\u001b[38;5;130m  3 set\u001b[m \u001b[35mnocompatible\u001b[m    \u001b[34m\" be iMproved, required\u001b[m\r\n\u001b[38;5;130m  4 filetype\u001b[m \u001b[32moff\u001b[m\u001b[8C\u001b[34m\" required\u001b[m\r\n\u001b[38;5;130m  5 \r\n  6 \u001b[m\u001b[34m\" Set basic setup\u001b[m\r\n\u001b[38;5;130m  7 syntax\u001b[m \u001b[32mon\u001b[m\u001b[20C\u001b[34m\" Enable syntax highlighting\u001b[m\r\n\u001b[38;5;130m  8 set\u001b[m \u001b[35mencoding\u001b[m=utf-8\u001b[11C\u001b[34m\" Add support for Unicode characters (used in listc\u001b[m\u001b[34m\u001b[105mh\u001b[m\u001b[34mars below)\u001b[m\r\n\u001b[38;5;130m  9 set\u001b[m \u001b[35mshell\u001b[m=bash\u001b[15C\u001b[34m\" Can switch to zsh if you use z-shell\u001b[m\r\n\u001b[38;5;130m 10 set\u001b[m \u001b[35mnumber\u001b[m\u001b[19C\u001b[34m\" Enables line numbering\u001b[m\r\n\u001b[38;5;130m 11 set\u001b[m \u001b[35mt_Co\u001b[m=256\u001b[17C\u001b[34m\" Set terminal colors to 256\u001b[m\r\n\u001b[38;5;130m 12 set\u001b[m \u001b[35mlistchars\u001b[m=tab\u001b[38;5;130m:\u001b[m▸\\ \u001b[38;5;130m,\u001b[meol\u001b[38;5;130m:\u001b[m¬  \u001b[34m\" Use same symbols as TextMate"
+    ],
+    [
+      0.000183,
+      " for tabstops and EOL\u001b[m\u001b[34m\u001b[105ms\u001b[m\r\n\u001b[38;5;130m 13 set\u001b[m \u001b[35mlaststatus\u001b[m=2\u001b[13C\u001b[34m\" Display vim status bar\u001b[m\r\n\u001b[38;5;130m 14 set\u001b[m \u001b[35mupdatecount\u001b[m=0\u001b[12C\u001b[34m\" Disable swap files\u001b[m\r\n\u001b[38;5;130m 15 set\u001b[m \u001b[35msplitright\u001b[m\u001b[15C\u001b[34m\" Put new file to right on vertical split\u001b[m\r\n\u001b[38;5;130m 16 set\u001b[m \u001b[35msplitbelow\u001b[m\u001b[15C\u001b[34m\" Put new file to bottom on horizontal split\u001b[m\r\n\u001b[38;5;130m 17 set\u001b[m \u001b[35mrelativenumber\u001b[m\u001b[11C\u001b[34m\" Set relative numbering (set rnu / set nornu)\u001b[m\r\n\u001b[38;5;130m 18 \r\n 19 \r\n 20 \u001b[m\u001b[34m\" Change leader, which defaults as backslash, to the comma key\u001b[m\r\n\u001b[38;5;130m 21 let\u001b[m \u001b[36mmapleader\u001b[m \u001b[38;5;130m=\u001b[m \u001b[31m\",\"\u001b[m\r\n\u001b[38;5;130m 22 \r\n 23 \u001b[m\u001b[34m\" Swap the less used semi-colon for colon\u001b[m\r\n\u001b[38;5;130m 24 nnoremap\u001b[m ; :\r\n\u001b[38;5;130m 25 \r\n 26 \u001b[m\u001b[34m\" Auto save files when switching focus\u001b[m\r\n\u001b[38;5;130m 27 autocmd\u001b[m \u001b[32mFocusLost\u001b[m * \u001b[38;5;130msilent\u001b[m! \u001b[38;5;130mwall\r\n 28 \r\n 29 \u001b[m\u001b[34m\" Adjusting tab spacing, use softtabs\u001b[m\r\n\u001b[38;5;130m 30 set"
+    ],
+    [
+      0.002234,
+      "\u001b[m \u001b[35mtabstop\u001b[m=2\r\n\u001b[38;5;130m 31 set\u001b[m \u001b[35msofttabstop\u001b[m=2\r\n\u001b[38;5;130m 32 set\u001b[m \u001b[35mshiftwidth\u001b[m=2\r\n\u001b[38;5;130m 33 set\u001b[m \u001b[35mexpandtab\u001b[m\r\n\u001b[38;5;130m 34 \r\n 35 \u001b[m\u001b[34m\" Set Vim Explorer to display like NERDTree\u001b[m\r\n\u001b[38;5;130m 36 let\u001b[m \u001b[36mg:netrw_liststyle\u001b[m\u001b[38;5;130m=\u001b[m\u001b[31m3\u001b[m\r\n\u001b[38;5;130m 37 \u001b[m\r\n\u001b[1m\u001b[7m.vimrc                                                                                                                                        1,1            Top\u001b[1;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.783289,
+      "\u001b[?25l\u001b[m\r\u001b[38;5;130m  1\r\n2  \r\n  1\r\n  2\r\n  3\r\n  4\r\n  5\r\n  6\r\n  7\r\n  8\r\n  9\r\n 10\r\n 11\r\n 12\r\n 13\r\n 14\r\n 15\r\n 16\r\n 17\r\n 18\r\n 19\r\n 20\r\n 21\r\n 22\r\n 23\r\n 24\r\n 25\r\n 26\r\n 27\r\n 28\r\n 29\r\n 30\r\n 31\r\n 32\r\n 33\r\n 34\r\n 35\r\n 36\u001b[m\u001b[39;143H\u001b[1m\u001b[7m2,\u001b[2;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.211378,
+      "\u001b[?25l\u001b[m\u001b[1;3H\u001b[38;5;130m2\r\n  1\r\n3  \r\n  1\r\n  2\r\n  3\r\n  4\r\n  5\r\n  6\r\n  7\r\n  8\r\n  9\r\n 10\r\n 11\r\n 12\r\n 13\r\n 14\r\n 15\r\n 16\r\n 17\r\n 18\r\n 19\r\n 20\r\n 21\r\n 22\r\n 23\r\n 24\r\n 25\r\n 26\r\n 27\r\n 28\r\n 29\r\n 30\r\n 31\r\n 32\r\n 33\r\n 34\r\n 35\u001b[m\u001b[39;143H\u001b[1m\u001b[7m3,\u001b[3;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.170231,
+      "\u001b[?25l\u001b[m\u001b[1;3H\u001b[38;5;130m3\r\n  2\r\n  1\r\n4  \r\n  1\r\n  2\r\n  3\r\n  4\r\n  5\r\n  6\r\n  7\r\n  8\r\n  9\r\n 10\r\n 11\r\n 12\r\n 13\r\n 14\r\n 15\r\n 16\r\n 17\r\n 18\r\n 19\r\n 20\r\n 21\r\n 22\r\n 23\r\n 24\r\n 25\r\n 26\r\n 27\r\n 28\r\n 29\r\n 30\r\n 31\r\n 32\r\n 33\r\n 34\u001b[m\u001b[39;143H\u001b[1m\u001b[7m4,\u001b[4;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.16063,
+      "\u001b[?25l\u001b[m\u001b[1;3H\u001b[38;5;130m4\r\n  3\r\n  2\r\n  1\r\n5  \r\n  1\r\n  2\r\n  3\r\n  4\r\n  5\r\n  6\r\n  7\r\n  8\r\n  9\r\n 10\r\n 11\r\n 12\r\n 13\r\n 14\r\n 15\r\n 16\r\n 17\r\n 18\r\n 19\r\n 20\r\n 21\r\n 22\r\n 23\r\n 24\r\n 25\r\n 26\r\n 27\r\n 28\r\n 29\r\n 30\r\n 31\r\n 32\r\n 33\u001b[m\u001b[39;143H\u001b[1m\u001b[7m5,\u001b[5;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.146541,
+      "\u001b[?25l\u001b[m\u001b[1;3H\u001b[38;5;130m5\r\n  4\r\n  3\r\n  2\r\n  1\r\n6  \r\n  1\r\n  2\r\n  3\r\n  4\r\n  5\r\n  6\r\n  7\r\n  8\r\n  9\r\n 10\r\n 11\r\n 12\r\n 13\r\n 14\r\n 15\r\n 16\r\n 17\r\n 18\r\n 19\r\n 20\r\n 21\r\n 22\r\n 23\r\n 24\r\n 25\r\n 26\r\n 27\r\n 28\r\n 29\r\n 30\r\n 31\r\n 32\u001b[m\u001b[39;143H\u001b[1m\u001b[7m6,0-1\u001b[6;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.145295,
+      "\u001b[?25l\u001b[m\u001b[1;3H\u001b[38;5;130m6\r\n  5\r\n  4\r\n  3\r\n  2\r\n  1\r\n7  \r\n  1\r\n  2\r\n  3\r\n  4\r\n  5\r\n  6\r\n  7\r\n  8\r\n  9\r\n 10\r\n 11\r\n 12\r\n 13\r\n 14\r\n 15\r\n 16\r\n 17\r\n 18\r\n 19\r\n 20\r\n 21\r\n 22\r\n 23\r\n 24\r\n 25\r\n 26\r\n 27\r\n 28\r\n 29\r\n 30\r\n 31\u001b[m\u001b[39;143H\u001b[1m\u001b[7m7,1   \u001b[7;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.895041,
+      "\u001b[?25l\u001b[m\u001b[40;1H\u001b[K\u001b[40;1H:"
+    ],
+    [
+      0.000153,
+      "call NumberToggle()\r"
+    ],
+    [
+      0.016301,
+      "\u001b[1;3H\u001b[38;5;130m1\r\n  2\r\n  3\r\n  4\r\n  5\r\n  6\r\n  7\r\n  8\r\n  9\r\n 10\r\n 11\r\n 12\r\n 13\r\n 14\r\n 15\r\n 16\r\n 17\r\n 18\r\n 19\r\n 20\r\n 21\r\n 22\r\n 23\r\n 24\r\n 25\r\n 26\r\n 27\r\n 28\r\n 29\r\n 30\r\n 31\r\n 32\r\n 33\r\n 34\r\n 35\r\n 36\r\n 37\r\n 38\u001b[7;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.658357,
+      "\u001b[?25l\u001b[m\u001b[40;1H\u001b[K\u001b[40;1H/\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.382818,
+      "C\u001b[?25l"
+    ],
+    [
+      0.019099,
+      "\u001b[10;36H\u001b[7m\u001b[34mC\u001b[m\u001b[39;143H\u001b[1m\u001b[7m10,32\r\n\u001b[m/C"
+    ],
+    [
+      0.001304,
+      "\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.301155,
+      "O"
+    ],
+    [
+      0.001298,
+      "\u001b[?25l"
+    ],
+    [
+      0.047835,
+      "\u001b[27m\u001b[23m\u001b[m\u001b[H\u001b[2J\u001b[1;1H\u001b[38;5;130m132 \u001b[m    \u001b[38;5;130mif\u001b[m &\u001b[36ml:et\u001b[m\r\n\u001b[38;5;130m133 \u001b[m      \u001b[38;5;130mechon\u001b[m \u001b[31m' expandtab'\u001b[m\r\n\u001b[38;5;130m134 \u001b[m    \u001b[38;5;130melse\r\n135 \u001b[m      \u001b[38;5;130mechon\u001b[m \u001b[31m'noexpandtab'\u001b[m\r\n\u001b[38;5;130m136 \u001b[m    \u001b[38;5;130mendif\r\n137 \u001b[m  \u001b[38;5;130mfinally\r\n138 \u001b[m    \u001b[38;5;130mechohl\u001b[m \u001b[32mNone\u001b[m\r\n\u001b[38;5;130m139 \u001b[m  \u001b[38;5;130mendtry\r\n140 endfunction\r\n141 \r\n142 function\u001b[m! \u001b[35m<SID>\u001b[mStripTrailingWhitespaces\u001b[35m()\u001b[m\r\n\u001b[38;5;130m143 \u001b[m\u001b[34m  \"\u001b[m \u001b[35mPreparation:\u001b[m\u001b[34m save last search, and cursor position.\u001b[m\r\n\u001b[38;5;130m144 \u001b[m  \u001b[38;5;130mlet\u001b[m \u001b[36m_s\u001b[m\u001b[38;5;130m=\u001b[m@/\r\n\u001b[38;5;130m145 \u001b[m  \u001b[38;5;130mlet\u001b[m \u001b[36ml\u001b[m \u001b[38;5;130m=\u001b[m \u001b[36mline\u001b[m\u001b[35m(\u001b[m\u001b[31m\".\"\u001b[m\u001b[35m)\u001b[m\r\n\u001b[38;5;130m146 \u001b[m  \u001b[38;5;130mlet\u001b[m \u001b[36mc\u001b[m \u001b[38;5;130m=\u001b[m \u001b[36mcol\u001b[m\u001b[35m(\u001b[m\u001b[31m\".\"\u001b[m\u001b[35m)\u001b[m\r\n\u001b[38;5;130m147 \u001b[m\u001b[34m  \" Do the business:\u001b[m\r\n\u001b[38;5;130m148 \u001b[m  \u001b[31m%\u001b[m\u001b[38;5;130ms\u001b[m\u001b[35m/\u001b[m\\s\\+$\u001b[35m//e\u001b[m\r\n\u001b[38;5;130m149 \u001b[m\u001b[34m  \" Clean up: resto"
+    ],
+    [
+      0.000106,
+      "re previous search history, and cursor position\u001b[m\r\n\u001b[38;5;130m150 \u001b[m  \u001b[38;5;130mlet\u001b[m @/\u001b[38;5;130m=\u001b[m_s\r\n\u001b[38;5;130m151 \u001b[m  \u001b[38;5;130mcall\u001b[m \u001b[36mcursor\u001b[m\u001b[35m(\u001b[ml, c\u001b[35m)\u001b[m\r\n\u001b[38;5;130m152 endfunction\r\n153 \r\n154 \u001b[m\u001b[34m\"Support Tabularize\u001b[m\r\n\u001b[38;5;130m155 inoremap\u001b[m \u001b[35m<silent>\u001b[m \u001b[35m<Bar>\u001b[m   \u001b[35m<Bar><Esc>\u001b[m:call \u001b[35m<SID>\u001b[malign()\u001b[35m<CR>\u001b[ma\r\n\u001b[38;5;130m156 \r\n157 function\u001b[m! \u001b[35ms:\u001b[malign\u001b[35m()\u001b[m\r\n\u001b[38;5;130m158 \u001b[m  \u001b[38;5;130mlet\u001b[m \u001b[36mp\u001b[m \u001b[38;5;130m=\u001b[m \u001b[31m'^\\s*|\\s.*\\s|\\s*$'\u001b[m\r\n\u001b[38;5;130m159 \u001b[m  \u001b[38;5;130mif\u001b[m \u001b[36mexists\u001b[m\u001b[35m(\u001b[m\u001b[31m':Tabularize'\u001b[m\u001b[35m)\u001b[m \u001b[38;5;130m&&\u001b[m \u001b[36mgetline\u001b[m\u001b[35m(\u001b[m\u001b[31m'.'\u001b[m\u001b[35m)\u001b[m \u001b[38;5;130m=~#\u001b[m \u001b[31m'^\\s*|'\u001b[m \u001b[38;5;130m&&\u001b[m \u001b[35m(\u001b[m\u001b[36mgetline\u001b[m\u001b[35m(\u001b[m\u001b[36mline\u001b[m\u001b[35m(\u001b[m\u001b[31m'.'\u001b[m\u001b[35m)\u001b[m\u001b[38;5;130m-\u001b[m\u001b[31m1\u001b[m\u001b[35m)\u001b[m \u001b[38;5;130m\u001b[105m=\u001b[m\u001b[38;5;130m~#\u001b[m p \u001b[38;5;130m||\u001b[m \u001b[36mgetline\u001b[m\u001b[35m(\u001b[m\u001b[36mline\u001b[m\u001b[35m(\u001b[m\u001b[31m'.'\u001b[m\u001b[35m)\u001b[m\u001b[38;5;130m+\u001b[m\u001b[31m1\u001b[m\u001b[35m)\u001b[m \u001b[38;5;130m=~#"
+    ],
+    [
+      0.00595,
+      "\u001b[m p\u001b[35m)\u001b[m\r\n\u001b[38;5;130m160 \u001b[m    \u001b[38;5;130mlet\u001b[m \u001b[36mcolumn\u001b[m \u001b[38;5;130m=\u001b[m \u001b[36mstrlen\u001b[m\u001b[38;5;130m(substitute\u001b[m\u001b[35m(\u001b[m\u001b[36mgetline\u001b[m\u001b[35m(\u001b[m\u001b[31m'.'\u001b[m\u001b[35m)\u001b[m[\u001b[31m0\u001b[m:\u001b[36mcol\u001b[m\u001b[35m(\u001b[m\u001b[31m'.'\u001b[m\u001b[35m)\u001b[m],\u001b[31m'[^|]'\u001b[m,\u001b[31m''\u001b[m,\u001b[31m'g'\u001b[m\u001b[35m)\u001b[m)\r\n\u001b[38;5;130m161 \u001b[m    \u001b[38;5;130mlet\u001b[m \u001b[36mposition\u001b[m \u001b[38;5;130m=\u001b[m \u001b[36mstrlen\u001b[m\u001b[35m(\u001b[m\u001b[36mmatchstr\u001b[m\u001b[35m(\u001b[m\u001b[36mgetline\u001b[m\u001b[35m(\u001b[m\u001b[31m'.'\u001b[m\u001b[35m)\u001b[m[\u001b[31m0\u001b[m:\u001b[36mcol\u001b[m\u001b[35m(\u001b[m\u001b[31m'.'\u001b[m\u001b[35m)\u001b[m],\u001b[31m'.*|\\s*\\zs.*'\u001b[m\u001b[35m))\u001b[m\r\n\u001b[38;5;130m162 \u001b[m    Tabularize/|/l1\r\n\u001b[38;5;130m163 \u001b[m    \u001b[38;5;130mnormal!\u001b[m 0\r\n\u001b[38;5;130m164 \u001b[m    \u001b[38;5;130mcall\u001b[m \u001b[36msearch\u001b[m\u001b[35m(\u001b[m\u001b[36mrepeat\u001b[m\u001b[35m(\u001b[m\u001b[31m'[^|]*|'\u001b[m,column\u001b[35m)\u001b[m\u001b[38;5;130m.\u001b[m\u001b[31m'\\s\\{-\\}'\u001b[m\u001b[38;5;130m.\u001b[m\u001b[36mrepeat\u001b[m\u001b[35m(\u001b[m\u001b[31m'.'\u001b[m,position\u001b[35m)\u001b[m,\u001b[31m'ce'\u001b[m,\u001b[36mline\u001b[m\u001b[35m\u001b[105m(\u001b[m\u001b[31m'.'\u001b[m\u001b[35m))\u001b[m\r\n\u001b[38;5;130m165 \u001b[m  \u001b[38;5;130mendif\r\n166 endfunction\r\n167 \r\n168 \r\n169 \u001b[m\u001b[34m\"\u001b[m \u001b[7m\u001b[35mCO\u001b[m\u001b[35mMMENT:\u001b[m\u001b[34m save t"
+    ],
+    [
+      6.8e-05,
+      "he file ->  :w\u001b[m\r\n\u001b[1m\u001b[7m.vimrc                                                                                                                                        169,3          Bot\u001b[m\u001b[40;1H/CO"
+    ],
+    [
+      0.001312,
+      "\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.148333,
+      "M"
+    ],
+    [
+      0.001369,
+      "\u001b[?25l"
+    ],
+    [
+      0.023282,
+      "\u001b[38;9H\u001b[7m\u001b[35mM\u001b[40;5H"
+    ],
+    [
+      0.001306,
+      "\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.12588,
+      "\u001b[mM"
+    ],
+    [
+      0.001209,
+      "\u001b[?25l"
+    ],
+    [
+      0.021312,
+      "\u001b[38;10H\u001b[7m\u001b[35mM\u001b[40;6H"
+    ],
+    [
+      0.001243,
+      "\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.122176,
+      "\u001b[mE"
+    ],
+    [
+      0.001224,
+      "\u001b[?25l"
+    ],
+    [
+      0.027872,
+      "\u001b[38;11H\u001b[7m\u001b[35mE\u001b[40;7H"
+    ],
+    [
+      0.001323,
+      "\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.121864,
+      "\u001b[mN"
+    ],
+    [
+      0.001327,
+      "\u001b[?25l"
+    ],
+    [
+      0.018327,
+      "\u001b[38;12H\u001b[7m\u001b[35mN\u001b[40;8H"
+    ],
+    [
+      0.001278,
+      "\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.145054,
+      "\u001b[mT"
+    ],
+    [
+      0.00156,
+      "\u001b[?25l"
+    ],
+    [
+      0.017985,
+      "\u001b[38;13H\u001b[7m\u001b[35mT\u001b[40;9H"
+    ],
+    [
+      0.001383,
+      "\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.218994,
+      "\r"
+    ],
+    [
+      0.000265,
+      "\u001b[?25l"
+    ],
+    [
+      0.02236,
+      "\u001b[m\u001b[38;7H\u001b[35m\u001b[103mCOMMENT\u001b[38;7H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.658324,
+      "\u001b[?25l\u001b[m\u001b[39;147H\u001b[1m\u001b[7m1 \u001b[38;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.881683,
+      "\u0007"
+    ],
+    [
+      0.134568,
+      "\u0007"
+    ],
+    [
+      0.73578,
+      "\u001b[?25l\u001b[m\r\u001b[94m~                                                                                                                                                               \u001b[m\u001b[39;8H\u001b[1m\u001b[7m[+]\u001b[134C8,0-1\u001b[37;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.897541,
+      "\u001b[?25l\u001b[m\r\u001b[94m~                                                                                                                                                               \u001b[m\u001b[39;145H\u001b[1m\u001b[7m7,\u001b[36;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.855968,
+      "\u0007\u001b[?25l\u001b[m\u001b[40;1H\u001b[K\u001b[40;1H:\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.19214,
+      "w\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.173298,
+      "\r"
+    ],
+    [
+      0.000464,
+      "\u001b[?25l\".vimrc\""
+    ],
+    [
+      0.003074,
+      " 167L, 4983C written"
+    ],
+    [
+      0.000728,
+      "\u001b[39;8H\u001b[1m\u001b[7m    "
+    ],
+    [
+      0.000123,
+      "\u001b[36;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.014958,
+      "\u001b[?25l\u001b[39;145H6,1   \u001b[35;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.400257,
+      "\u001b[?25l\u001b[39;145H5,\u001b[34;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.506069,
+      "\u001b[?25l\u001b[39;145H4,\u001b[33;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.086525,
+      "\u001b[?25l\u001b[39;145H3,\u001b[32;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.088682,
+      "\u001b[?25l\u001b[39;145H2,\u001b[31;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.083857,
+      "\u001b[?25l\u001b[39;145H1,\u001b[30;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.086315,
+      "\u001b[?25l\u001b[39;145H0,\u001b[29;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.086731,
+      "\u001b[?25l\u001b[39;144H59,\u001b[28;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.083757,
+      "\u001b[?25l\u001b[39;145H8,\u001b[27;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.084427,
+      "\u001b[?25l\u001b[39;145H7,\u001b[26;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.085839,
+      "\u001b[?25l\u001b[39;145H6,0-1\u001b[25;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.086406,
+      "\u001b[?25l\u001b[39;145H5,1   \u001b[24;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.087413,
+      "\u001b[?25l\u001b[39;145H4,\u001b[23;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.088428,
+      "\u001b[?25l\u001b[39;145H3,0-1\u001b[22;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.085118,
+      "\u001b[?25l\u001b[39;145H2,1   \u001b[21;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.084676,
+      "\u001b[?25l\u001b[39;145H1,\u001b[20;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.084734,
+      "\u001b[?25l\u001b[39;145H0,\u001b[19;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.088459,
+      "\u001b[?25l\u001b[39;144H49,\u001b[18;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.247935,
+      "\u001b[?25l\u001b[39;145H8,\u001b[17;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.234251,
+      "\u001b[?25l\u001b[39;145H7,\u001b[16;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.197531,
+      "\u001b[?25l\u001b[39;145H6,\u001b[15;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.192137,
+      "\u001b[?25l\u001b[39;145H5,\u001b[14;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.567754,
+      "\u001b[?25l\u001b[39;145H4,\u001b[13;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.169583,
+      "\u001b[?25l\u001b[39;145H3,\u001b[12;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.222217,
+      "\u001b[?25l\u001b[39;145H2,\u001b[11;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.232095,
+      "\u001b[?25l\u001b[39;145H1,0-1\u001b[10;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      4.729058,
+      "\u001b[?25l\u001b[39;145H0,1   \u001b[9;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.505847,
+      "\u001b[?25l\u001b[39;144H39,\u001b[8;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.081758,
+      "\u001b[?25l\u001b[39;145H8,\u001b[7;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.087622,
+      "\u001b[?25l\u001b[39;145H7,\u001b[6;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.089221,
+      "\u001b[?25l\u001b[39;145H6,\u001b[5;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.084219,
+      "\u001b[?25l\u001b[39;145H5,\u001b[4;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.088274,
+      "\u001b[?25l\u001b[39;145H4,\u001b[3;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.114749,
+      "\u001b[?25l\u001b[39;145H3,\u001b[2;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.056201,
+      "\u001b[?25l\u001b[39;145H2,\u001b[1;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.091028,
+      "\u001b[?25l\u001b[1;38r\u001b[m\u001b[1;1H\u001b[L\u001b[1;40r\u001b[1;1H\u001b[38;5;130m131 \u001b[m    \u001b[38;5;130mechon\u001b[m \u001b[31m' shofttabstop='\u001b[m\u001b[38;5;130m.\u001b[m&\u001b[36ml:sts\u001b[m\u001b[40;1H\u001b[K\u001b[39;145H\u001b[1m\u001b[7m1,\u001b[1;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.093942,
+      "\u001b[?25l\u001b[1;38r\u001b[m\u001b[1;1H\u001b[L\u001b[1;40r\u001b[1;1H\u001b[38;5;130m130 \u001b[m    \u001b[38;5;130mechon\u001b[m \u001b[31m' shiftwidth='\u001b[m\u001b[38;5;130m.\u001b[m&\u001b[36ml:sw\u001b[m\u001b[39;145H\u001b[1m\u001b[7m0,\u001b[1;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.078803,
+      "\u001b[?25l\u001b[1;38r\u001b[m\u001b[1;1H\u001b[L\u001b[1;40r\u001b[1;1H\u001b[38;5;130m129 \u001b[m    \u001b[38;5;130mechon\u001b[m \u001b[31m'tabstop='\u001b[m\u001b[38;5;130m.\u001b[m&\u001b[36ml:ts\u001b[m\u001b[39;144H\u001b[1m\u001b[7m29,\u001b[11C99%\u001b[1;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.085149,
+      "\u001b[?25l\u001b[1;38r\u001b[m\u001b[1;1H\u001b[L\u001b[1;40r\u001b[1;1H\u001b[38;5;130m128 \u001b[m    \u001b[38;5;130mechohl\u001b[m \u001b[32mModeMsg\u001b[m\u001b[39;145H\u001b[1m\u001b[7m8,\u001b[12C8%\u001b[1;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.083419,
+      "\u001b[?25l\u001b[1;38r\u001b[m\u001b[1;1H\u001b[L\u001b[1;40r\u001b[1;1H\u001b[38;5;130m127 \u001b[m  \u001b[38;5;130mtry\u001b[m\u001b[39;145H\u001b[1m\u001b[7m7,\u001b[12C7%\u001b[1;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.089385,
+      "\u001b[?25l\u001b[1;38r\u001b[m\u001b[1;1H\u001b[L\u001b[1;40r\u001b[1;1H\u001b[38;5;130m126 function\u001b[m! SummarizeTabs\u001b[35m()\u001b[m\u001b[39;145H\u001b[1m\u001b[7m6,\u001b[12C6%\u001b[1;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.087379,
+      "\u001b[?25l\u001b[1;38r\u001b[m\u001b[1;1H\u001b[L\u001b[1;40r\u001b[1;1H\u001b[38;5;130m125 \u001b[m\u001b[39;145H\u001b[1m\u001b[7m5,0-1\u001b[1;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.086233,
+      "\u001b[?25l\u001b[1;38r\u001b[m\u001b[1;1H\u001b[L\u001b[1;40r\u001b[1;1H\u001b[38;5;130m124 endfunction\u001b[m\u001b[39;145H\u001b[1m\u001b[7m4,1   \u001b[8C5%\u001b[1;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.085131,
+      "\u001b[?25l\u001b[1;38r\u001b[m\u001b[1;1H\u001b[L\u001b[1;40r\u001b[1;1H\u001b[38;5;130m123 \u001b[m  \u001b[38;5;130mcall\u001b[m SummarizeTabs\u001b[35m()\u001b[m\u001b[39;145H\u001b[1m\u001b[7m3,\u001b[12C4%\u001b[1;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.087824,
+      "\u001b[?25l\u001b[1;38r\u001b[m\u001b[1;1H\u001b[L\u001b[1;40r\u001b[1;1H\u001b[38;5;130m122 \u001b[m  \u001b[38;5;130mendif\u001b[m\u001b[39;145H\u001b[1m\u001b[7m2,\u001b[12C3%\u001b[1;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.085195,
+      "\u001b[?25l\u001b[1;38r\u001b[m\u001b[1;1H\u001b[L\u001b[1;40r\u001b[1;1H\u001b[38;5;130m121 \u001b[m    \u001b[38;5;130mlet\u001b[m &\u001b[36ml:sw\u001b[m \u001b[38;5;130m=\u001b[m \u001b[36ml:tabstop\u001b[m\u001b[39;145H\u001b[1m\u001b[7m1,\u001b[1;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.087011,
+      "\u001b[?25l\u001b[1;38r\u001b[m\u001b[1;1H\u001b[L\u001b[1;40r\u001b[1;1H\u001b[38;5;130m120 \u001b[m    \u001b[38;5;130mlet\u001b[m &\u001b[36ml:ts\u001b[m \u001b[38;5;130m=\u001b[m \u001b[36ml:tabstop\u001b[m\u001b[39;145H\u001b[1m\u001b[7m0,\u001b[12C2%\u001b[1;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.085716,
+      "\u001b[?25l\u001b[1;38r\u001b[m\u001b[1;1H\u001b[L\u001b[1;40r\u001b[1;1H\u001b[38;5;130m119 \u001b[m    \u001b[38;5;130mlet\u001b[m &\u001b[36ml:sts\u001b[m \u001b[38;5;130m=\u001b[m \u001b[36ml:tabstop\u001b[m\u001b[39;144H\u001b[1m\u001b[7m19,\u001b[12C1%\u001b[1;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.087961,
+      "\u001b[?25l\u001b[1;38r\u001b[m\u001b[1;1H\u001b[L\u001b[1;40r\u001b[1;1H\u001b[38;5;130m118 \u001b[m  \u001b[38;5;130mif\u001b[m \u001b[36ml:tabstop\u001b[m \u001b[38;5;130m>\u001b[m \u001b[31m0\u001b[m\u001b[39;145H\u001b[1m\u001b[7m8,\u001b[12C0%\u001b[1;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.087209,
+      "\u001b[?25l\u001b[1;38r\u001b[m\u001b[1;1H\u001b[L\u001b[1;40r\u001b[1;1H\u001b[38;5;130m117 \u001b[m  \u001b[38;5;130mlet\u001b[m \u001b[36ml:tabstop\u001b[m \u001b[38;5;130m=\u001b[m \u001b[31m1\u001b[m * \u001b[36minput\u001b[m\u001b[35m(\u001b[m\u001b[31m'set tabstop = softtabstop = shiftwidth = '\u001b[m\u001b[35m)\u001b[m\u001b[39;145H\u001b[1m\u001b[7m7,\u001b[11C89%\u001b[1;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.084743,
+      "\u001b[?25l\u001b[1;38r\u001b[m\u001b[1;1H\u001b[L\u001b[1;40r\u001b[1;1H\u001b[38;5;130m116 function\u001b[m! Stab\u001b[35m()\u001b[m\u001b[39;145H\u001b[1m\u001b[7m6,\u001b[1;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.085816,
+      "\u001b[?25l\u001b[1;38r\u001b[m\u001b[1;1H\u001b[L\u001b[1;40r\u001b[1;1H\u001b[38;5;130m115 command\u001b[m! \u001b[38;5;130m-\u001b[m\u001b[35mnargs\u001b[m\u001b[38;5;130m=\u001b[m\u001b[32m*\u001b[m Stab \u001b[36mcall\u001b[m Stab()\u001b[39;145H\u001b[1m\u001b[7m5,\u001b[12C8%\u001b[1;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.083928,
+      "\u001b[?25l\u001b[1;38r\u001b[m\u001b[1;1H\u001b[L\u001b[1;40r\u001b[1;1H\u001b[38;5;130m114 \u001b[m\u001b[34m\" To use, type:  :Stab\u001b[m\u001b[39;145H\u001b[1m\u001b[7m4,\u001b[12C7%\u001b[1;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.088471,
+      "\u001b[?25l\u001b[1;38r\u001b[m\u001b[1;1H\u001b[L\u001b[1;40r\u001b[1;1H\u001b[38;5;130m113 \u001b[m\u001b[34m\" Set tabstop, softabstop and shiftwidth to the same value\u001b[m\u001b[39;145H\u001b[1m\u001b[7m3,\u001b[12C6%\u001b[1;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.088014,
+      "\u001b[?25l\u001b[1;38r\u001b[m\u001b[1;1H\u001b[L\u001b[1;40r\u001b[1;1H\u001b[38;5;130m112 \u001b[m\u001b[34m\" http://vimcasts.org/episodes/tabs-and-spaces/\u001b[m\u001b[39;145H\u001b[1m\u001b[7m2,\u001b[1;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.083105,
+      "\u001b[?25l\u001b[1;38r\u001b[m\u001b[1;1H\u001b[L\u001b[1;40r\u001b[1;1H\u001b[38;5;130m111 \u001b[m\u001b[39;145H\u001b[1m\u001b[7m1,0-1\u001b[9C5%\u001b[1;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.083353,
+      "\u001b[?25l\u001b[1;38r\u001b[m\u001b[1;1H\u001b[L\u001b[1;40r\u001b[1;1H\u001b[38;5;130m110 endfunc\u001b[m\u001b[39;145H\u001b[1m\u001b[7m0,1   \u001b[8C4%\u001b[1;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.175787,
+      "\u001b[?25l\u001b[1;38r\u001b[m\u001b[1;1H\u001b[L\u001b[1;40r\u001b[1;1H\u001b[38;5;130m109 \u001b[m  \u001b[38;5;130mendif\u001b[m\u001b[39;144H\u001b[1m\u001b[7m09,\u001b[12C3%\u001b[1;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.375381,
+      "\u001b[?25l\u001b[1;38r\u001b[m\u001b[1;1H\u001b[L\u001b[1;40r\u001b[1;1H\u001b[38;5;130m108 \u001b[m    \u001b[38;5;130mset\u001b[m \u001b[35mrnu\u001b[m\u001b[39;145H\u001b[1m\u001b[7m8,\u001b[12C2%\u001b[1;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.386912,
+      "\u001b[?25l\u001b[1;38r\u001b[m\u001b[1;1H\u001b[L\u001b[1;40r\u001b[1;1H\u001b[38;5;130m107 \u001b[m  \u001b[38;5;130melse\u001b[m\u001b[39;145H\u001b[1m\u001b[7m7,\u001b[1;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.304131,
+      "\u001b[?25l\u001b[1;38r\u001b[m\u001b[1;1H\u001b[L\u001b[1;40r\u001b[1;1H\u001b[38;5;130m106 \u001b[m    \u001b[38;5;130mset\u001b[m \u001b[35mnornu\u001b[m\u001b[39;145H\u001b[1m\u001b[7m6,\u001b[12C1%\u001b[1;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.197825,
+      "\u001b[?25l\u001b[1;38r\u001b[m\u001b[1;1H\u001b[L\u001b[1;40r\u001b[1;1H\u001b[38;5;130m105 \u001b[m  \u001b[38;5;130mif\u001b[m\u001b[35m(\u001b[m&relativenumber \u001b[38;5;130m==\u001b[m \u001b[31m1\u001b[m\u001b[35m)\u001b[m\u001b[39;145H\u001b[1m\u001b[7m5,\u001b[12C0%\u001b[1;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.410164,
+      "\u001b[?25l\u001b[1;38r\u001b[m\u001b[1;1H\u001b[L\u001b[1;40r\u001b[1;1H\u001b[38;5;130m104 function\u001b[m! NumberToggle\u001b[35m()\u001b[m\u001b[39;145H\u001b[1m\u001b[7m4,\u001b[11C79%\u001b[1;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.92013,
+      "\u001b[?25l\u001b[1;38r\u001b[m\u001b[1;1H\u001b[L\u001b[1;40r\u001b[1;1H\u001b[38;5;130m103 \u001b[m\u001b[34m\" ----------------------------\u001b[m\u001b[39;145H\u001b[1m\u001b[7m3,\u001b[1;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.711616,
+      "\u001b[?25l\u001b[1;38r\u001b[m\u001b[1;1H\u001b[L\u001b[1;40r\u001b[1;1H\u001b[38;5;130m102 \u001b[m\u001b[34m\" PUT FUNCTIONS FROM HERE DOWN\u001b[m\u001b[39;145H\u001b[1m\u001b[7m2,\u001b[12C8%\u001b[1;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.440033,
+      "\u001b[?25l\u001b[1;38r\u001b[m\u001b[1;1H\u001b[L\u001b[1;40r\u001b[1;1H\u001b[38;5;130m101 \u001b[m\u001b[39;145H\u001b[1m\u001b[7m1,0-1\u001b[9C7%\u001b[1;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.944966,
+      "\u001b[?25l\u001b[39;145H2,1   \u001b[2;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.419585,
+      "\u001b[?25l\u001b[39;145H3,\u001b[3;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.298017,
+      "\u001b[?25l\u001b[39;145H4,\u001b[4;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.232456,
+      "\u001b[?25l\u001b[39;145H5,\u001b[5;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.248209,
+      "\u001b[?25l\u001b[39;145H6,\u001b[6;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.206023,
+      "\u001b[?25l\u001b[39;145H7,\u001b[7;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.200138,
+      "\u001b[?25l\u001b[39;145H8,\u001b[8;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.207983,
+      "\u001b[?25l\u001b[39;145H9,\u001b[9;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.19236,
+      "\u001b[?25l\u001b[39;144H10,\u001b[10;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.223695,
+      "\u001b[?25l\u001b[39;145H1,0-1\u001b[11;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      5.443171,
+      "\u001b[?25l\u001b[40;1H\u001b[m:\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.691393,
+      "w\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.108275,
+      "q"
+    ],
+    [
+      0.001245,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.238714,
+      "\r"
+    ],
+    [
+      0.000258,
+      "\u001b[?25l"
+    ],
+    [
+      0.00134,
+      "\".vimrc\""
+    ],
+    [
+      0.002606,
+      " 167L, 4983C written"
+    ],
+    [
+      0.103148,
+      "\r\r"
+    ],
+    [
+      0.000141,
+      "\r\n"
+    ],
+    [
+      9.9e-05,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      0.000108,
+      "\u001b[?12l\u001b[?25h\u001b[?1049l"
+    ],
+    [
+      0.005077,
+      "\u001b]0;jfhogarty@workshop-one: ~\u0007\u001b[01;32mjfhogarty@workshop-one\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      0.770064,
+      "e"
+    ],
+    [
+      0.261421,
+      "x"
+    ],
+    [
+      0.163464,
+      "i"
+    ],
+    [
+      0.119286,
+      "t"
+    ],
+    [
+      0.160318,
+      "\r\nexit\r\n"
+    ]
+  ]
+}

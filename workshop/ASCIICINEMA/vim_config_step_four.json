@@ -1,0 +1,986 @@
+{
+  "version": 1,
+  "width": 160,
+  "height": 40,
+  "duration": 80.513831,
+  "command": null,
+  "title": "Vim Config - Step Four",
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.070173,
+      "\u001b]0;jfhogarty@workshop-one: ~\u0007\u001b[01;32mjfhogarty@workshop-one\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      1.284749,
+      "v"
+    ],
+    [
+      0.280036,
+      "i"
+    ],
+    [
+      0.157424,
+      "m"
+    ],
+    [
+      0.378268,
+      " "
+    ],
+    [
+      0.239794,
+      "."
+    ],
+    [
+      0.833226,
+      "v"
+    ],
+    [
+      0.116442,
+      "i"
+    ],
+    [
+      0.128086,
+      "m"
+    ],
+    [
+      0.559732,
+      "r"
+    ],
+    [
+      0.216468,
+      "c"
+    ],
+    [
+      0.330295,
+      "\r\n"
+    ],
+    [
+      0.107631,
+      "\u001b[?1049h\u001b[?1h\u001b="
+    ],
+    [
+      0.000104,
+      "\u001b[2;1H▽\u001b[6n"
+    ],
+    [
+      0.000193,
+      "\u001b[2;1H  \u001b[1;1H"
+    ],
+    [
+      0.001392,
+      "\u001b]11;?\u0007"
+    ],
+    [
+      0.002769,
+      "\u001b[1;40r\u001b[?12;25h\u001b[?12l\u001b[?25h\u001b[27m\u001b[23m\u001b[m\u001b[H\u001b[2J\u001b[?25l\u001b[40;1H\".vimrc\""
+    ],
+    [
+      0.000371,
+      " 98L, 3240C"
+    ],
+    [
+      0.022182,
+      "\u001b[>c"
+    ],
+    [
+      0.019827,
+      "\u001b[1;1H\u001b[38;5;130m1   \u001b[m\u001b[34m\"\u001b[m \u001b[35mAuthor:\u001b[m\u001b[34m       John F. Hogarty\u001b[m\r\n\u001b[38;5;130m  1 \u001b[m\u001b[34m\"\u001b[m \u001b[35mEmail:\u001b[m\u001b[34m        hogihung@gmail.com\u001b[m\r\n\u001b[38;5;130m  2 \u001b[m\u001b[34m\" --------------------------------------\u001b[m\r\n\u001b[38;5;130m  3 set\u001b[m \u001b[35mnocompatible\u001b[m    \u001b[34m\" be iMproved, required\u001b[m\r\n\u001b[38;5;130m  4 filetype\u001b[m \u001b[32moff\u001b[m\u001b[8C\u001b[34m\" required\u001b[m\r\n\u001b[38;5;130m  5 \r\n  6 \u001b[m\u001b[34m\" Set basic setup\u001b[m\r\n\u001b[38;5;130m  7 syntax\u001b[m \u001b[32mon\u001b[m\u001b[20C\u001b[34m\" Enable syntax highlighting\u001b[m\r\n\u001b[38;5;130m  8 set\u001b[m \u001b[35mencoding\u001b[m=utf-8\u001b[11C\u001b[34m\" Add support for Unicode characters (used in listc\u001b[m\u001b[34m\u001b[105mh\u001b[m\u001b[34mars below)\u001b[m\r\n\u001b[38;5;130m  9 set\u001b[m \u001b[35mshell\u001b[m=bash\u001b[15C\u001b[34m\" Can switch to zsh if you use z-shell\u001b[m\r\n\u001b[38;5;130m 10 set\u001b[m \u001b[35mnumber\u001b[m\u001b[19C\u001b[34m\" Enables line numbering\u001b[m\r\n\u001b[38;5;130m 11 set\u001b[m \u001b[35mt_Co\u001b[m=256\u001b[17C\u001b[34m\" Set terminal colors to 256\u001b[m\r\n\u001b[38;5;130m 12 set\u001b[m \u001b[35mlistchars\u001b[m=tab\u001b[38;5;130m:\u001b[m▸\\ \u001b[38;5;130m,\u001b[meol\u001b[38;5;130m:\u001b[m¬  \u001b[34m\" Use same symbols as TextMate"
+    ],
+    [
+      0.000113,
+      " for tabstops and EOL\u001b[m\u001b[34m\u001b[105ms\u001b[m\r\n\u001b[38;5;130m 13 set\u001b[m \u001b[35mlaststatus\u001b[m=2\u001b[13C\u001b[34m\" Display vim status bar\u001b[m\r\n\u001b[38;5;130m 14 set\u001b[m \u001b[35mupdatecount\u001b[m=0\u001b[12C\u001b[34m\" Disable swap files\u001b[m\r\n\u001b[38;5;130m 15 set\u001b[m \u001b[35msplitright\u001b[m\u001b[15C\u001b[34m\" Put new file to right on vertical split\u001b[m\r\n\u001b[38;5;130m 16 set\u001b[m \u001b[35msplitbelow\u001b[m\u001b[15C\u001b[34m\" Put new file to bottom on horizontal split\u001b[m\r\n\u001b[38;5;130m 17 set\u001b[m \u001b[35mrelativenumber\u001b[m\u001b[11C\u001b[34m\" Set relative numbering (set rnu / set nornu)\u001b[m\r\n\u001b[38;5;130m 18 \r\n 19 \r\n 20 \u001b[m\u001b[34m\" Change leader, which defaults as backslash, to the comma key\u001b[m\r\n\u001b[38;5;130m 21 let\u001b[m \u001b[36mmapleader\u001b[m \u001b[38;5;130m=\u001b[m \u001b[31m\",\"\u001b[m\r\n\u001b[38;5;130m 22 \r\n 23 \u001b[m\u001b[34m\" Swap the less used semi-colon for colon\u001b[m\r\n\u001b[38;5;130m 24 nnoremap\u001b[m ; :\r\n\u001b[38;5;130m 25 \r\n 26 \u001b[m\u001b[34m\" Auto save files when switching focus\u001b[m\r\n\u001b[38;5;130m 27 autocmd\u001b[m \u001b[32mFocusLost\u001b[m * \u001b[38;5;130msilent\u001b[m! \u001b[38;5;130mwall\r\n 28 \r\n 29 \u001b[m\u001b[34m\" Adjusting tab spacing, use softtabs\u001b[m\r\n\u001b[38;5;130m 30 set"
+    ],
+    [
+      0.00244,
+      "\u001b[m \u001b[35mtabstop\u001b[m=2\r\n\u001b[38;5;130m 31 set\u001b[m \u001b[35msofttabstop\u001b[m=2\r\n\u001b[38;5;130m 32 set\u001b[m \u001b[35mshiftwidth\u001b[m=2\r\n\u001b[38;5;130m 33 set\u001b[m \u001b[35mexpandtab\u001b[m\r\n\u001b[38;5;130m 34 \r\n 35 \u001b[m\u001b[34m\" Set Vim Explorer to display like NERDTree\u001b[m\r\n\u001b[38;5;130m 36 let\u001b[m \u001b[36mg:netrw_liststyle\u001b[m\u001b[38;5;130m=\u001b[m\u001b[31m3\u001b[m\r\n\u001b[38;5;130m 37 \u001b[m\r\n\u001b[1m\u001b[7m.vimrc                                                                                                                                        1,1            Top\u001b[1;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.721905,
+      "\u001b[?25l\u001b[m\r\u001b[38;5;130m  1\r\n2  \r\n  1\r\n  2\r\n  3\r\n  4\r\n  5\r\n  6\r\n  7\r\n  8\r\n  9\r\n 10\r\n 11\r\n 12\r\n 13\r\n 14\r\n 15\r\n 16\r\n 17\r\n 18\r\n 19\r\n 20\r\n 21\r\n 22\r\n 23\r\n 24\r\n 25\r\n 26\r\n 27\r\n 28\r\n 29\r\n 30\r\n 31\r\n 32\r\n 33\r\n 34\r\n 35\r\n 36\u001b[m\u001b[39;143H\u001b[1m\u001b[7m2,\u001b[2;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.295111,
+      "\u001b[?25l\u001b[m\u001b[1;3H\u001b[38;5;130m2\r\n  1\r\n3  \r\n  1\r\n  2\r\n  3\r\n  4\r\n  5\r\n  6\r\n  7\r\n  8\r\n  9\r\n 10\r\n 11\r\n 12\r\n 13\r\n 14\r\n 15\r\n 16\r\n 17\r\n 18\r\n 19\r\n 20\r\n 21\r\n 22\r\n 23\r\n 24\r\n 25\r\n 26\r\n 27\r\n 28\r\n 29\r\n 30\r\n 31\r\n 32\r\n 33\r\n 34\r\n 35\u001b[m\u001b[39;143H\u001b[1m\u001b[7m3,\u001b[3;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.218575,
+      "\u001b[?25l\u001b[m\u001b[1;3H\u001b[38;5;130m3\r\n  2\r\n  1\r\n4  \r\n  1\r\n  2\r\n  3\r\n  4\r\n  5\r\n  6\r\n  7\r\n  8\r\n  9\r\n 10\r\n 11\r\n 12\r\n 13\r\n 14\r\n 15\r\n 16\r\n 17\r\n 18\r\n 19\r\n 20\r\n 21\r\n 22\r\n 23\r\n 24\r\n 25\r\n 26\r\n 27\r\n 28\r\n 29\r\n 30\r\n 31\r\n 32\r\n 33\r\n 34\u001b[m\u001b[39;143H\u001b[1m\u001b[7m4,\u001b[4;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.174653,
+      "\u001b[?25l\u001b[m\u001b[1;3H\u001b[38;5;130m4\r\n  3\r\n  2\r\n  1\r\n5  \r\n  1\r\n  2\r\n  3\r\n  4\r\n  5\r\n  6\r\n  7\r\n  8\r\n  9\r\n 10\r\n 11\r\n 12\r\n 13\r\n 14\r\n 15\r\n 16\r\n 17\r\n 18\r\n 19\r\n 20\r\n 21\r\n 22\r\n 23\r\n 24\r\n 25\r\n 26\r\n 27\r\n 28\r\n 29\r\n 30\r\n 31\r\n 32\r\n 33\u001b[m\u001b[39;143H\u001b[1m\u001b[7m5,\u001b[5;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.211242,
+      "\u001b[?25l\u001b[m\u001b[1;3H\u001b[38;5;130m5\r\n  4\r\n  3\r\n  2\r\n  1\r\n6  \r\n  1\r\n  2\r\n  3\r\n  4\r\n  5\r\n  6\r\n  7\r\n  8\r\n  9\r\n 10\r\n 11\r\n 12\r\n 13\r\n 14\r\n 15\r\n 16\r\n 17\r\n 18\r\n 19\r\n 20\r\n 21\r\n 22\r\n 23\r\n 24\r\n 25\r\n 26\r\n 27\r\n 28\r\n 29\r\n 30\r\n 31\r\n 32\u001b[m\u001b[39;143H\u001b[1m\u001b[7m6,0-1\u001b[6;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.818676,
+      "\u001b[?25l\u001b[m\u001b[40;1H\u001b[K\u001b[40;1H:"
+    ],
+    [
+      0.000757,
+      "\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.721124,
+      "s\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.150953,
+      "e"
+    ],
+    [
+      0.001364,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.102227,
+      "t"
+    ],
+    [
+      0.001276,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.215503,
+      "\u001b[?25l \u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.441963,
+      "n"
+    ],
+    [
+      0.001345,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.582469,
+      "o"
+    ],
+    [
+      0.001277,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.32734,
+      "r"
+    ],
+    [
+      0.001223,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.19635,
+      "n\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.233938,
+      "u"
+    ],
+    [
+      0.00122,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.254431,
+      "\r"
+    ],
+    [
+      0.016144,
+      "\u001b[?25l\u001b[1;3H\u001b[38;5;130m1\r\n  2\r\n\r\n  4\r\n  5\r\n  6\r\n  7\r\n  8\r\n  9\r\n 10\r\n 11\r\n 12\r\n 13\r\n 14\r\n 15\r\n 16\r\n 17\r\n 18\r\n 19\r\n 20\r\n 21\r\n 22\r\n 23\r\n 24\r\n 25\r\n 26\r\n 27\r\n 28\r\n 29\r\n 30\r\n 31\r\n 32\r\n 33\r\n 34\r\n 35\r\n 36\r\n 37\r\n 38\u001b[6;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.217769,
+      "\u001b[?25l\u001b[27m\u001b[23m\u001b[m\u001b[H\u001b[2J\u001b[1;1H\u001b[38;5;130m 61 \u001b[m\u001b[34m\" Toggle highlighting off\u001b[m\r\n\u001b[38;5;130m 62 nmap\u001b[m \u001b[35m<leader>\u001b[mh :nohlsearch\u001b[35m<cr>\u001b[m\r\n\u001b[38;5;130m 63 \r\n 64 set\u001b[m \u001b[35mignorecase\u001b[m    \u001b[34m\" Case insensitive pattern matching\u001b[m\r\n\u001b[38;5;130m 65 set\u001b[m \u001b[35msmartcase\u001b[m     \u001b[34m\" Overrides ignorecase if pattern contains upcase\u001b[m\r\n\u001b[38;5;130m 66 \r\n 67 \u001b[m\u001b[34m\" Map Vim Window navigation\u001b[m\r\n\u001b[38;5;130m 68 nnoremap\u001b[m \u001b[35m<C-j>\u001b[m \u001b[35m<C-w><C-j>\u001b[m\r\n\u001b[38;5;130m 69 nnoremap\u001b[m \u001b[35m<C-k>\u001b[m \u001b[35m<C-w><C-k>\u001b[m\r\n\u001b[38;5;130m 70 nnoremap\u001b[m \u001b[35m<C-l>\u001b[m \u001b[35m<C-w><C-l>\u001b[m\r\n\u001b[38;5;130m 71 nnoremap\u001b[m \u001b[35m<C-h>\u001b[m \u001b[35m<C-w><C-h>\u001b[m\r\n\u001b[38;5;130m 72 \r\n 73 \u001b[m\u001b[34m\" Handle whitespace based on file type\u001b[m\r\n\u001b[38;5;130m 74 if\u001b[m \u001b[36mhas\u001b[m\u001b[35m(\u001b[m\u001b[31m\"autocmd\"\u001b[m\u001b[35m)\u001b[m\r\n\u001b[38;5;130m 75 \u001b[m\u001b[34m  \" enable file type detection\u001b[m\r\n\u001b[38;5;130m 76 \u001b[m  \u001b[38;5;130mfiletype\u001b[m \u001b[32mon\u001b[m\r\n\u001b[38;5;130m 77 \r\n 78 \u001b[m\u001b[34m  \" Languages which are picky about tabs vs. spaces\u001b[m\r\n\u001b[38;5;130m 79 \u001b[m  \u001b[38;5;130m"
+    ],
+    [
+      0.000121,
+      "autocmd\u001b[m \u001b[32mFileType\u001b[m make \u001b[38;5;130msetlocal\u001b[m \u001b[35mts\u001b[m=8 \u001b[35msts\u001b[m=8 \u001b[35msw\u001b[m=8 \u001b[35mnoexpandtab\u001b[m\r\n\u001b[38;5;130m 80 \u001b[m  \u001b[38;5;130mautocmd\u001b[m \u001b[32mFileType\u001b[m yaml \u001b[38;5;130msetlocal\u001b[m \u001b[35mts\u001b[m=2 \u001b[35msts\u001b[m=2 \u001b[35msw\u001b[m=2 \u001b[35mexpandtab\u001b[m\r\n\u001b[38;5;130m 81 \r\n 82 \u001b[m\u001b[34m  \" Customization based on house-style (arbitrary)\u001b[m\r\n\u001b[38;5;130m 83 \u001b[m  \u001b[38;5;130mautocmd\u001b[m \u001b[32mFileType\u001b[m html \u001b[38;5;130msetlocal\u001b[m \u001b[35mts\u001b[m=2 \u001b[35msts\u001b[m=2 \u001b[35msw\u001b[m=2 \u001b[35mexpandtab\u001b[m\r\n\u001b[38;5;130m 84 \u001b[m  \u001b[38;5;130mautocmd\u001b[m \u001b[32mFileType\u001b[m css \u001b[38;5;130msetlocal\u001b[m \u001b[35mts\u001b[m=2 \u001b[35msts\u001b[m=2 \u001b[35msw\u001b[m=2 \u001b[35mexpandtab\u001b[m\r\n\u001b[38;5;130m 85 \u001b[m\u001b[34m  \"autocmd FileType javascript setlocal ts=4 sts=4 sw=4 noexpandtab\u001b[m\r\n\u001b[38;5;130m 86 \u001b[m  \u001b[38;5;130mautocmd\u001b[m \u001b[32mFileType\u001b[m perl \u001b[38;5;130msetlocal\u001b[m \u001b[35mts\u001b[m=4 \u001b[35msts\u001b[m=4 \u001b[35msw\u001b[m=4 \u001b[35mnoexpandtab\u001b[m\r\n\u001b[38;5;130m 87 \r\n 88 \u001b[m\u001b[34m  \" Treat .rss files as XML\u001b[m\r\n\u001b[38;5;130m 89 \u001b[m  \u001b[38;5;130mautocmd\u001b[m \u001b[32mBufNewFile\u001b[m,\u001b[32mBufRead"
+    ],
+    [
+      0.003564,
+      "\u001b[m *.rss \u001b[38;5;130msetfiletype\u001b[m xml\r\n\u001b[38;5;130m 90 \r\n 91 \u001b[m\u001b[34m  \" Remove trailing whitespace automatically while a file\u001b[m\r\n\u001b[38;5;130m 92 \u001b[m\u001b[34m  \" is saved, for the defined file extensions:\u001b[m\r\n\u001b[38;5;130m 93 \u001b[m  \u001b[38;5;130mautocmd\u001b[m \u001b[32mBufWritePre\u001b[m *.txt,*.rb,*.erb :\u001b[38;5;130mcall\u001b[m \u001b[35m<SID>\u001b[mStripTrailingWhitespaces\u001b[35m()\u001b[m\r\n\u001b[38;5;130m 94 endif\r\n 95 \r\n 96 \u001b[m\u001b[34m\" Turn on ruby compiler for vim\u001b[m\r\n\u001b[38;5;130m 97 autocmd\u001b[m \u001b[32mFileType\u001b[m ruby \u001b[38;5;130mcompiler\u001b[m \u001b[38;5;130mruby\r\n 98 \u001b[m\r\n\u001b[1m\u001b[7m.vimrc                                                                                                                                        98,0-1         Bot\u001b[38;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.939623,
+      "\u001b[?25l\u001b[m\r\n\r\n\u001b[1m-- INSERT --"
+    ],
+    [
+      0.002488,
+      "\u001b[m\u001b[39;146H\u001b[1m\u001b[7m1   \u001b[38;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.263501,
+      "\u001b[?25l\u001b[1;38r\u001b[m\u001b[38;1H\r\n\u001b[1;40r\u001b[38;1H\u001b[38;5;130m 99 \u001b[m\u001b[39;8H\u001b[1m\u001b[7m[+]\u001b[133C9,"
+    ],
+    [
+      0.001845,
+      "\u001b[38;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      2.205421,
+      "\u001b[m\u001b[40;1H\u001b[K\u001b[38;5H"
+    ],
+    [
+      0.541559,
+      "\u001b[?25l\u001b[39;146H\u001b[1m\u001b[7m0-1\u001b[38;5H\u001b[?12l\u001b[?25h\u001b[?25l\r\n\r\n\u001b[m:\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.305104,
+      "t\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.132394,
+      "a"
+    ],
+    [
+      0.001222,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.142732,
+      "b"
+    ],
+    [
+      0.001371,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.190364,
+      "e"
+    ],
+    [
+      0.001224,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.249431,
+      "\r"
+    ],
+    [
+      0.001237,
+      "\u001b[?25l\u001b[27m\u001b[23m\u001b[m\u001b[H\u001b[2J\u001b[1;1H\u001b[4m\u001b[30m\u001b[47m + .vimrc \u001b[m\u001b[1m [No Name] \u001b[m\u001b[7m                                                                                                                                           \u001b[m\u001b[1;160H\u001b[4m\u001b[30m\u001b[47mX\u001b[m\u001b[2;1H\u001b[38;5;130m  1 \u001b[m\r\n\u001b[94m~                                                                                                                                                               \u001b[4;1H~                                                                                                                                                               \u001b[5;1H~                                                                                                                                                               \u001b[6;1H~                                                                                                                                                               \u001b[7;1H~                                                                               "
+    ],
+    [
+      0.000127,
+      "                                                                                \u001b[8;1H~                                                                                                                                                               \u001b[9;1H~                                                                                                                                                               \u001b[10;1H~                                                                                                                                                               \u001b[11;1H~                                                                                                                                                               \u001b[12;1H~                                                                                                                                                               \u001b[13;1H~                                                                                                      "
+    ],
+    [
+      0.000246,
+      "                                                         \u001b[14;1H~                                                                                                                                                               \u001b[15;1H~                                                                                                                                                               \u001b[16;1H~                                                                                                                                                               \u001b[17;1H~                                                                                                                                                               \u001b[18;1H~                                                                                                                                                               \u001b[19;1H~                                                                                                                            "
+    ],
+    [
+      9.8e-05,
+      "                                   \u001b[20;1H~                                                                                                                                                               \u001b[21;1H~                                                                                                                                                               \u001b[22;1H~                                                                                                                                                               \u001b[23;1H~                                                                                                                                                               \u001b[24;1H~                                                                                                                                                               \u001b[25;1H~                                                                                                                                                 "
+    ],
+    [
+      0.000262,
+      "              \u001b[26;1H~                                                                                                                                                               \u001b[27;1H~                                                                                                                                                               \u001b[28;1H~                                                                                                                                                               \u001b[29;1H~                                                                                                                                                               \u001b[30;1H~                                                                                                                                                               \u001b[31;1H~                                                                                                                                                               \u001b[32;1H~"
+    ],
+    [
+      6.2e-05,
+      "                                                                                                                                                               \u001b[33;1H~                                                                                                                                                               \u001b[34;1H~                                                                                                                                                               \u001b[35;1H~                                                                                                                                                               \u001b[36;1H~                                                                                                                                                               \u001b[37;1H~                                                                                                                                                               \u001b[38;1H~                     "
+    ],
+    [
+      0.000145,
+      "                                                                                                                                          \u001b[m\u001b[39;1H\u001b[1m\u001b[7m[No Name]                                                                                                                                     0,0-1          All\u001b[2;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.086156,
+      "\u001b[?25l\u001b[40;1H\u001b[m:\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.296162,
+      "E\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.172761,
+      "x"
+    ],
+    [
+      0.001403,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.178494,
+      "p"
+    ],
+    [
+      0.001256,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.277142,
+      "\r"
+    ],
+    [
+      0.027087,
+      "\u001b[?25l"
+    ],
+    [
+      0.033604,
+      " \u001b[40;2H\u001b[K"
+    ],
+    [
+      0.005893,
+      "\u001b[1;12H\u001b[1mNetrwTreeListing 1 \u001b[m\u001b[129C\u001b[7m \u001b[m\u001b[1;160H\u001b[4m\u001b[30m\u001b[47mX\u001b[m\u001b[2;1H\u001b[34m\" ============================================================================\r\n\" Netrw Directory Listing                                        \u001b[m\u001b[36m(netrw v156)\u001b[m\u001b[3;78H\u001b[K\u001b[4;1H\u001b[34m\"   /home/jfhogarty\u001b[m\u001b[4;20H\u001b[K\u001b[5;1H\u001b[34m\"   Sorted by\u001b[m\u001b[38;5;130m      name\u001b[m\u001b[5;24H\u001b[K\u001b[6;1H\u001b[34m\"   Sort sequence:\u001b[m\u001b[38;5;130m [\\/]$\u001b[m\u001b[34m,\u001b[m\u001b[38;5;130m\\<core\\%(\\.\\d\\+\\)\\=\\>\u001b[m\u001b[34m,\u001b[m\u001b[38;5;130m\\.h$\u001b[m\u001b[34m,\u001b[m\u001b[38;5;130m\\.c$\u001b[m\u001b[34m,\u001b[m\u001b[38;5;130m\\.cpp$\u001b[m\u001b[34m,\u001b[m\u001b[38;5;130m\\~\\=\\*$\u001b[m\u001b[34m,\u001b[m\u001b[38;5;130m*\u001b[m\u001b[34m,\u001b[m\u001b[38;5;130m\\.o$\u001b[m\u001b[34m,\u001b[m\u001b[38;5;130m\\.obj$\u001b[m\u001b[34m,\u001b[m\u001b[38;5;130m\\.info$\u001b[m\u001b[34m,\u001b[m\u001b[38;5;130m\\.swp$\u001b[m\u001b[34m,\u001b[m\u001b[38;5;130m\\.bak$\u001b[m\u001b[34m,\u001b[m\u001b[38;5;130m\\~$\u001b[m\u001b[6;112H\u001b[K\u001b[7;1H\u001b[34m\"   Quick Help: \u001b[m\u001b[36m<F1>\u001b[m\u001b[35m:\u001b[mhelp  \u001b[36m-\u001b[m\u001b[35m:\u001b[mgo up dir  \u001b[36mD\u001b[m\u001b[35m:\u001b[mdelete  \u001b[36mR\u001b[m\u001b[35m:\u001b[mrename  \u001b[36ms\u001b[m\u001b[35m:\u001b[msort-by  \u001b[36mx\u001b[m\u001b[35m:\u001b[mspecial\u001b[7;81H\u001b[K\u001b[8;1H\u001b[34m\" ==============================="
+    ],
+    [
+      0.000125,
+      "===============================================\u001b[m\u001b[8;81H\u001b[K\u001b[9;1H\u001b[4m\u001b[34m..\u001b[m\u001b[4m\u001b[36m/\u001b[m\u001b[4m                                                                                                                                                             \u001b[m\u001b[10;1H\u001b[34mjfhogarty\u001b[m\u001b[36m/\u001b[m\u001b[10;11H\u001b[K\u001b[11;1H\u001b[35m|\u001b[m \u001b[34m.cache\u001b[m\u001b[36m/\u001b[m\u001b[11;10H\u001b[K\u001b[12;1H\u001b[35m|\u001b[m \u001b[34m.config\u001b[m\u001b[36m/\u001b[m\u001b[12;11H\u001b[K\u001b[13;1H\u001b[35m|\u001b[m \u001b[34m.docker\u001b[m\u001b[36m/\u001b[m\u001b[13;11H\u001b[K\u001b[14;1H\u001b[35m|\u001b[m \u001b[34m.vim\u001b[m\u001b[36m/\u001b[m\u001b[14;8H\u001b[K\u001b[15;1H\u001b[35m|\u001b[m \u001b[34mdocker-vim-demo\u001b[m\u001b[36m/\u001b[m\u001b[15;19H\u001b[K\u001b[16;1H\u001b[35m|\u001b[m .bash_history\u001b[16;16H\u001b[K\u001b[17;1H\u001b[35m|\u001b[m .bash_logout\u001b[17;15H\u001b[K\u001b[18;1H\u001b[35m|\u001b[m .bashrc\u001b[18;10H\u001b[K\u001b[19;1H\u001b[35m|\u001b[m .profile\u001b[19;11H\u001b[K\u001b[20;1H\u001b[35m|\u001b[m .sudo_as_admin_successful\u001b[20;28H\u001b[K\u001b[21;1H\u001b[35m|\u001b[m .viminfo\u001b[21;11H\u001b[K\u001b[22;1H\u001b[35m|\u001b[m .vimrc\u001b[22;9H\u001b[K\u001b[23;1H\u001b[35m|\u001b[m docker_pull_image.json\u001b[23;25H\u001b[K\u001b[24;1H\u001b[35m|\u001b[m vim_config_step_four.json\u001b[24;28H\u001b[K\u001b[25;1H\u001b[35m|\u001b[m vim_config_step_one.json\u001b[25;27H\u001b[K\u001b[26;1H\u001b[35m|"
+    ],
+    [
+      0.000414,
+      "\u001b[m vim_config_step_three.json\u001b[26;29H\u001b[K\u001b[27;1H\u001b[35m|\u001b[m vim_config_step_two.json\u001b[27;27H\u001b[K\u001b[28;1H\u001b[35m|\u001b[m workshop_clone_repo.json\u001b[28;27H\u001b[K\u001b[39;1H\u001b[1m\u001b[7mNetrwTreeListing 1 [RO]\u001b[119C8,1   \u001b[9;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.838711,
+      "\u001b[?25l\u001b[m\u001b[34m..\u001b[m\u001b[36m/\u001b[m\u001b[9;4H\u001b[K\u001b[10;1H\u001b[4m\u001b[34mjfhogarty\u001b[m\u001b[4m\u001b[36m/\u001b[m\u001b[4m                                                                                                                                                      \u001b[m\u001b[39;143H\u001b[1m\u001b[7m9,\u001b[10;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.200695,
+      "\u001b[?25l\u001b[m\u001b[34mjfhogarty\u001b[m\u001b[36m/\u001b[m\u001b[10;11H\u001b[K\u001b[11;1H\u001b[4m\u001b[35m|\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[34m.cache\u001b[m\u001b[4m\u001b[36m/\u001b[m\u001b[4m                                                                                                                                                       \u001b[m\u001b[39;143H\u001b[1m\u001b[7m10,1\u001b[11;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.199591,
+      "\u001b[?25l\u001b[m\u001b[35m|\u001b[m \u001b[34m.cache\u001b[m\u001b[36m/\u001b[m\u001b[11;10H\u001b[K\u001b[12;1H\u001b[4m\u001b[35m|\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[34m.config\u001b[m\u001b[4m\u001b[36m/\u001b[m\u001b[4m                                                                                                                                                      \u001b[m\u001b[39;144H\u001b[1m\u001b[7m1,\u001b[12;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.151166,
+      "\u001b[?25l\u001b[m\u001b[35m|\u001b[m \u001b[34m.config\u001b[m\u001b[36m/\u001b[m\u001b[12;11H\u001b[K\u001b[13;1H\u001b[4m\u001b[35m|\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[34m.docker\u001b[m\u001b[4m\u001b[36m/\u001b[m\u001b[4m                                                                                                                                                      \u001b[m\u001b[39;144H\u001b[1m\u001b[7m2,\u001b[13;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.177097,
+      "\u001b[?25l\u001b[m\u001b[35m|\u001b[m \u001b[34m.docker\u001b[m\u001b[36m/\u001b[m\u001b[13;11H\u001b[K\u001b[14;1H\u001b[4m\u001b[35m|\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[34m.vim\u001b[m\u001b[4m\u001b[36m/\u001b[m\u001b[4m                                                                                                                                                         \u001b[m\u001b[39;144H\u001b[1m\u001b[7m3,\u001b[14;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.167776,
+      "\u001b[?25l\u001b[m\u001b[35m|\u001b[m \u001b[34m.vim\u001b[m\u001b[36m/\u001b[m\u001b[14;8H\u001b[K\u001b[15;1H\u001b[4m\u001b[35m|\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[34mdocker-vim-demo\u001b[m\u001b[4m\u001b[36m/\u001b[m\u001b[4m                                                                                                                                              \u001b[m\u001b[39;144H\u001b[1m\u001b[7m4,\u001b[15;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.16045,
+      "\u001b[?25l\u001b[m\u001b[35m|\u001b[m \u001b[34mdocker-vim-demo\u001b[m\u001b[36m/\u001b[m\u001b[15;19H\u001b[K\u001b[16;1H\u001b[4m\u001b[35m|\u001b[m\u001b[4m .bash_history                                                                                                                                                 \u001b[m\u001b[39;144H\u001b[1m\u001b[7m5,\u001b[16;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.167605,
+      "\u001b[?25l\u001b[m\u001b[35m|\u001b[m .bash_history\u001b[16;16H\u001b[K\u001b[17;1H\u001b[4m\u001b[35m|\u001b[m\u001b[4m .bash_logout                                                                                                                                                  \u001b[m\u001b[39;144H\u001b[1m\u001b[7m6,\u001b[17;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.19331,
+      "\u001b[?25l\u001b[m\u001b[35m|\u001b[m .bash_logout\u001b[17;15H\u001b[K\u001b[18;1H\u001b[4m\u001b[35m|\u001b[m\u001b[4m .bashrc                                                                                                                                                       \u001b[m\u001b[39;144H\u001b[1m\u001b[7m7,\u001b[18;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.195081,
+      "\u001b[?25l\u001b[m\u001b[35m|\u001b[m .bashrc\u001b[18;10H\u001b[K\u001b[19;1H\u001b[4m\u001b[35m|\u001b[m\u001b[4m .profile                                                                                                                                                      \u001b[m\u001b[39;144H\u001b[1m\u001b[7m8,\u001b[19;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.132558,
+      "\u001b[?25l\u001b[m\u001b[35m|\u001b[m .profile\u001b[19;11H\u001b[K\u001b[20;1H\u001b[4m\u001b[35m|\u001b[m\u001b[4m .sudo_as_admin_successful                                                                                                                                     \u001b[m\u001b[39;144H\u001b[1m\u001b[7m9,\u001b[20;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.174625,
+      "\u001b[?25l\u001b[m\u001b[35m|\u001b[m .sudo_as_admin_successful\u001b[20;28H\u001b[K\u001b[21;1H\u001b[4m\u001b[35m|\u001b[m\u001b[4m .viminfo                                                                                                                                                      \u001b[m\u001b[39;143H\u001b[1m\u001b[7m20,\u001b[21;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.537473,
+      "\u001b[?25l\u001b[m\u001b[20;1H\u001b[4m\u001b[35m|\u001b[m\u001b[4m .sudo_as_admin_successful                                                                                                                                     \u001b[m\u001b[21;1H\u001b[35m|\u001b[m .viminfo\u001b[21;11H\u001b[K\u001b[39;143H\u001b[1m\u001b[7m19,\u001b[20;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.174698,
+      "\u001b[?25l\u001b[m\u001b[19;1H\u001b[4m\u001b[35m|\u001b[m\u001b[4m .profile                                                                                                                                                      \u001b[m\u001b[20;1H\u001b[35m|\u001b[m .sudo_as_admin_successful\u001b[20;28H\u001b[K\u001b[39;144H\u001b[1m\u001b[7m8,\u001b[19;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.167694,
+      "\u001b[?25l\u001b[m\u001b[18;1H\u001b[4m\u001b[35m|\u001b[m\u001b[4m .bashrc                                                                                                                                                       \u001b[m\u001b[19;1H\u001b[35m|\u001b[m .profile\u001b[19;11H\u001b[K\u001b[39;144H\u001b[1m\u001b[7m7,\u001b[18;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.161267,
+      "\u001b[?25l\u001b[m\u001b[17;1H\u001b[4m\u001b[35m|\u001b[m\u001b[4m .bash_logout                                                                                                                                                  \u001b[m\u001b[18;1H\u001b[35m|\u001b[m .bashrc\u001b[18;10H\u001b[K\u001b[39;144H\u001b[1m\u001b[7m6,\u001b[17;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.183854,
+      "\u001b[?25l\u001b[m\u001b[16;1H\u001b[4m\u001b[35m|\u001b[m\u001b[4m .bash_history                                                                                                                                                 \u001b[m\u001b[17;1H\u001b[35m|\u001b[m .bash_logout\u001b[17;15H\u001b[K\u001b[39;144H\u001b[1m\u001b[7m5,\u001b[16;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.176679,
+      "\u001b[?25l\u001b[m\u001b[15;1H\u001b[4m\u001b[35m|\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[34mdocker-vim-demo\u001b[m\u001b[4m\u001b[36m/\u001b[m\u001b[4m                                                                                                                                              \u001b[m\u001b[16;1H\u001b[35m|\u001b[m .bash_history\u001b[16;16H\u001b[K\u001b[39;144H\u001b[1m\u001b[7m4,\u001b[15;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.320162,
+      "\u001b[?25l\u001b[m\u001b[14;1H\u001b[4m\u001b[35m|\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[34m.vim\u001b[m\u001b[4m\u001b[36m/\u001b[m\u001b[4m                                                                                                                                                         \u001b[m\u001b[15;1H\u001b[35m|\u001b[m \u001b[34mdocker-vim-demo\u001b[m\u001b[36m/\u001b[m\u001b[15;19H\u001b[K\u001b[39;144H\u001b[1m\u001b[7m3,\u001b[14;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.297538,
+      "\u001b[?25l\u001b[m\u001b[35m|\u001b[m \u001b[34m.vim\u001b[m\u001b[36m/\u001b[m\u001b[14;8H\u001b[K\u001b[15;1H\u001b[4m\u001b[35m|\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[34mdocker-vim-demo\u001b[m\u001b[4m\u001b[36m/\u001b[m\u001b[4m                                                                                                                                              \u001b[m\u001b[39;144H\u001b[1m\u001b[7m4,\u001b[15;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.331975,
+      "\u001b[?25l"
+    ],
+    [
+      0.022101,
+      "\u001b[m\u001b[1;29H\u001b[1m2 \u001b[m\u001b[129C\u001b[7m \u001b[m\u001b[1;160H\u001b[4m\u001b[30m\u001b[47mX\u001b[m\u001b[4;20H\u001b[34m/docker-vim-demo\u001b[m\u001b[16;3H\u001b[35m|\u001b[m \u001b[34m.git\u001b[m\u001b[36m/\u001b[m\u001b[16;10H\u001b[K\u001b[17;3H\u001b[35m|\u001b[m \u001b[34mterminal-256colors\u001b[m\u001b[36m/\u001b[m\u001b[18;3H\u001b[35m|\u001b[m \u001b[34mubuntu-ruby-vim-base\u001b[m\u001b[36m/\u001b[m\u001b[19;3H\u001b[35m|\u001b[m \u001b[34mworkshop\u001b[m\u001b[36m/\u001b[m\u001b[20;3H\u001b[35m|\u001b[m README.m\u001b[20;14H\u001b[K\u001b[21;4Hbash_history\u001b[22;4Hbash_logout\u001b[23;3H.bashrc\u001b[23;10H\u001b[K\u001b[24;3H.profile\u001b[24;11H\u001b[K\u001b[25;3H.sudo_as_admin_successful\u001b[26;3H.viminfo\u001b[26;11H\u001b[K\u001b[27;3H.vimrc\u001b[27;9H\u001b[K\u001b[28;3Hdocker_pull_image.json\u001b[28;25H\u001b[K\u001b[29;1H\u001b[35m|\u001b[m vim_config_step_four.json\u001b[29;28H\u001b[K\u001b[30;1H\u001b[35m|\u001b[m vim_config_step_one.json\u001b[30;27H\u001b[K\u001b[31;1H\u001b[35m|\u001b[m vim_config_step_three.json\u001b[31;29H\u001b[K\u001b[32;1H\u001b[35m|\u001b[m vim_config_step_two.json\u001b[32;27H\u001b[K\u001b[33;1H\u001b[35m|\u001b[m workshop_clone_repo.json\u001b[33;27H\u001b[K\u001b[39;18H\u001b[1m\u001b[7m2 \u001b[15;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.483191,
+      "\u001b[?25l\u001b[m\u001b[35m|\u001b[m \u001b[34mdocker-vim-demo\u001b[m\u001b[36m/\u001b[m\u001b[15;19H\u001b[K\u001b[16;1H\u001b[4m\u001b[35m|\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[35m|\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[34m.git\u001b[m\u001b[4m\u001b[36m/\u001b[m\u001b[4m                                                                                                                                                       \u001b[m\u001b[39;144H\u001b[1m\u001b[7m5,\u001b[16;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.347731,
+      "\u001b[?25l\u001b[m\u001b[35m|\u001b[m \u001b[35m|\u001b[m \u001b[34m.git\u001b[m\u001b[36m/\u001b[m\u001b[16;10H\u001b[K\u001b[17;1H\u001b[4m\u001b[35m|\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[35m|\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[34mterminal-256colors\u001b[m\u001b[4m\u001b[36m/\u001b[m\u001b[4m                                                                                                                                         \u001b[m\u001b[39;144H\u001b[1m\u001b[7m6,\u001b[17;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.6955,
+      "\u001b[?25l\u001b[m\u001b[35m|\u001b[m \u001b[35m|\u001b[m \u001b[34mterminal-256colors\u001b[m\u001b[36m/\u001b[m\u001b[17;24H\u001b[K\u001b[18;1H\u001b[4m\u001b[35m|\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[35m|\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[34mubuntu-ruby-vim-base\u001b[m\u001b[4m\u001b[36m/\u001b[m\u001b[4m                                                                                                                                       \u001b[m\u001b[39;144H\u001b[1m\u001b[7m7,\u001b[18;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.272097,
+      "\u001b[?25l\u001b[m\u001b[35m|\u001b[m \u001b[35m|\u001b[m \u001b[34mubuntu-ruby-vim-base\u001b[m\u001b[36m/\u001b[m\u001b[18;26H\u001b[K\u001b[19;1H\u001b[4m\u001b[35m|\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[35m|\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[34mworkshop\u001b[m\u001b[4m\u001b[36m/\u001b[m\u001b[4m                                                                                                                                                   \u001b[m\u001b[39;144H\u001b[1m\u001b[7m8,\u001b[19;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.31562,
+      "\u001b[?25l"
+    ],
+    [
+      0.015249,
+      "\u001b[m\u001b[1;29H\u001b[1m3 \u001b[m\u001b[129C\u001b[7m \u001b[m\u001b[1;160H\u001b[4m\u001b[30m\u001b[47mX\u001b[m\u001b[4;36H\u001b[34m/workshop\u001b[m\u001b[20;5H\u001b[35m|\u001b[m \u001b[34mCOMPLETED\u001b[m\u001b[36m/\u001b[m\u001b[21;3H\u001b[35m|\u001b[m \u001b[35m|\u001b[m \u001b[34mSTEP-EIGHT\u001b[m\u001b[36m/\u001b[m\u001b[22;3H\u001b[35m|\u001b[m \u001b[35m|\u001b[m \u001b[34mSTEP-FIVE\u001b[m\u001b[36m/\u001b[m\u001b[23;3H\u001b[35m|\u001b[m \u001b[35m|\u001b[m \u001b[34mSTEP-FOUR\u001b[m\u001b[36m/\u001b[m\u001b[24;3H\u001b[35m|\u001b[m \u001b[35m|\u001b[m \u001b[34mSTEP-ONE\u001b[m\u001b[36m/\u001b[m\u001b[25;3H\u001b[35m|\u001b[m \u001b[35m|\u001b[m \u001b[34mSTEP-SEVEN\u001b[m\u001b[36m/\u001b[m\u001b[25;18H\u001b[K\u001b[26;3H\u001b[35m|\u001b[m \u001b[35m|\u001b[m \u001b[34mSTEP-SIX\u001b[m\u001b[36m/\u001b[m\u001b[27;3H\u001b[35m|\u001b[m \u001b[35m|\u001b[m \u001b[34mSTEP-THREE\u001b[m\u001b[36m/\u001b[m\u001b[28;3H\u001b[35m|\u001b[m \u001b[35m|\u001b[m \u001b[34mSTEP-TWO\u001b[m\u001b[36m/\u001b[m\u001b[28;16H\u001b[K\u001b[29;3H\u001b[35m|\u001b[m README.md\u001b[29;14H\u001b[K\u001b[30;3H.bash_history\u001b[30;16H\u001b[K\u001b[31;3H.bash_logout\u001b[31;15H\u001b[K\u001b[32;3H.bashrc\u001b[32;10H\u001b[K\u001b[33;3H.profile\u001b[33;11H\u001b[K\u001b[34;1H\u001b[35m|\u001b[m .sudo_as_admin_successful\u001b[34;28H\u001b[K\u001b[35;1H\u001b[35m|\u001b[m .viminfo\u001b[35;11H\u001b[K\u001b[36;1H\u001b[35m|\u001b[m .vimrc\u001b[36;9H\u001b[K\u001b[37;1H\u001b[35m|\u001b[m docker_pull_image.json\u001b[37;25H\u001b[K\u001b[38;1H\u001b[35m|\u001b[m vim_config_step_four.json\u001b[38;28H\u001b[K\u001b[39;18H\u001b[1m\u001b[7m3 \u001b[138CTop\u001b[19;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.51205,
+      "\u001b[?25l\u001b[m\u001b[35m|\u001b[m \u001b[35m|\u001b[m \u001b[34mworkshop\u001b[m\u001b[36m/\u001b[m\u001b[19;14H\u001b[K\u001b[20;1H\u001b[4m\u001b[35m|\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[35m|\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[35m|\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[34mCOMPLETED\u001b[m\u001b[4m\u001b[36m/\u001b[m\u001b[4m                                                                                                                                                \u001b[m\u001b[39;144H\u001b[1m\u001b[7m9,\u001b[20;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.236395,
+      "\u001b[?25l\u001b[m\u001b[35m|\u001b[m \u001b[35m|\u001b[m \u001b[35m|\u001b[m \u001b[34mCOMPLETED\u001b[m\u001b[36m/\u001b[m\u001b[20;17H\u001b[K\u001b[21;1H\u001b[4m\u001b[35m|\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[35m|\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[35m|\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[34mSTEP-EIGHT\u001b[m\u001b[4m\u001b[36m/\u001b[m\u001b[4m                                                                                                                                               \u001b[m\u001b[39;143H\u001b[1m\u001b[7m20,\u001b[21;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.262558,
+      "\u001b[?25l\u001b[m\u001b[35m|\u001b[m \u001b[35m|\u001b[m \u001b[35m|\u001b[m \u001b[34mSTEP-EIGHT\u001b[m\u001b[36m/\u001b[m\u001b[21;18H\u001b[K\u001b[22;1H\u001b[4m\u001b[35m|\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[35m|\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[35m|\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[34mSTEP-FIVE\u001b[m\u001b[4m\u001b[36m/\u001b[m\u001b[4m                                                                                                                                                \u001b[m\u001b[39;144H\u001b[1m\u001b[7m1,\u001b[22;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.198228,
+      "\u001b[?25l\u001b[m\u001b[35m|\u001b[m \u001b[35m|\u001b[m \u001b[35m|\u001b[m \u001b[34mSTEP-FIVE\u001b[m\u001b[36m/\u001b[m\u001b[22;17H\u001b[K\u001b[23;1H\u001b[4m\u001b[35m|\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[35m|\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[35m|\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[34mSTEP-FOUR\u001b[m\u001b[4m\u001b[36m/\u001b[m\u001b[4m                                                                                                                                                \u001b[m\u001b[39;144H\u001b[1m\u001b[7m2,\u001b[23;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.240983,
+      "\u001b[?25l\u001b[m\u001b[35m|\u001b[m \u001b[35m|\u001b[m \u001b[35m|\u001b[m \u001b[34mSTEP-FOUR\u001b[m\u001b[36m/\u001b[m\u001b[23;17H\u001b[K\u001b[24;1H\u001b[4m\u001b[35m|\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[35m|\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[35m|\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[34mSTEP-ONE\u001b[m\u001b[4m\u001b[36m/\u001b[m\u001b[4m                                                                                                                                                 \u001b[m\u001b[39;144H\u001b[1m\u001b[7m3,\u001b[24;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.865624,
+      "\u001b[?25l\u001b[m\u001b[23;1H\u001b[4m\u001b[35m|\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[35m|\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[35m|\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[34mSTEP-FOUR\u001b[m\u001b[4m\u001b[36m/\u001b[m\u001b[4m                                                                                                                                                \u001b[m\u001b[24;1H\u001b[35m|\u001b[m \u001b[35m|\u001b[m \u001b[35m|\u001b[m \u001b[34mSTEP-ONE\u001b[m\u001b[36m/\u001b[m\u001b[24;16H\u001b[K\u001b[39;144H\u001b[1m\u001b[7m2,\u001b[23;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.620998,
+      "\u001b[?25l"
+    ],
+    [
+      0.020668,
+      "\u001b[m\u001b[1;29H\u001b[1m4 \u001b[m\u001b[129C\u001b[7m \u001b[m\u001b[1;160H\u001b[4m\u001b[30m\u001b[47mX\u001b[m\u001b[4;45H\u001b[34m/STEP-FOUR\u001b[m\u001b[24;7H\u001b[35m|\u001b[m .vimrc\u001b[24;15H\u001b[K\u001b[25;7H\u001b[35m|\u001b[m vimrc-004\u001b[26;12H\u001b[34mONE\u001b[27;12HSEVEN\u001b[28;12HSIX\u001b[m\u001b[29;5H\u001b[35m|\u001b[m \u001b[34mSTEP-THREE\u001b[m\u001b[36m/\u001b[m\u001b[30;3H\u001b[35m|\u001b[m \u001b[35m|\u001b[m \u001b[34mSTEP-TWO\u001b[m\u001b[36m/\u001b[m\u001b[31;3H\u001b[35m|\u001b[m README.md\u001b[31;14H\u001b[K\u001b[32;8H_history\u001b[33;4Hbash_logout\u001b[34;4Hbashrc\u001b[34;10H\u001b[K\u001b[35;4Hprofile\u001b[36;4Hsudo_as_admin_successful\u001b[37;3H.viminfo\u001b[37;11H\u001b[K\u001b[38;3H.vimrc\u001b[38;9H\u001b[K\u001b[39;18H\u001b[1m\u001b[7m4 \u001b[23;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.693805,
+      "\u001b[?25l\u001b[m\u001b[35m|\u001b[m \u001b[35m|\u001b[m \u001b[35m|\u001b[m \u001b[34mSTEP-FOUR\u001b[m\u001b[36m/\u001b[m\u001b[23;17H\u001b[K\u001b[24;1H\u001b[4m\u001b[35m|\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[35m|\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[35m|\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[35m|\u001b[m\u001b[4m .vimrc                                                                                                                                                  \u001b[m\u001b[39;144H\u001b[1m\u001b[7m3,\u001b[24;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.32627,
+      "\u001b[?25l\u001b[m\u001b[35m|\u001b[m \u001b[35m|\u001b[m \u001b[35m|\u001b[m \u001b[35m|\u001b[m .vimrc\u001b[24;15H\u001b[K\u001b[25;1H\u001b[4m\u001b[35m|\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[35m|\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[35m|\u001b[m\u001b[4m \u001b[m\u001b[4m\u001b[35m|\u001b[m\u001b[4m vimrc-004                                                                                                                                               \u001b[m\u001b[39;144H\u001b[1m\u001b[7m4,\u001b[25;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.324498,
+      "\u001b[?25l\u001b[m\u001b[40;1H\"~/docker-vim-demo/workshop/STEP-FOUR/vimrc-004\""
+    ],
+    [
+      0.000303,
+      " 14L, 267C"
+    ],
+    [
+      0.02323,
+      "\u001b[1;12H\u001b[1m~/d/w/S/vimrc-004  \u001b[m\b\u001b[7m \u001b[129C \u001b[m\u001b[1;160H\u001b[4m\u001b[30m\u001b[47mX\u001b[m\u001b[2;1H\u001b[38;5;130m  1 \u001b[m\u001b[34m\" Relative line number toggle\u001b[m\u001b[2;34H\u001b[K\u001b[3;1H\u001b[38;5;130m  2 nnoremap\u001b[m \u001b[35m<C-n>\u001b[m :call NumberToggle()\u001b[35m<cr>\u001b[m\u001b[3;44H\u001b[K\u001b[4;1H\u001b[38;5;130m  3 \u001b[m\u001b[4;5H\u001b[K\u001b[5;1H\u001b[38;5;130m  4 \u001b[m\u001b[34m\" PUT FUNCTIONS FROM HERE DOWN\u001b[m\r\n\u001b[38;5;130m  5 \u001b[m\u001b[34m\" ----------------------------\u001b[m\u001b[6;35H\u001b[K\u001b[7;1H\u001b[38;5;130m  6 function\u001b[m! NumberToggle\u001b[35m()\u001b[m\u001b[7;29H\u001b[K\u001b[8;1H\u001b[38;5;130m  7 \u001b[m  \u001b[38;5;130mif\u001b[m\u001b[35m(\u001b[m&relativenumber \u001b[38;5;130m==\u001b[m \u001b[31m1\u001b[m\u001b[35m)\u001b[m\u001b[8;31H\u001b[K\u001b[9;1H\u001b[38;5;130m  8 \u001b[m    \u001b[38;5;130mset\u001b[m \u001b[35mnornu\u001b[m\r\n\u001b[38;5;130m  9 \u001b[m  \u001b[38;5;130melse\r\n 10 \u001b[m    \u001b[38;5;130mset\u001b[m \u001b[35mrnu\u001b[m\r\n\u001b[38;5;130m 11 \u001b[m  \u001b[38;5;130mendif\r\n 12 endfunc\r\n 13 \u001b[m\u001b[14;5H\u001b[K\u001b[15;1H\u001b[38;5;130m 14 \u001b[m\u001b[34m\"\u001b[m \u001b[35mCOMMENT:\u001b[m\u001b[34m save the file ->  :w\u001b[m\r\n\u001b[94m~                                                                                                                                                        "
+    ],
+    [
+      0.000146,
+      "       \u001b[17;1H~                                                                                                                                                               \u001b[18;1H~                                                                                                                                                               \u001b[19;1H~                                                                                                                                                               \u001b[20;1H~                                                                                                                                                               \u001b[21;1H~                                                                                                                                                               \u001b[22;1H~                                                                                                                                                               "
+    ],
+    [
+      0.000273,
+      "\u001b[23;1H~                                                                                                                                                               \u001b[24;1H~                                                                                                                                                               \u001b[25;1H~                                                                                                                                                               \u001b[26;1H~                                                                                                                                                               \u001b[27;1H~                                                                                                                                                               \u001b[28;1H~                                                                                                                                                               \u001b[29;1H~              "
+    ],
+    [
+      0.000113,
+      "                                                                                                                                                 \u001b[30;1H~                                                                                                                                                               \u001b[31;1H~                                                                                                                                                               \u001b[32;1H~                                                                                                                                                               \u001b[33;1H~                                                                                                                                                               \u001b[34;1H~                                                                                                                                                               \u001b[35;1H~                                   "
+    ],
+    [
+      0.000338,
+      "                                                                                                                            \u001b[36;1H~                                                                                                                                                               \u001b[37;1H~                                                                                                                                                               \u001b[38;1H~                                                                                                                                                               \u001b[m\u001b[39;1H\u001b[1m\u001b[7m~/docker-vim-demo/workshop/STEP-FOUR/vimrc-004\u001b[96C1,1  \u001b[10CAll\u001b[2;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.707067,
+      "\u001b[?25l\u001b[m\u001b[1C\u001b[34m\u001b[47m Relative line number toggle\u001b[m\u001b[47m \u001b[m\u001b[40;1H\u001b[1m-- VISUAL LINE --\u001b[m\u001b[40;18H\u001b[K\u001b[2;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.218496,
+      "\u001b[?25l\u001b[34m\u001b[47m\"\u001b[m\u001b[3;5H\u001b[38;5;130m\u001b[47mnnoremap\u001b[m\u001b[47m \u001b[m\u001b[35m\u001b[47m<C-n>\u001b[m\u001b[47m :call NumberToggle()\u001b[m\u001b[35m\u001b[47m<cr>\u001b[m\u001b[47m \u001b[4;5H \u001b[m\u001b[5;5H\u001b[34m\u001b[47m\" PUT FUNCTIONS FROM HERE DOWN\u001b[m\u001b[47m \u001b[m\u001b[6;5H\u001b[34m\u001b[47m\" ----------------------------\u001b[m\u001b[47m \u001b[m\u001b[7;5H\u001b[38;5;130m\u001b[47mfunction\u001b[m\u001b[47m! NumberToggle\u001b[m\u001b[35m\u001b[47m()\u001b[m\u001b[47m \u001b[8;5H  \u001b[m\u001b[38;5;130m\u001b[47mif\u001b[m\u001b[35m\u001b[47m(\u001b[m\u001b[47m&relativenumber \u001b[m\u001b[38;5;130m\u001b[47m==\u001b[m\u001b[47m \u001b[m\u001b[31m\u001b[47m1\u001b[m\u001b[35m\u001b[47m)\u001b[m\u001b[47m \u001b[9;5H    \u001b[m\u001b[38;5;130m\u001b[47mset\u001b[m\u001b[47m \u001b[m\u001b[35m\u001b[47mnornu\u001b[m\u001b[47m \u001b[10;5H  \u001b[m\u001b[38;5;130m\u001b[47melse\u001b[m\u001b[47m \u001b[11;5H    \u001b[m\u001b[38;5;130m\u001b[47mset\u001b[m\u001b[47m \u001b[m\u001b[35m\u001b[47mrnu\u001b[m\u001b[47m \u001b[12;5H  \u001b[m\u001b[38;5;130m\u001b[47mendif\u001b[m\u001b[47m \u001b[m\u001b[13;5H\u001b[38;5;130m\u001b[47mendfunc\u001b[m\u001b[47m \u001b[14;5H \u001b[15;6H \u001b[m\u001b[35m\u001b[47mCOMMENT:\u001b[m\u001b[34m\u001b[47m save the file ->  :w\u001b[m\u001b[47m \u001b[m\u001b[39;144H\u001b[1m\u001b[7m4,1\u001b[15;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.425089,
+      "\u001b[?25l\u001b[m\u001b[2;5H\u001b[34m\" Relative line number toggle\u001b[m\u001b[2;34H\u001b[K\u001b[3;5H\u001b[38;5;130mnnoremap\u001b[m \u001b[35m<C-n>\u001b[m :call NumberToggle()\u001b[35m<cr>\u001b[m\u001b[3;44H\u001b[K\u001b[4;5H\u001b[K\u001b[5;5H\u001b[34m\" PUT FUNCTIONS FROM HERE DOWN\u001b[m\u001b[5;35H\u001b[K\u001b[6;5H\u001b[34m\" ----------------------------\u001b[m\u001b[6;35H\u001b[K\u001b[7;5H\u001b[38;5;130mfunction\u001b[m! NumberToggle\u001b[35m()\u001b[m\u001b[7;29H\u001b[K\u001b[8;5H  \u001b[38;5;130mif\u001b[m\u001b[35m(\u001b[m&relativenumber \u001b[38;5;130m==\u001b[m \u001b[31m1\u001b[m\u001b[35m)\u001b[m\u001b[8;31H\u001b[K\u001b[9;5H    \u001b[38;5;130mset\u001b[m \u001b[35mnornu\u001b[m\u001b[9;18H\u001b[K\u001b[10;5H  \u001b[38;5;130melse\u001b[m\u001b[10;11H\u001b[K\u001b[11;5H    \u001b[38;5;130mset\u001b[m \u001b[35mrnu\u001b[m\u001b[11;16H\u001b[K\u001b[12;5H  \u001b[38;5;130mendif\u001b[m\u001b[12;12H\u001b[K\u001b[13;5H\u001b[38;5;130mendfunc\u001b[m\u001b[13;12H\u001b[K\u001b[14;5H\u001b[K\u001b[15;6H \u001b[35mCOMMENT:\u001b[m\u001b[34m save the file ->  :w\u001b[m\u001b[15;36H\u001b[K\u001b[40;1H\u001b[K\u001b[40;1H14 lines yanked"
+    ],
+    [
+      0.000684,
+      "\u001b[39;144H\u001b[1m\u001b[7m,1  \u001b[2;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.05281,
+      "\u001b[27m\u001b[23m\u001b[m\u001b[H\u001b[2J\u001b[1;1H\u001b[1m + .vimrc \u001b[m\u001b[4m\u001b[30m\u001b[47m d/w/S/vimrc-004 \u001b[m\u001b[7m                                                                                                                                     \u001b[m\u001b[1;160H\u001b[4m\u001b[30m\u001b[47mX\u001b[?25l\u001b[m\u001b[2;1H\u001b[38;5;130m 63 \r\n 64 set\u001b[m \u001b[35mignorecase\u001b[m    \u001b[34m\" Case insensitive pattern matching\u001b[m\r\n\u001b[38;5;130m 65 set\u001b[m \u001b[35msmartcase\u001b[m     \u001b[34m\" Overrides ignorecase if pattern contains upcase\u001b[m\r\n\u001b[38;5;130m 66 \r\n 67 \u001b[m\u001b[34m\" Map Vim Window navigation\u001b[m\r\n\u001b[38;5;130m 68 nnoremap\u001b[m \u001b[35m<C-j>\u001b[m \u001b[35m<C-w><C-j>\u001b[m\r\n\u001b[38;5;130m 69 nnoremap\u001b[m \u001b[35m<C-k>\u001b[m \u001b[35m<C-w><C-k>\u001b[m\r\n\u001b[38;5;130m 70 nnoremap\u001b[m \u001b[35m<C-l>\u001b[m \u001b[35m<C-w><C-l>\u001b[m\r\n\u001b[38;5;130m 71 nnoremap\u001b[m \u001b[35m<C-h>\u001b[m \u001b[35m<C-w><C-h>\u001b[m\r\n\u001b[38;5;130m 72 \r\n 73 \u001b[m\u001b[34m\" Handle whitespace based on file type\u001b[m\r\n\u001b[38;5;130m 74 if\u001b[m \u001b[36mhas\u001b[m\u001b[35m(\u001b[m\u001b[31m\"autocmd\"\u001b[m\u001b[35m)\u001b[m\r\n\u001b[38;5;130m 75 \u001b[m\u001b[34m  \" enable file type detection\u001b[m\r\n\u001b[38;5;130m 76 \u001b[m  \u001b[38;5;130mfiletype\u001b[m \u001b[32mon\u001b[m\r\n\u001b[38;5;130m "
+    ],
+    [
+      0.001094,
+      "77 \r\n 78 \u001b[m\u001b[34m  \" Languages which are picky about tabs vs. spaces\u001b[m\r\n\u001b[38;5;130m 79 \u001b[m  \u001b[38;5;130mautocmd\u001b[m \u001b[32mFileType\u001b[m make \u001b[38;5;130msetlocal\u001b[m \u001b[35mts\u001b[m=8 \u001b[35msts\u001b[m=8 \u001b[35msw\u001b[m=8 \u001b[35mnoexpandtab\u001b[m\r\n\u001b[38;5;130m 80 \u001b[m  \u001b[38;5;130mautocmd\u001b[m \u001b[32mFileType\u001b[m yaml \u001b[38;5;130msetlocal\u001b[m \u001b[35mts\u001b[m=2 \u001b[35msts\u001b[m=2 \u001b[35msw\u001b[m=2 \u001b[35mexpandtab\u001b[m\r\n\u001b[38;5;130m 81 \r\n 82 \u001b[m\u001b[34m  \" Customization based on house-style (arbitrary)\u001b[m\r\n\u001b[38;5;130m 83 \u001b[m  \u001b[38;5;130mautocmd\u001b[m \u001b[32mFileType\u001b[m html \u001b[38;5;130msetlocal\u001b[m \u001b[35mts\u001b[m=2 \u001b[35msts\u001b[m=2 \u001b[35msw\u001b[m=2 \u001b[35mexpandtab\u001b[m\r\n\u001b[38;5;130m 84 \u001b[m  \u001b[38;5;130mautocmd\u001b[m \u001b[32mFileType\u001b[m css \u001b[38;5;130msetlocal\u001b[m \u001b[35mts\u001b[m=2 \u001b[35msts\u001b[m=2 \u001b[35msw\u001b[m=2 \u001b[35mexpandtab\u001b[m\r\n\u001b[38;5;130m 85 \u001b[m\u001b[34m  \"autocmd FileType javascript setlocal ts=4 sts=4 sw=4 noexpandtab\u001b[m\r\n\u001b[38;5;130m 86 \u001b[m  \u001b[38;5;130mautocmd\u001b[m \u001b[32mFileType\u001b[m perl \u001b[38;5;130msetlocal\u001b[m \u001b[35mts\u001b[m=4 \u001b[35msts\u001b[m=4 \u001b[35msw\u001b[m=4 \u001b[35mnoexpandtab\u001b[m\r\n\u001b[38;5;130m 87 \r\n 88 "
+    ],
+    [
+      0.005352,
+      "\u001b[m\u001b[34m  \" Treat .rss files as XML\u001b[m\r\n\u001b[38;5;130m 89 \u001b[m  \u001b[38;5;130mautocmd\u001b[m \u001b[32mBufNewFile\u001b[m,\u001b[32mBufRead\u001b[m *.rss \u001b[38;5;130msetfiletype\u001b[m xml\r\n\u001b[38;5;130m 90 \r\n 91 \u001b[m\u001b[34m  \" Remove trailing whitespace automatically while a file\u001b[m\r\n\u001b[38;5;130m 92 \u001b[m\u001b[34m  \" is saved, for the defined file extensions:\u001b[m\r\n\u001b[38;5;130m 93 \u001b[m  \u001b[38;5;130mautocmd\u001b[m \u001b[32mBufWritePre\u001b[m *.txt,*.rb,*.erb :\u001b[38;5;130mcall\u001b[m \u001b[35m<SID>\u001b[mStripTrailingWhitespaces\u001b[35m()\u001b[m\r\n\u001b[38;5;130m 94 endif\r\n 95 \r\n 96 \u001b[m\u001b[34m\" Turn on ruby compiler for vim\u001b[m\r\n\u001b[38;5;130m 97 autocmd\u001b[m \u001b[32mFileType\u001b[m ruby \u001b[38;5;130mcompiler\u001b[m \u001b[38;5;130mruby\r\n 98 \r\n 99 \u001b[m\r\n\u001b[1m\u001b[7m.vimrc [+]                                                                                                                                    99,0-1         Bot\u001b[38;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.710966,
+      "\u001b[?25l\u001b[m\r\n\r\n14 more lines\u001b[2;38r\u001b[38;1H\r\n\u001b[1;40r\u001b[38;1H\u001b[38;5;130m100 \u001b[m\u001b[34m\" Relative line number toggle\u001b[m\u001b[40;1H\u001b[K\u001b[40;1H14 more lines\u001b[39;143H\u001b[1m\u001b[7m100,1  \u001b[8C82%\u001b[38;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.616294,
+      "\u001b[?25l\u001b[39;143H99,0-1\u001b[37;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.655464,
+      "\u001b[?25l\u001b[m\u001b[34m\" Relative line number toggle\u001b[m\u001b[38;5H\u001b[38;5;130mnnoremap\u001b[m \u001b[35m<C-n>\u001b[m :call NumberToggle()\u001b[35m<cr>\u001b[m\u001b[39;146H\u001b[1m\u001b[7m1   \u001b[9C4%\u001b[37;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.321141,
+      "\u001b[?25l\u001b[39;143H100,1\u001b[38;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.503819,
+      "\u001b[?25l\u001b[2;38r\u001b[m\u001b[38;1H\r\n\u001b[1;40r\u001b[38;1H\u001b[38;5;130m101 \u001b[m\u001b[40;1H\u001b[K\u001b[39;145H\u001b[1m\u001b[7m1,0-1\u001b[9C5%\u001b[38;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.106494,
+      "\u001b[?25l\u001b[2;38r\u001b[m\u001b[38;1H\r\n\u001b[1;40r\u001b[38;1H\u001b[38;5;130m102 \u001b[m\u001b[34m\" PUT FUNCTIONS FROM HERE DOWN\u001b[m\u001b[39;145H\u001b[1m\u001b[7m2,1   \u001b[8C6%\u001b[38;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.064738,
+      "\u001b[?25l\u001b[2;38r\u001b[m\u001b[38;1H\r\n\u001b[1;40r\u001b[38;1H\u001b[38;5;130m103 \u001b[m\u001b[34m\" ----------------------------\u001b[m\u001b[39;145H\u001b[1m\u001b[7m3,\u001b[12C8%\u001b[38;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.087557,
+      "\u001b[?25l\u001b[2;38r\u001b[m\u001b[38;1H\r\n\u001b[1;40r\u001b[38;1H\u001b[38;5;130m104 function\u001b[m! NumberToggle\u001b[35m()\u001b[m\u001b[39;145H\u001b[1m\u001b[7m4,\u001b[12C9%\u001b[38;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.082845,
+      "\u001b[?25l\u001b[2;38r\u001b[m\u001b[38;1H\r\n\u001b[1;40r\u001b[38;1H\u001b[38;5;130m105 \u001b[m  \u001b[38;5;130mif\u001b[m\u001b[35m(\u001b[m&relativenumber \u001b[38;5;130m==\u001b[m \u001b[31m1\u001b[m\u001b[35m)\u001b[m\u001b[39;145H\u001b[1m\u001b[7m5,\u001b[11C90%\u001b[38;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.085536,
+      "\u001b[?25l\u001b[2;38r\u001b[m\u001b[38;1H\r\n\u001b[1;40r\u001b[38;1H\u001b[38;5;130m106 \u001b[m    \u001b[38;5;130mset\u001b[m \u001b[35mnornu\u001b[m\u001b[39;145H\u001b[1m\u001b[7m6,\u001b[12C2%\u001b[38;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.088567,
+      "\u001b[?25l\u001b[2;38r\u001b[m\u001b[38;1H\r\n\u001b[1;40r\u001b[38;1H\u001b[38;5;130m107 \u001b[m  \u001b[38;5;130melse\u001b[m\u001b[39;145H\u001b[1m\u001b[7m7,\u001b[12C3%\u001b[38;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.093064,
+      "\u001b[?25l\u001b[2;38r\u001b[m\u001b[38;1H\r\n\u001b[1;40r\u001b[38;1H\u001b[38;5;130m108 \u001b[m    \u001b[38;5;130mset\u001b[m \u001b[35mrnu\u001b[m\u001b[39;145H\u001b[1m\u001b[7m8,\u001b[12C4%\u001b[38;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.080395,
+      "\u001b[?25l\u001b[2;38r\u001b[m\u001b[38;1H\r\n\u001b[1;40r\u001b[38;1H\u001b[38;5;130m109 \u001b[m  \u001b[38;5;130mendif\u001b[m\u001b[39;145H\u001b[1m\u001b[7m9,\u001b[12C6%\u001b[38;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.084263,
+      "\u001b[?25l\u001b[2;38r\u001b[m\u001b[38;1H\r\n\u001b[1;40r\u001b[38;1H\u001b[38;5;130m110 endfunc\u001b[m\u001b[39;144H\u001b[1m\u001b[7m10,\u001b[12C7%\u001b[38;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.087866,
+      "\u001b[?25l\u001b[2;38r\u001b[m\u001b[38;1H\r\n\u001b[1;40r\u001b[38;1H\u001b[38;5;130m111 \u001b[m\u001b[39;145H\u001b[1m\u001b[7m1,0-1\u001b[9C8%\u001b[38;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.088816,
+      "\u001b[?25l\u001b[2;38r\u001b[m\u001b[38;1H\r\n\u001b[1;40r\u001b[38;1H\u001b[38;5;130m112 \u001b[m\u001b[34m\"\u001b[m \u001b[35mCOMMENT:\u001b[m\u001b[34m save the file ->  :w\u001b[m\u001b[39;145H\u001b[1m\u001b[7m2,1   \u001b[7CBot\u001b[38;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.084856,
+      "\u0007"
+    ],
+    [
+      0.087654,
+      "\u0007"
+    ],
+    [
+      0.085622,
+      "\u0007"
+    ],
+    [
+      0.086068,
+      "\u0007"
+    ],
+    [
+      0.086158,
+      "\u0007"
+    ],
+    [
+      0.640387,
+      "\u001b[?25l\u001b[m\r\u001b[94m~                                                                                                                                                               \u001b[m\u001b[39;145H\u001b[1m\u001b[7m1,0-1\u001b[37;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.8754,
+      "\u0007"
+    ],
+    [
+      0.064077,
+      "\u001b[?25l\r\n\r\n\r\n\u001b[m:\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.246234,
+      "w\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.149635,
+      "\r"
+    ],
+    [
+      0.000402,
+      "\u001b[?25l\".vimrc\""
+    ],
+    [
+      0.002355,
+      " 111L, 3475C written"
+    ],
+    [
+      0.000448,
+      "\u001b[1;2H\u001b[1m.vimrcr\b c\u001b[m\b\u001b[4m\u001b[30m\u001b[47m \u001b[m\u001b[1m \u001b[m\b\u001b[4m\u001b[30m\u001b[47md/w/S/vimrc-004 \u001b[m\u001b[7m  \u001b[132C \u001b[m\u001b[1;160H\u001b[4m\u001b[30m\u001b[47mX\u001b[m\u001b[39;8H\u001b[1m\u001b[7m    "
+    ],
+    [
+      0.000138,
+      "\u001b[37;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      16.516642,
+      "\u0007"
+    ],
+    [
+      1.440564,
+      "\u001b[?25l\u001b[m\u001b[40;1H\u001b[K\u001b[40;1H:\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.432375,
+      "s\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.164833,
+      "o\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.105899,
+      "u"
+    ],
+    [
+      0.001695,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.028663,
+      "r"
+    ],
+    [
+      0.001943,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.221369,
+      "c"
+    ],
+    [
+      0.001581,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.210857,
+      "e\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.132637,
+      "\u001b[?25l \u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.369764,
+      "~"
+    ],
+    [
+      0.001287,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.390415,
+      "/"
+    ],
+    [
+      0.00117,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.614311,
+      "\u001b[?25l\u001b[40;10H\u001b[K"
+    ],
+    [
+      0.001312,
+      "\u001b[40;10H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.559191,
+      "/"
+    ],
+    [
+      0.001286,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.246495,
+      ".\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.592191,
+      "v\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.510435,
+      "i\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.129121,
+      "m"
+    ],
+    [
+      0.001522,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.21205,
+      "r"
+    ],
+    [
+      0.001311,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.215246,
+      "c"
+    ],
+    [
+      0.001294,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.321407,
+      "\r"
+    ],
+    [
+      0.144099,
+      "\u001b[?25l\u001b[27m\u001b[23m\u001b[m\u001b[H\u001b[2J\u001b[1;1H\u001b[1m .vimrc \u001b[m\u001b[4m\u001b[30m\u001b[47m d/w/S/vimrc-004 \u001b[m\u001b[7m                                                                                                                                       \u001b[m\u001b[1;160H\u001b[4m\u001b[30m\u001b[47mX\u001b[m\u001b[2;1H\u001b[38;5;130m 35 \u001b[m  \u001b[38;5;130mfiletype\u001b[m \u001b[32mon\u001b[m\r\n\u001b[38;5;130m 34 \r\n 33 \u001b[m\u001b[34m  \" Languages which are picky about tabs vs. spaces\u001b[m\r\n\u001b[38;5;130m 32 \u001b[m  \u001b[38;5;130mautocmd\u001b[m \u001b[32mFileType\u001b[m make \u001b[38;5;130msetlocal\u001b[m \u001b[35mts\u001b[m=8 \u001b[35msts\u001b[m=8 \u001b[35msw\u001b[m=8 \u001b[35mnoexpandtab\u001b[m\r\n\u001b[38;5;130m 31 \u001b[m  \u001b[38;5;130mautocmd\u001b[m \u001b[32mFileType\u001b[m yaml \u001b[38;5;130msetlocal\u001b[m \u001b[35mts\u001b[m=2 \u001b[35msts\u001b[m=2 \u001b[35msw\u001b[m=2 \u001b[35mexpandtab\u001b[m\r\n\u001b[38;5;130m 30 \r\n 29 \u001b[m\u001b[34m  \" Customization based on house-style (arbitrary)\u001b[m\r\n\u001b[38;5;130m 28 \u001b[m  \u001b[38;5;130mautocmd\u001b[m \u001b[32mFileType\u001b[m html \u001b[38;5;130msetlocal\u001b[m \u001b[35mts\u001b[m=2 \u001b[35msts\u001b[m=2 \u001b[35msw\u001b[m=2 \u001b[35mexpandtab\u001b[m\r\n\u001b[38;5;130m 27 \u001b[m  \u001b[38;5;130mautocmd\u001b[m \u001b[32mFileType\u001b[m css \u001b[38;5;130msetlocal\u001b[m \u001b[35mts\u001b[m=2 \u001b[35ms"
+    ],
+    [
+      0.000143,
+      "ts\u001b[m=2 \u001b[35msw\u001b[m=2 \u001b[35mexpandtab\u001b[m\r\n\u001b[38;5;130m 26 \u001b[m\u001b[34m  \"autocmd FileType javascript setlocal ts=4 sts=4 sw=4 noexpandtab\u001b[m\r\n\u001b[38;5;130m 25 \u001b[m  \u001b[38;5;130mautocmd\u001b[m \u001b[32mFileType\u001b[m perl \u001b[38;5;130msetlocal\u001b[m \u001b[35mts\u001b[m=4 \u001b[35msts\u001b[m=4 \u001b[35msw\u001b[m=4 \u001b[35mnoexpandtab\u001b[m\r\n\u001b[38;5;130m 24 \r\n 23 \u001b[m\u001b[34m  \" Treat .rss files as XML\u001b[m\r\n\u001b[38;5;130m 22 \u001b[m  \u001b[38;5;130mautocmd\u001b[m \u001b[32mBufNewFile\u001b[m,\u001b[32mBufRead\u001b[m *.rss \u001b[38;5;130msetfiletype\u001b[m xml\r\n\u001b[38;5;130m 21 \r\n 20 \u001b[m\u001b[34m  \" Remove trailing whitespace automatically while a file\u001b[m\r\n\u001b[38;5;130m 19 \u001b[m\u001b[34m  \" is saved, for the defined file extensions:\u001b[m\r\n\u001b[38;5;130m 18 \u001b[m  \u001b[38;5;130mautocmd\u001b[m \u001b[32mBufWritePre\u001b[m *.txt,*.rb,*.erb :\u001b[38;5;130mcall\u001b[m \u001b[35m<SID>\u001b[mStripTrailingWhitespaces\u001b[35m()\u001b[m\r\n\u001b[38;5;130m 17 endif\r\n 16 \r\n 15 \u001b[m\u001b[34m\" Turn on ruby compiler for vim\u001b[m\r\n\u001b[38;5;130m 14 autocmd\u001b[m \u001b[32mFileType\u001b[m ruby \u001b[38;5;130mcompiler\u001b[m \u001b[38;5;130mruby\r\n 13 \r\n 12 \u001b[m\u001b[34m\" Relative line number toggle\u001b[m\r\n\u001b[38;5;130m 11 nnoremap"
+    ],
+    [
+      0.002342,
+      "\u001b[m \u001b[35m<C-n>\u001b[m :call NumberToggle()\u001b[35m<cr>\u001b[m\r\n\u001b[38;5;130m 10 \r\n  9 \u001b[m\u001b[34m\" PUT FUNCTIONS FROM HERE DOWN\u001b[m\r\n\u001b[38;5;130m  8 \u001b[m\u001b[34m\" ----------------------------\u001b[m\r\n\u001b[38;5;130m  7 function\u001b[m! NumberToggle\u001b[35m()\u001b[m\r\n\u001b[38;5;130m  6 \u001b[m  \u001b[38;5;130mif\u001b[m\u001b[35m(\u001b[m&relativenumber \u001b[38;5;130m==\u001b[m \u001b[31m1\u001b[m\u001b[35m)\u001b[m\r\n\u001b[38;5;130m  5 \u001b[m    \u001b[38;5;130mset\u001b[m \u001b[35mnornu\u001b[m\r\n\u001b[38;5;130m  4 \u001b[m  \u001b[38;5;130melse\r\n  3 \u001b[m    \u001b[38;5;130mset\u001b[m \u001b[35mrnu\u001b[m\r\n\u001b[38;5;130m  2 \u001b[m  \u001b[38;5;130mendif\r\n  1 endfunc\r\n111 \u001b[m\r\n\u001b[94m~                                                                                                                                                               \u001b[m\u001b[39;1H\u001b[1m\u001b[7m.vimrc                                                                                                                                        111,0-1        Bot\u001b[37;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      2.211811,
+      "\u001b[?25l\r\n\r\n\r\n\u001b[m:call NumberToggle()\r"
+    ],
+    [
+      0.022501,
+      "\u001b[1;160H\u001b[7m \u001b[m\u001b[1;160H\u001b[4m\u001b[30m\u001b[47mX\u001b[m\u001b[2;2H\u001b[38;5;130m76\r\n 77\r\n 78\r\n 79\r\n 80\r\n 81\r\n 82\r\n 83\r\n 84\r\n 85\r\n 86\r\n 87\r\n 88\r\n 89\r\n 90\r\n 91\r\n 92\r\n 93\r\n 94\r\n 95\r\n 96\r\n 97\r\n 98\r\n 99\r\n100\r\n101\r\n102\r\n103\r\n104\r\n105\r\n106\r\n107\r\n108\r\n109\r\n110\r\n111 \u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.065595,
+      "\u001b[?25l\u001b[m\u001b[40;1H\u001b[K\u001b[40;1H:"
+    ],
+    [
+      0.000181,
+      "call NumberToggle()\r"
+    ],
+    [
+      0.016278,
+      "\u001b[1;160H\u001b[7m \u001b[m\u001b[1;160H\u001b[4m\u001b[30m\u001b[47mX\u001b[m\u001b[2;2H\u001b[38;5;130m35\r\n 34\r\n 33\r\n 32\r\n 31\r\n 30\r\n 29\r\n 28\r\n 27\r\n 26\r\n 25\r\n 24\r\n 23\r\n 22\r\n 21\r\n 20\r\n 19\r\n 18\r\n 17\r\n 16\r\n 15\r\n 14\r\n 13\r\n 12\r\n 11\r\n 10\r\n  9\r\n  8\r\n  7\r\n  6\r\n  5\r\n  4\r\n  3\r\n  2\r\n  1\r\n111 \u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.73254,
+      "\u001b[?25l\u001b[m\u001b[40;1H\u001b[K\u001b[40;1H:"
+    ],
+    [
+      0.000217,
+      "call NumberToggle()\r"
+    ],
+    [
+      0.029018,
+      "\u001b[1;160H\u001b[7m \u001b[m\u001b[1;160H\u001b[4m\u001b[30m\u001b[47mX\u001b[m\u001b[2;2H\u001b[38;5;130m76\r\n 77\r\n 78\r\n 79\r\n 80\r\n 81\r\n 82\r\n 83\r\n 84\r\n 85\r\n 86\r\n 87\r\n 88\r\n 89\r\n 90\r\n 91\r\n 92\r\n 93\r\n 94\r\n 95\r\n 96\r\n 97\r\n 98\r\n 99\r\n100\r\n101\r\n102\r\n103\r\n104\r\n105\r\n106\r\n107\r\n108\r\n109\r\n110\r\n111 \u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.8058,
+      "\u001b[?25l\u001b[m\u001b[40;1H\u001b[K\u001b[40;1H:"
+    ],
+    [
+      0.00017,
+      "call NumberToggle()\r"
+    ],
+    [
+      0.03003,
+      "\u001b[1;160H\u001b[7m \u001b[m\u001b[1;160H\u001b[4m\u001b[30m\u001b[47mX\u001b[m\u001b[2;2H\u001b[38;5;130m35\r\n 34\r\n 33\r\n 32\r\n 31\r\n 30\r\n 29\r\n 28\r\n 27\r\n 26\r\n 25\r\n 24\r\n 23\r\n 22\r\n 21\r\n 20\r\n 19\r\n 18\r\n 17\r\n 16\r\n 15\r\n 14\r\n 13\r\n 12\r\n 11\r\n 10\r\n  9\r\n  8\r\n  7\r\n  6\r\n  5\r\n  4\r\n  3\r\n  2\r\n  1\r\n111 \u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.761627,
+      "\u001b[?25l\u001b[m\u001b[40;1H\u001b[K\u001b[40;1H:call NumberToggle()\r"
+    ],
+    [
+      0.016338,
+      "\u001b[1;160H\u001b[7m \u001b[m\u001b[1;160H\u001b[4m\u001b[30m\u001b[47mX\u001b[m\u001b[2;2H\u001b[38;5;130m76\r\n 77\r\n 78\r\n 79\r\n 80\r\n 81\r\n 82\r\n 83\r\n 84\r\n 85\r\n 86\r\n 87\r\n 88\r\n 89\r\n 90\r\n 91\r\n 92\r\n 93\r\n 94\r\n 95\r\n 96\r\n 97\r\n 98\r\n 99\r\n100\r\n101\r\n102\r\n103\r\n104\r\n105\r\n106\r\n107\r\n108\r\n109\r\n110\r\n111 \u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.845324,
+      "\u001b[?25l\u001b[m\u001b[40;1H\u001b[K\u001b[40;1H:call NumberToggle()\r"
+    ],
+    [
+      0.020668,
+      "\u001b[1;160H\u001b[7m \u001b[m\u001b[1;160H\u001b[4m\u001b[30m\u001b[47mX\u001b[m\u001b[2;2H\u001b[38;5;130m35\r\n 34\r\n 33\r\n 32\r\n 31\r\n 30\r\n 29\r\n 28\r\n 27\r\n 26\r\n 25\r\n 24\r\n 23\r\n 22\r\n 21\r\n 20\r\n 19\r\n 18\r\n 17\r\n 16\r\n 15\r\n 14\r\n 13\r\n 12\r\n 11\r\n 10\r\n  9\r\n  8\r\n  7\r\n  6\r\n  5\r\n  4\r\n  3\r\n  2\r\n  1\r\n111 \u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.729783,
+      "\u001b[?25l\u001b[m\u001b[40;1H\u001b[K\u001b[40;1H:call NumberToggle()\r"
+    ],
+    [
+      0.018081,
+      "\u001b[1;160H\u001b[7m \u001b[m\u001b[1;160H\u001b[4m\u001b[30m\u001b[47mX\u001b[m\u001b[2;2H\u001b[38;5;130m76\r\n 77\r\n 78\r\n 79\r\n 80\r\n 81\r\n 82\r\n 83\r\n 84\r\n 85\r\n 86\r\n 87\r\n 88\r\n 89\r\n 90\r\n 91\r\n 92\r\n 93\r\n 94\r\n 95\r\n 96\r\n 97\r\n 98\r\n 99\r\n100\r\n101\r\n102\r\n103\r\n104\r\n105\r\n106\r\n107\r\n108\r\n109\r\n110\r\n111 \u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.786404,
+      "\u001b[?25l\u001b[27m\u001b[23m\u001b[m\u001b[H\u001b[2J\u001b[1;1H\u001b[1m .vimrc \u001b[m\u001b[4m\u001b[30m\u001b[47m d/w/S/vimrc-004 \u001b[m\u001b[7m                                                                                                                                       \u001b[m\u001b[1;160H\u001b[4m\u001b[30m\u001b[47mX\u001b[m\u001b[2;1H\u001b[38;5;130m  1 \u001b[m\u001b[34m\"\u001b[m \u001b[35mAuthor:\u001b[m\u001b[34m       John F. Hogarty\u001b[m\r\n\u001b[38;5;130m  2 \u001b[m\u001b[34m\"\u001b[m \u001b[35mEmail:\u001b[m\u001b[34m        hogihung@gmail.com\u001b[m\r\n\u001b[38;5;130m  3 \u001b[m\u001b[34m\" --------------------------------------\u001b[m\r\n\u001b[38;5;130m  4 set\u001b[m \u001b[35mnocompatible\u001b[m    \u001b[34m\" be iMproved, required\u001b[m\r\n\u001b[38;5;130m  5 filetype\u001b[m \u001b[32moff\u001b[m\u001b[8C\u001b[34m\" required\u001b[m\r\n\u001b[38;5;130m  6 \r\n  7 \u001b[m\u001b[34m\" Set basic setup\u001b[m\r\n\u001b[38;5;130m  8 syntax\u001b[m \u001b[32mon\u001b[m\u001b[20C\u001b[34m\" Enable syntax highlighting\u001b[m\r\n\u001b[38;5;130m  9 set\u001b[m \u001b[35mencoding\u001b[m=utf-8\u001b[11C\u001b[34m\" Add support for Unicode characters (used in listc\u001b[m\u001b[34m\u001b[105mh\u001b[m\u001b[34mars below)\u001b[m\r\n\u001b[38;5;130m 10 set\u001b[m \u001b[35mshell\u001b[m=bash\u001b[15C\u001b[34m\" Can switch to zsh if you use z-shell\u001b[m\r\n\u001b[38;5;130m 11 set\u001b[m \u001b[35mnumber\u001b[m\u001b[19C\u001b"
+    ],
+    [
+      0.000287,
+      "[34m\" Enables line numbering\u001b[m\r\n\u001b[38;5;130m 12 set\u001b[m \u001b[35mt_Co\u001b[m=256\u001b[17C\u001b[34m\" Set terminal colors to 256\u001b[m\r\n\u001b[38;5;130m 13 set\u001b[m \u001b[35mlistchars\u001b[m=tab\u001b[38;5;130m:\u001b[m▸\\ \u001b[38;5;130m,\u001b[meol\u001b[38;5;130m:\u001b[m¬  \u001b[34m\" Use same symbols as TextMate for tabstops and EOL\u001b[m\u001b[34m\u001b[105ms\u001b[m\r\n\u001b[38;5;130m 14 set\u001b[m \u001b[35mlaststatus\u001b[m=2\u001b[13C\u001b[34m\" Display vim status bar\u001b[m\r\n\u001b[38;5;130m 15 set\u001b[m \u001b[35mupdatecount\u001b[m=0\u001b[12C\u001b[34m\" Disable swap files\u001b[m\r\n\u001b[38;5;130m 16 set\u001b[m \u001b[35msplitright\u001b[m\u001b[15C\u001b[34m\" Put new file to right on vertical split\u001b[m\r\n\u001b[38;5;130m 17 set\u001b[m \u001b[35msplitbelow\u001b[m\u001b[15C\u001b[34m\" Put new file to bottom on horizontal split\u001b[m\r\n\u001b[38;5;130m 18 set\u001b[m \u001b[35mrelativenumber\u001b[m\u001b[11C\u001b[34m\" Set relative numbering (set rnu / set nornu)\u001b[m\r\n\u001b[38;5;130m 19 \r\n 20 \r\n 21 \u001b[m\u001b[34m\" Change leader, which defaults as backslash, to the comma key\u001b[m\r\n\u001b[38;5;130m 22 let\u001b[m \u001b[36mmapleader\u001b[m \u001b[38;5;130m=\u001b[m \u001b[31m\",\"\u001b[m\r\n\u001b[38;5;130m 23 \r\n 24 \u001b[m\u001b[34m\" Swap the less used semi-colon for colon\u001b[m\r\n\u001b[38;5;130m 25 nnoremap"
+    ],
+    [
+      0.004814,
+      "\u001b[m ; :\r\n\u001b[38;5;130m 26 \r\n 27 \u001b[m\u001b[34m\" Auto save files when switching focus\u001b[m\r\n\u001b[38;5;130m 28 autocmd\u001b[m \u001b[32mFocusLost\u001b[m * \u001b[38;5;130msilent\u001b[m! \u001b[38;5;130mwall\r\n 29 \r\n 30 \u001b[m\u001b[34m\" Adjusting tab spacing, use softtabs\u001b[m\r\n\u001b[38;5;130m 31 set\u001b[m \u001b[35mtabstop\u001b[m=2\r\n\u001b[38;5;130m 32 set\u001b[m \u001b[35msofttabstop\u001b[m=2\r\n\u001b[38;5;130m 33 set\u001b[m \u001b[35mshiftwidth\u001b[m=2\r\n\u001b[38;5;130m 34 set\u001b[m \u001b[35mexpandtab\u001b[m\r\n\u001b[38;5;130m 35 \r\n 36 \u001b[m\u001b[34m\" Set Vim Explorer to display like NERDTree\u001b[m\r\n\u001b[38;5;130m 37 let\u001b[m \u001b[36mg:netrw_liststyle\u001b[m\u001b[38;5;130m=\u001b[m\u001b[31m3\u001b[m\r\n\u001b[1m\u001b[7m.vimrc                                                                                                                                        1,1            Top\u001b[2;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.800306,
+      "\u001b[?25l\u001b[40;1H\u001b[m:\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.275092,
+      "w\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.084963,
+      "q"
+    ],
+    [
+      0.001257,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.321924,
+      "\r"
+    ],
+    [
+      0.000402,
+      "\u001b[?25l\".vimrc\""
+    ],
+    [
+      0.005085,
+      " 111L, 3475C written"
+    ],
+    [
+      0.006561,
+      "\u001b[27m\u001b[23m\u001b[m\u001b[H\u001b[2J\u001b[1;1H\u001b[38;5;130m  1 \u001b[m\u001b[34m\" Relative line number toggle\u001b[m\r\n\u001b[38;5;130m  2 nnoremap\u001b[m \u001b[35m<C-n>\u001b[m :call NumberToggle()\u001b[35m<cr>\u001b[m\r\n\u001b[38;5;130m  3 \r\n  4 \u001b[m\u001b[34m\" PUT FUNCTIONS FROM HERE DOWN\u001b[m\r\n\u001b[38;5;130m  5 \u001b[m\u001b[34m\" ----------------------------\u001b[m\r\n\u001b[38;5;130m  6 function\u001b[m! NumberToggle\u001b[35m()\u001b[m\r\n\u001b[38;5;130m  7 \u001b[m  \u001b[38;5;130mif\u001b[m\u001b[35m(\u001b[m&relativenumber \u001b[38;5;130m==\u001b[m \u001b[31m1\u001b[m\u001b[35m)\u001b[m\r\n\u001b[38;5;130m  8 \u001b[m    \u001b[38;5;130mset\u001b[m \u001b[35mnornu\u001b[m\r\n\u001b[38;5;130m  9 \u001b[m  \u001b[38;5;130melse\r\n 10 \u001b[m    \u001b[38;5;130mset\u001b[m \u001b[35mrnu\u001b[m\r\n\u001b[38;5;130m 11 \u001b[m  \u001b[38;5;130mendif\r\n 12 endfunc\r\n 13 \r\n 14 \u001b[m\u001b[34m\"\u001b[m \u001b[35m\u001b[103mCOMMENT\u001b[m\u001b[35m:\u001b[m\u001b[34m save the file ->  :w\u001b[m\r\n\u001b[94m~                                                                                                                                                               \u001b[16;1H~                                                                                                                                                        "
+    ],
+    [
+      0.00015,
+      "       \u001b[17;1H~                                                                                                                                                               \u001b[18;1H~                                                                                                                                                               \u001b[19;1H~                                                                                                                                                               \u001b[20;1H~                                                                                                                                                               \u001b[21;1H~                                                                                                                                                               \u001b[22;1H~                                                                                                                                                               "
+    ],
+    [
+      0.000301,
+      "\u001b[23;1H~                                                                                                                                                               \u001b[24;1H~                                                                                                                                                               \u001b[25;1H~                                                                                                                                                               \u001b[26;1H~                                                                                                                                                               \u001b[27;1H~                                                                                                                                                               \u001b[28;1H~                                                                                                                                                               \u001b[29;1H~              "
+    ],
+    [
+      0.000136,
+      "                                                                                                                                                 \u001b[30;1H~                                                                                                                                                               \u001b[31;1H~                                                                                                                                                               \u001b[32;1H~                                                                                                                                                               \u001b[33;1H~                                                                                                                                                               \u001b[34;1H~                                                                                                                                                               \u001b[35;1H~                                   "
+    ],
+    [
+      0.000264,
+      "                                                                                                                            \u001b[36;1H~                                                                                                                                                               \u001b[37;1H~                                                                                                                                                               \u001b[38;1H~                                                                                                                                                               \u001b[m\u001b[39;1H\u001b[1m\u001b[7mdocker-vim-demo/workshop/STEP-FOUR/vimrc-004                                                                                                  1,1            All\u001b[1;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.602781,
+      "\u001b[?25l\u001b[40;1H\u001b[m:\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.174673,
+      "q\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.200401,
+      "\r"
+    ],
+    [
+      0.001725,
+      "\u001b[?25l"
+    ],
+    [
+      0.105083,
+      "\u001b[40;1H\u001b[K\u001b[40;1H\u001b[?1l\u001b>"
+    ],
+    [
+      8.2e-05,
+      "\u001b[?12l\u001b[?25h\u001b[?1049l"
+    ],
+    [
+      0.007934,
+      "\u001b]0;jfhogarty@workshop-one: ~\u0007\u001b[01;32mjfhogarty@workshop-one\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      0.748612,
+      "e"
+    ],
+    [
+      0.175022,
+      "x"
+    ],
+    [
+      0.160276,
+      "i"
+    ],
+    [
+      0.087887,
+      "t"
+    ],
+    [
+      0.183765,
+      "\r\n"
+    ],
+    [
+      0.000268,
+      "exit"
+    ],
+    [
+      0.000216,
+      "\r\n"
+    ]
+  ]
+}
