@@ -1,0 +1,850 @@
+{
+  "version": 1,
+  "width": 139,
+  "height": 36,
+  "duration": 31.279628,
+  "command": null,
+  "title": "Vim Config - Add Vundle",
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.07415,
+      "\u001b]0;jfhogarty@workshop-one: ~\u0007\u001b[01;32mjfhogarty@workshop-one\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      7.796568,
+      "c"
+    ],
+    [
+      0.183063,
+      "d"
+    ],
+    [
+      0.065259,
+      " "
+    ],
+    [
+      0.697547,
+      "~"
+    ],
+    [
+      0.308037,
+      "\r\n\u001b]0;jfhogarty@workshop-one: ~\u0007\u001b[01;32mjfhogarty@workshop-one\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      1.188926,
+      "m"
+    ],
+    [
+      0.405274,
+      "k"
+    ],
+    [
+      0.514323,
+      "d"
+    ],
+    [
+      0.133225,
+      "i"
+    ],
+    [
+      0.119774,
+      "r"
+    ],
+    [
+      0.458916,
+      " "
+    ],
+    [
+      0.214084,
+      "-"
+    ],
+    [
+      0.266068,
+      "p"
+    ],
+    [
+      0.767237,
+      " "
+    ],
+    [
+      0.309442,
+      "."
+    ],
+    [
+      0.259436,
+      "v"
+    ],
+    [
+      0.124997,
+      "i"
+    ],
+    [
+      0.13888,
+      "m"
+    ],
+    [
+      0.237892,
+      "/"
+    ],
+    [
+      2.649757,
+      "b"
+    ],
+    [
+      0.109768,
+      "u"
+    ],
+    [
+      0.1998,
+      "n"
+    ],
+    [
+      0.113508,
+      "d"
+    ],
+    [
+      0.135357,
+      "l"
+    ],
+    [
+      0.079415,
+      "e"
+    ],
+    [
+      0.745957,
+      "\r\n"
+    ],
+    [
+      0.001003,
+      "\u001b]0;jfhogarty@workshop-one: ~\u0007\u001b[01;32mjfhogarty@workshop-one\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      7.762033,
+      "git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim"
+    ],
+    [
+      0.96688,
+      "\r\n"
+    ],
+    [
+      0.003726,
+      "Cloning into '/home/jfhogarty/.vim/bundle/Vundle.vim'..."
+    ],
+    [
+      0.000148,
+      "\r\n"
+    ],
+    [
+      1.431038,
+      "remote: Counting objects: 3136, done.\u001b[K"
+    ],
+    [
+      0.000145,
+      "\r\n"
+    ],
+    [
+      0.005021,
+      "Receiving objects:   0% (1/3136)   \r"
+    ],
+    [
+      0.001337,
+      "Receiving objects:   1% (32/3136)   \r"
+    ],
+    [
+      0.00115,
+      "Receiving objects:   2% (63/3136)   \r"
+    ],
+    [
+      0.001535,
+      "Receiving objects:   3% (95/3136)   \r"
+    ],
+    [
+      0.000932,
+      "Receiving objects:   4% (126/3136)   \r"
+    ],
+    [
+      0.001218,
+      "Receiving objects:   5% (157/3136)   \r"
+    ],
+    [
+      0.001746,
+      "Receiving objects:   6% (189/3136)   \r"
+    ],
+    [
+      0.010725,
+      "Receiving objects:   7% (220/3136)   \r"
+    ],
+    [
+      0.004583,
+      "Receiving objects:   8% (251/3136)   \r"
+    ],
+    [
+      0.001208,
+      "Receiving objects:   9% (283/3136)   \r"
+    ],
+    [
+      0.001065,
+      "Receiving objects:  10% (314/3136)   \r"
+    ],
+    [
+      0.001085,
+      "Receiving objects:  11% (345/3136)   \r"
+    ],
+    [
+      0.001049,
+      "Receiving objects:  12% (377/3136)   \r"
+    ],
+    [
+      0.00096,
+      "Receiving objects:  13% (408/3136)   \r"
+    ],
+    [
+      0.000932,
+      "Receiving objects:  14% (440/3136)   \r"
+    ],
+    [
+      0.001762,
+      "Receiving objects:  15% (471/3136)   \r"
+    ],
+    [
+      0.001271,
+      "Receiving objects:  16% (502/3136)   \r"
+    ],
+    [
+      0.000895,
+      "Receiving objects:  17% (534/3136)   \r"
+    ],
+    [
+      0.003637,
+      "Receiving objects:  18% (565/3136)   \r"
+    ],
+    [
+      0.002495,
+      "Receiving objects:  19% (596/3136)   \r"
+    ],
+    [
+      0.001041,
+      "Receiving objects:  20% (628/3136)   \r"
+    ],
+    [
+      0.001123,
+      "Receiving objects:  21% (659/3136)   \r"
+    ],
+    [
+      0.000897,
+      "Receiving objects:  22% (690/3136)   \r"
+    ],
+    [
+      0.00516,
+      "Receiving objects:  23% (722/3136)   \r"
+    ],
+    [
+      0.003946,
+      "Receiving objects:  24% (753/3136)   \r"
+    ],
+    [
+      0.002036,
+      "Receiving objects:  25% (784/3136)   \r"
+    ],
+    [
+      0.000953,
+      "Receiving objects:  26% (816/3136)   \r"
+    ],
+    [
+      0.000828,
+      "Receiving objects:  27% (847/3136)   \r"
+    ],
+    [
+      0.001258,
+      "Receiving objects:  28% (879/3136)   \r"
+    ],
+    [
+      0.000578,
+      "Receiving objects:  29% (910/3136)   \r"
+    ],
+    [
+      0.001644,
+      "Receiving objects:  30% (941/3136)   \r"
+    ],
+    [
+      0.021953,
+      "Receiving objects:  31% (973/3136)   \r"
+    ],
+    [
+      0.137953,
+      "Receiving objects:  32% (1004/3136)   \r"
+    ],
+    [
+      0.001534,
+      "Receiving objects:  33% (1035/3136)   \r"
+    ],
+    [
+      0.001288,
+      "Receiving objects:  34% (1067/3136)   \r"
+    ],
+    [
+      0.001271,
+      "Receiving objects:  35% (1098/3136)   \r"
+    ],
+    [
+      0.001082,
+      "Receiving objects:  36% (1129/3136)   \r"
+    ],
+    [
+      0.000625,
+      "Receiving objects:  37% (1161/3136)   \r"
+    ],
+    [
+      0.001216,
+      "Receiving objects:  38% (1192/3136)   \r"
+    ],
+    [
+      0.001758,
+      "Receiving objects:  39% (1224/3136)   \r"
+    ],
+    [
+      0.000651,
+      "Receiving objects:  40% (1255/3136)   \r"
+    ],
+    [
+      0.001027,
+      "Receiving objects:  41% (1286/3136)   \r"
+    ],
+    [
+      0.00081,
+      "Receiving objects:  42% (1318/3136)   \r"
+    ],
+    [
+      0.000747,
+      "Receiving objects:  43% (1349/3136)   \r"
+    ],
+    [
+      0.000951,
+      "Receiving objects:  44% (1380/3136)   \r"
+    ],
+    [
+      0.000797,
+      "Receiving objects:  45% (1412/3136)   \r"
+    ],
+    [
+      0.00052,
+      "Receiving objects:  46% (1443/3136)   \r"
+    ],
+    [
+      0.000472,
+      "Receiving objects:  47% (1474/3136)   \r"
+    ],
+    [
+      0.000795,
+      "Receiving objects:  48% (1506/3136)   \r"
+    ],
+    [
+      0.000497,
+      "Receiving objects:  49% (1537/3136)   \r"
+    ],
+    [
+      0.000473,
+      "Receiving objects:  50% (1568/3136)   \r"
+    ],
+    [
+      0.000886,
+      "Receiving objects:  51% (1600/3136)   \r"
+    ],
+    [
+      0.000635,
+      "Receiving objects:  52% (1631/3136)   \r"
+    ],
+    [
+      0.001829,
+      "Receiving objects:  53% (1663/3136)   \r"
+    ],
+    [
+      0.000651,
+      "Receiving objects:  54% (1694/3136)   \r"
+    ],
+    [
+      0.000716,
+      "Receiving objects:  55% (1725/3136)   \r"
+    ],
+    [
+      0.001393,
+      "Receiving objects:  56% (1757/3136)   \r"
+    ],
+    [
+      0.00744,
+      "Receiving objects:  57% (1788/3136)   \r"
+    ],
+    [
+      0.001158,
+      "Receiving objects:  58% (1819/3136)   \r"
+    ],
+    [
+      0.000393,
+      "Receiving objects:  59% (1851/3136)   \r"
+    ],
+    [
+      0.000555,
+      "Receiving objects:  60% (1882/3136)   \r"
+    ],
+    [
+      0.000717,
+      "Receiving objects:  61% (1913/3136)   \r"
+    ],
+    [
+      0.000696,
+      "Receiving objects:  62% (1945/3136)   \r"
+    ],
+    [
+      0.000783,
+      "Receiving objects:  63% (1976/3136)   \r"
+    ],
+    [
+      0.000443,
+      "Receiving objects:  64% (2008/3136)   \r"
+    ],
+    [
+      0.00046,
+      "Receiving objects:  65% (2039/3136)   \r"
+    ],
+    [
+      0.001462,
+      "Receiving objects:  66% (2070/3136)   \r"
+    ],
+    [
+      0.001015,
+      "Receiving objects:  67% (2102/3136)   \r"
+    ],
+    [
+      0.000462,
+      "Receiving objects:  68% (2133/3136)   \r"
+    ],
+    [
+      0.000921,
+      "Receiving objects:  69% (2164/3136)   \r"
+    ],
+    [
+      0.000714,
+      "Receiving objects:  70% (2196/3136)   \r"
+    ],
+    [
+      0.000573,
+      "Receiving objects:  71% (2227/3136)   \r"
+    ],
+    [
+      0.000505,
+      "Receiving objects:  72% (2258/3136)   \r"
+    ],
+    [
+      0.000546,
+      "Receiving objects:  73% (2290/3136)   \r"
+    ],
+    [
+      0.000792,
+      "Receiving objects:  74% (2321/3136)   \r"
+    ],
+    [
+      0.000904,
+      "Receiving objects:  75% (2352/3136)   \r"
+    ],
+    [
+      0.000417,
+      "Receiving objects:  76% (2384/3136)   \r"
+    ],
+    [
+      0.000677,
+      "Receiving objects:  77% (2415/3136)   \r"
+    ],
+    [
+      0.000889,
+      "Receiving objects:  78% (2447/3136)   \r"
+    ],
+    [
+      0.000555,
+      "Receiving objects:  79% (2478/3136)   \r"
+    ],
+    [
+      0.000493,
+      "Receiving objects:  80% (2509/3136)   \r"
+    ],
+    [
+      0.000653,
+      "Receiving objects:  81% (2541/3136)   \r"
+    ],
+    [
+      0.000656,
+      "Receiving objects:  82% (2572/3136)   \r"
+    ],
+    [
+      0.000407,
+      "Receiving objects:  83% (2603/3136)   \r"
+    ],
+    [
+      0.00045,
+      "remote: Total 3136 (delta 0), reused 0 (delta 0), pack-reused 3135\u001b[K"
+    ],
+    [
+      0.000329,
+      "\r\n"
+    ],
+    [
+      0.000432,
+      "Receiving objects:  84% (2635/3136)   \r"
+    ],
+    [
+      0.000643,
+      "Receiving objects:  85% (2666/3136)   \r"
+    ],
+    [
+      0.000559,
+      "Receiving objects:  86% (2697/3136)   \r"
+    ],
+    [
+      0.000482,
+      "Receiving objects:  87% (2729/3136)   \r"
+    ],
+    [
+      0.000815,
+      "Receiving objects:  88% (2760/3136)   \r"
+    ],
+    [
+      0.00059,
+      "Receiving objects:  89% (2792/3136)   \r"
+    ],
+    [
+      0.0006,
+      "Receiving objects:  90% (2823/3136)   \r"
+    ],
+    [
+      0.000599,
+      "Receiving objects:  91% (2854/3136)   \r"
+    ],
+    [
+      0.000761,
+      "Receiving objects:  92% (2886/3136)   \r"
+    ],
+    [
+      0.00079,
+      "Receiving objects:  93% (2917/3136)   \r"
+    ],
+    [
+      0.000874,
+      "Receiving objects:  94% (2948/3136)   \r"
+    ],
+    [
+      0.000633,
+      "Receiving objects:  95% (2980/3136)   \r"
+    ],
+    [
+      0.000473,
+      "Receiving objects:  96% (3011/3136)   \r"
+    ],
+    [
+      0.000925,
+      "Receiving objects:  97% (3042/3136)   \r"
+    ],
+    [
+      0.000576,
+      "Receiving objects:  98% (3074/3136)   \r"
+    ],
+    [
+      0.0005,
+      "Receiving objects:  99% (3105/3136)   \r"
+    ],
+    [
+      0.001532,
+      "Receiving objects: 100% (3136/3136)   \r"
+    ],
+    [
+      0.000242,
+      "Receiving objects: 100% (3136/3136), 933.43 KiB | 3.25 MiB/s, done."
+    ],
+    [
+      6e-05,
+      "\r\n"
+    ],
+    [
+      0.000697,
+      "Resolving deltas:   0% (0/1105)   \r"
+    ],
+    [
+      0.002497,
+      "Resolving deltas:   2% (26/1105)   \r"
+    ],
+    [
+      0.001227,
+      "Resolving deltas:   3% (37/1105)   \r"
+    ],
+    [
+      0.002004,
+      "Resolving deltas:   4% (51/1105)   \r"
+    ],
+    [
+      0.002855,
+      "Resolving deltas:   5% (65/1105)   \r"
+    ],
+    [
+      0.000371,
+      "Resolving deltas:   6% (71/1105)   \r"
+    ],
+    [
+      0.001132,
+      "Resolving deltas:   7% (83/1105)   \r"
+    ],
+    [
+      0.002259,
+      "Resolving deltas:   9% (108/1105)   \r"
+    ],
+    [
+      0.004153,
+      "Resolving deltas:  16% (177/1105)   \r"
+    ],
+    [
+      0.001216,
+      "Resolving deltas:  19% (214/1105)   \r"
+    ],
+    [
+      0.004892,
+      "Resolving deltas:  26% (295/1105)   \r"
+    ],
+    [
+      0.000399,
+      "Resolving deltas:  27% (300/1105)   \r"
+    ],
+    [
+      0.002809,
+      "Resolving deltas:  33% (371/1105)   \r"
+    ],
+    [
+      0.001262,
+      "Resolving deltas:  35% (392/1105)   \r"
+    ],
+    [
+      0.001298,
+      "Resolving deltas:  36% (404/1105)   \r"
+    ],
+    [
+      0.00106,
+      "Resolving deltas:  37% (412/1105)   \r"
+    ],
+    [
+      0.000371,
+      "Resolving deltas:  38% (420/1105)   \r"
+    ],
+    [
+      0.000586,
+      "Resolving deltas:  39% (437/1105)   \r"
+    ],
+    [
+      0.000912,
+      "Resolving deltas:  41% (454/1105)   \r"
+    ],
+    [
+      0.000443,
+      "Resolving deltas:  42% (470/1105)   \r"
+    ],
+    [
+      0.000672,
+      "Resolving deltas:  43% (477/1105)   \r"
+    ],
+    [
+      0.002939,
+      "Resolving deltas:  44% (492/1105)   \r"
+    ],
+    [
+      0.000282,
+      "Resolving deltas:  45% (504/1105)   \r"
+    ],
+    [
+      0.001879,
+      "Resolving deltas:  47% (526/1105)   \r"
+    ],
+    [
+      0.000764,
+      "Resolving deltas:  48% (538/1105)   \r"
+    ],
+    [
+      0.00178,
+      "Resolving deltas:  52% (580/1105)   \r"
+    ],
+    [
+      0.007561,
+      "Resolving deltas:  53% (594/1105)   \r"
+    ],
+    [
+      0.000851,
+      "Resolving deltas:  54% (597/1105)   \r"
+    ],
+    [
+      0.000457,
+      "Resolving deltas:  56% (625/1105)   \r"
+    ],
+    [
+      0.000491,
+      "Resolving deltas:  57% (640/1105)   \r"
+    ],
+    [
+      0.000171,
+      "Resolving deltas:  58% (646/1105)   \r"
+    ],
+    [
+      0.000215,
+      "Resolving deltas:  59% (655/1105)   \r"
+    ],
+    [
+      0.000578,
+      "Resolving deltas:  60% (670/1105)   \r"
+    ],
+    [
+      0.000847,
+      "Resolving deltas:  62% (689/1105)   \r"
+    ],
+    [
+      0.000265,
+      "Resolving deltas:  63% (699/1105)   \r"
+    ],
+    [
+      0.003366,
+      "Resolving deltas:  66% (733/1105)   \r"
+    ],
+    [
+      0.000756,
+      "Resolving deltas:  67% (746/1105)   \r"
+    ],
+    [
+      0.002833,
+      "Resolving deltas:  73% (810/1105)   \r"
+    ],
+    [
+      0.000408,
+      "Resolving deltas:  74% (818/1105)   \r"
+    ],
+    [
+      0.000805,
+      "Resolving deltas:  75% (832/1105)   \r"
+    ],
+    [
+      0.000557,
+      "Resolving deltas:  77% (851/1105)   \r"
+    ],
+    [
+      0.000376,
+      "Resolving deltas:  78% (863/1105)   \r"
+    ],
+    [
+      0.000382,
+      "Resolving deltas:  79% (875/1105)   \r"
+    ],
+    [
+      0.000637,
+      "Resolving deltas:  80% (884/1105)   \r"
+    ],
+    [
+      0.000545,
+      "Resolving deltas:  81% (897/1105)   \r"
+    ],
+    [
+      0.00037,
+      "Resolving deltas:  82% (907/1105)   \r"
+    ],
+    [
+      0.000403,
+      "Resolving deltas:  83% (919/1105)   \r"
+    ],
+    [
+      0.000507,
+      "Resolving deltas:  84% (938/1105)   \r"
+    ],
+    [
+      0.000123,
+      "Resolving deltas:  85% (940/1105)   \r"
+    ],
+    [
+      0.000999,
+      "Resolving deltas:  87% (965/1105)   \r"
+    ],
+    [
+      0.00041,
+      "Resolving deltas:  88% (980/1105)   \r"
+    ],
+    [
+      0.000398,
+      "Resolving deltas:  89% (984/1105)   \r"
+    ],
+    [
+      0.000529,
+      "Resolving deltas:  91% (1012/1105)   \r"
+    ],
+    [
+      0.000837,
+      "Resolving deltas:  93% (1033/1105)   \r"
+    ],
+    [
+      0.000387,
+      "Resolving deltas:  94% (1042/1105)   \r"
+    ],
+    [
+      0.000705,
+      "Resolving deltas:  96% (1061/1105)   \r"
+    ],
+    [
+      0.000541,
+      "Resolving deltas:  97% (1072/1105)   \r"
+    ],
+    [
+      0.000878,
+      "Resolving deltas:  98% (1091/1105)   \r"
+    ],
+    [
+      0.000171,
+      "Resolving deltas:  99% (1094/1105)   \r"
+    ],
+    [
+      0.000598,
+      "Resolving deltas: 100% (1105/1105)   \r"
+    ],
+    [
+      0.000132,
+      "Resolving deltas: 100% (1105/1105), done."
+    ],
+    [
+      0.000162,
+      "\r\n"
+    ],
+    [
+      0.065426,
+      "\u001b]0;jfhogarty@workshop-one: ~\u0007\u001b[01;32mjfhogarty@workshop-one\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      1.627825,
+      "e"
+    ],
+    [
+      0.186117,
+      "x"
+    ],
+    [
+      0.177469,
+      "i"
+    ],
+    [
+      0.120366,
+      "t"
+    ],
+    [
+      0.282118,
+      "\r\n"
+    ],
+    [
+      0.000419,
+      "exit"
+    ],
+    [
+      0.000101,
+      "\r\n"
+    ]
+  ]
+}

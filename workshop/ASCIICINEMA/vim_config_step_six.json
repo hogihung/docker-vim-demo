@@ -1,0 +1,1150 @@
+{
+  "version": 1,
+  "width": 139,
+  "height": 36,
+  "duration": 67.637064,
+  "command": null,
+  "title": "Vim Config - Step Six",
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.049156,
+      "\u001b]0;jfhogarty@workshop-one: ~\u0007\u001b[01;32mjfhogarty@workshop-one\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      7.721864,
+      "vim .vimrc docker-vim-demo/workshop/STEP-SIX/vimrc-006"
+    ],
+    [
+      0.938976,
+      "\r\n"
+    ],
+    [
+      0.010249,
+      "2 files to edit"
+    ],
+    [
+      0.000228,
+      "\r\n"
+    ],
+    [
+      0.096272,
+      "\u001b[?1049h\u001b[?1h\u001b="
+    ],
+    [
+      0.000189,
+      "\u001b[2;1H▽\u001b[6n"
+    ],
+    [
+      9.3e-05,
+      "\u001b[2;1H  \u001b[1;1H"
+    ],
+    [
+      0.001252,
+      "\u001b]11;?\u0007"
+    ],
+    [
+      0.002532,
+      "\u001b[1;36r\u001b[?12;25h\u001b[?12l\u001b[?25h\u001b[27m\u001b[23m\u001b[m\u001b[H\u001b[2J\u001b[?25l\u001b[36;1H\".vimrc\""
+    ],
+    [
+      0.000347,
+      " 167L, 4983C"
+    ],
+    [
+      0.019993,
+      "\u001b[>c"
+    ],
+    [
+      0.019203,
+      "\u001b[1;1H\u001b[38;5;130m1   \u001b[m\u001b[34m\"\u001b[m \u001b[35mAuthor:\u001b[m\u001b[34m       John F. Hogarty\u001b[m\r\n\u001b[38;5;130m  1 \u001b[m\u001b[34m\"\u001b[m \u001b[35mEmail:\u001b[m\u001b[34m        hogihung@gmail.com\u001b[m\r\n\u001b[38;5;130m  2 \u001b[m\u001b[34m\" --------------------------------------\u001b[m\r\n\u001b[38;5;130m  3 set\u001b[m \u001b[35mnocompatible\u001b[m    \u001b[34m\" be iMproved, required\u001b[m\r\n\u001b[38;5;130m  4 filetype\u001b[m \u001b[32moff\u001b[m\u001b[8C\u001b[34m\" required\u001b[m\r\n\u001b[38;5;130m  5 \r\n  6 \u001b[m\u001b[34m\" Set basic setup\u001b[m\r\n\u001b[38;5;130m  7 syntax\u001b[m \u001b[32mon\u001b[m\u001b[20C\u001b[34m\" Enable syntax highlighting\u001b[m\r\n\u001b[38;5;130m  8 set\u001b[m \u001b[35mencoding\u001b[m=utf-8\u001b[11C\u001b[34m\" Add support for Unicode characters (used in listc\u001b[m\u001b[34m\u001b[105mh\u001b[m\u001b[34mars below)\u001b[m\r\n\u001b[38;5;130m  9 set\u001b[m \u001b[35mshell\u001b[m=bash\u001b[15C\u001b[34m\" Can switch to zsh if you use z-shell\u001b[m\r\n\u001b[38;5;130m 10 set\u001b[m \u001b[35mnumber\u001b[m\u001b[19C\u001b[34m\" Enables line numbering\u001b[m\r\n\u001b[38;5;130m 11 set\u001b[m \u001b[35mt_Co\u001b[m=256\u001b[17C\u001b[34m\" Set terminal colors to 256\u001b[m\r\n\u001b[38;5;130m 12 set\u001b[m \u001b[35mlistchars\u001b[m=tab\u001b[38;5;130m:\u001b[m▸\\ \u001b[38;5;130m,\u001b[meol\u001b[38;5;130m:\u001b[m¬  \u001b[34m\" Use same symbols as TextMate"
+    ],
+    [
+      0.000138,
+      " for tabstops and EOL\u001b[m\u001b[34m\u001b[105ms\u001b[m\r\n\u001b[38;5;130m 13 set\u001b[m \u001b[35mlaststatus\u001b[m=2\u001b[13C\u001b[34m\" Display vim status bar\u001b[m\r\n\u001b[38;5;130m 14 set\u001b[m \u001b[35mupdatecount\u001b[m=0\u001b[12C\u001b[34m\" Disable swap files\u001b[m\r\n\u001b[38;5;130m 15 set\u001b[m \u001b[35msplitright\u001b[m\u001b[15C\u001b[34m\" Put new file to right on vertical split\u001b[m\r\n\u001b[38;5;130m 16 set\u001b[m \u001b[35msplitbelow\u001b[m\u001b[15C\u001b[34m\" Put new file to bottom on horizontal split\u001b[m\r\n\u001b[38;5;130m 17 set\u001b[m \u001b[35mrelativenumber\u001b[m\u001b[11C\u001b[34m\" Set relative numbering (set rnu / set nornu)\u001b[m\r\n\u001b[38;5;130m 18 \r\n 19 \r\n 20 \u001b[m\u001b[34m\" Change leader, which defaults as backslash, to the comma key\u001b[m\r\n\u001b[38;5;130m 21 let\u001b[m \u001b[36mmapleader\u001b[m \u001b[38;5;130m=\u001b[m \u001b[31m\",\"\u001b[m\r\n\u001b[38;5;130m 22 \r\n 23 \u001b[m\u001b[34m\" Swap the less used semi-colon for colon\u001b[m\r\n\u001b[38;5;130m 24 nnoremap\u001b[m ; :\r\n\u001b[38;5;130m 25 \r\n 26 \u001b[m\u001b[34m\" Auto save files when switching focus\u001b[m\r\n\u001b[38;5;130m 27 autocmd\u001b[m \u001b[32mFocusLost\u001b[m * \u001b[38;5;130msilent\u001b[m! \u001b[38;5;130mwall\r\n 28 \r\n 29 \u001b[m\u001b[34m\" Adjusting tab spacing, use softtabs\u001b[m\r\n\u001b[38;5;130m 30 set"
+    ],
+    [
+      0.001381,
+      "\u001b[m \u001b[35mtabstop\u001b[m=2\r\n\u001b[38;5;130m 31 set\u001b[m \u001b[35msofttabstop\u001b[m=2\r\n\u001b[38;5;130m 32 set\u001b[m \u001b[35mshiftwidth\u001b[m=2\r\n\u001b[38;5;130m 33 set\u001b[m \u001b[35mexpandtab\u001b[m\r\n\u001b[1m\u001b[7m.vimrc                                                                                                                   1,1            Top\u001b[1;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.431957,
+      "\u001b[?25l\u001b[m\u001b[36;1H\u001b[K\u001b[36;1H:\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.494502,
+      "a\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.424496,
+      "\u001b[?25l\u001b[36;2H\u001b[K"
+    ],
+    [
+      0.001395,
+      "\u001b[36;2H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.046751,
+      "t"
+    ],
+    [
+      0.001254,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.108122,
+      "a"
+    ],
+    [
+      0.001297,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.151315,
+      "b"
+    ],
+    [
+      0.001276,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.167083,
+      "e"
+    ],
+    [
+      0.001236,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.304982,
+      "\r"
+    ],
+    [
+      0.001161,
+      "\u001b[?25l\u001b[27m\u001b[23m\u001b[m\u001b[H\u001b[2J\u001b[1;1H\u001b[4m\u001b[30m\u001b[47m .vimrc \u001b[m\u001b[1m [No Name] \u001b[m\u001b[7m                                                                                                                        \u001b[m\u001b[1;139H\u001b[4m\u001b[30m\u001b[47mX\u001b[m\u001b[2;1H\u001b[38;5;130m1   \u001b[m\r\n\u001b[94m~                                                                                                                                          \u001b[4;1H~                                                                                                                                          \u001b[5;1H~                                                                                                                                          \u001b[6;1H~                                                                                                                                          \u001b[7;1H~                                                                                                                                          \u001b[8;1H~                                       "
+    ],
+    [
+      0.000148,
+      "                                                                                                   \u001b[9;1H~                                                                                                                                          \u001b[10;1H~                                                                                                                                          \u001b[11;1H~                                                                                                                                          \u001b[12;1H~                                                                                                                                          \u001b[13;1H~                                                                                                                                          \u001b[14;1H~                                                                                                                                          \u001b[15;1H~                                         "
+    ],
+    [
+      0.000204,
+      "                                                                                                 \u001b[16;1H~                                                                                                                                          \u001b[17;1H~                                                                                                                                          \u001b[18;1H~                                                                                                                                          \u001b[19;1H~                                                                                                                                          \u001b[20;1H~                                                                                                                                          \u001b[21;1H~                                                                                                                                          \u001b[22;1H~                                           "
+    ],
+    [
+      0.000115,
+      "                                                                                               \u001b[23;1H~                                                                                                                                          \u001b[24;1H~                                                                                                                                          \u001b[25;1H~                                                                                                                                          \u001b[26;1H~                                                                                                                                          \u001b[27;1H~                                                                                                                                          \u001b[28;1H~                                                                                                                                          \u001b[29;1H~                                            "
+    ],
+    [
+      0.000209,
+      "                                                                                              \u001b[30;1H~                                                                                                                                          \u001b[31;1H~                                                                                                                                          \u001b[32;1H~                                                                                                                                          \u001b[33;1H~                                                                                                                                          \u001b[34;1H~                                                                                                                                          \u001b[m\u001b[35;1H\u001b[1m\u001b[7m[No Name]                                                                                                                0,0-1          All\u001b[2;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.390603,
+      "\u001b[?25l\u001b[36;1H\u001b[m:\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.213313,
+      "l"
+    ],
+    [
+      0.001505,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.102203,
+      "s"
+    ],
+    [
+      0.001495,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.142251,
+      "\r"
+    ],
+    [
+      0.000269,
+      "\u001b[?25l\r\n  1 #a   \".vimrc\"\u001b[23Cline 0"
+    ],
+    [
+      0.000145,
+      "\r\r\n  2      \"docker-vim-demo/workshop/STEP-SIX/vimrc-006\" line 0"
+    ],
+    [
+      0.000157,
+      "\r\r\n  3 %a   \"[No Name]\"\u001b[20Cline 1"
+    ],
+    [
+      0.000711,
+      "\r\r\n\u001b[32mPress ENTER or type command to continue\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.398354,
+      "\u001b[?25l\u001b[m\u001b[36;1H\u001b[K\u001b[36;1H:"
+    ],
+    [
+      0.000174,
+      "\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.248339,
+      "b"
+    ],
+    [
+      0.001291,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.943121,
+      "2"
+    ],
+    [
+      0.001267,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.196613,
+      "\r"
+    ],
+    [
+      0.000523,
+      "\u001b[?25l\"docker-vim-demo/workshop/STEP-SIX/vimrc-006\""
+    ],
+    [
+      0.000242,
+      " 10L, 269C"
+    ],
+    [
+      0.026226,
+      "\u001b[1;1H\u001b[4L\u001b[1;1H\u001b[4m\u001b[30m\u001b[47m .vimrc \u001b[m\u001b[1m d/w/S/vimrc-006 \u001b[m\u001b[7m                                                                                                                  \u001b[m\u001b[1;139H\u001b[4m\u001b[30m\u001b[47mX\u001b[m\u001b[2;1H\u001b[38;5;130m1   \u001b[m\u001b[34m\" Clone the Solarized repo:\u001b[m\r\n\u001b[38;5;130m  1 \u001b[m\u001b[34m\" git clone https://github.com/lifepillar/vim-solarized8.git ~/.vim/pack/themes/opt/solarized8\u001b[m\r\n\u001b[38;5;130m  2 \r\n  3 \u001b[m\u001b[34m\" Configure color theme\u001b[m\u001b[5;28H\u001b[K\u001b[6;1H\u001b[38;5;130m  4 let\u001b[m \u001b[36mg:solarized_termcolors\u001b[m\u001b[38;5;130m=\u001b[m\u001b[31m256\u001b[m\u001b[6;35H\u001b[K\u001b[7;1H\u001b[38;5;130m  5 syntax\u001b[m \u001b[32menable\u001b[m\u001b[7;18H\u001b[K\u001b[8;1H\u001b[38;5;130m  6 set\u001b[m \u001b[35mbackground\u001b[m=dark\u001b[8;24H\u001b[K\u001b[9;1H\u001b[38;5;130m  7 colorscheme\u001b[m solarized8\u001b[9;27H\u001b[K\u001b[10;1H\u001b[38;5;130m  8 \u001b[m\u001b[10;5H\u001b[K\u001b[11;1H\u001b[38;5;130m  9 \u001b[m\u001b[34m\"\u001b[m \u001b[35mCOMMENT:\u001b[m\u001b[34m save the file ->  :w\u001b[m\u001b[11;36H\u001b[K\u001b[35;1H\u001b[1m\u001b[7mdocker-vim-demo/workshop/STEP-SIX/vimrc-006\u001b[78C1,1   \u001b[m\u001b[36;1H\u001b[K\u001b[36;1H\"docker-vim-demo/workshop/STEP-SIX/vimrc-006\" 10L, 269C"
+    ],
+    [
+      0.000111,
+      "\u001b[2;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.58877,
+      "\u001b[?25l\r\u001b[38;5;130m  1\r\n2  \r\n  1\r\n  2\r\n  3\r\n  4\r\n  5\r\n  6\r\n  7\r\n  8\u001b[m\u001b[35;122H\u001b[1m\u001b[7m2,\u001b[3;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.824352,
+      "\u001b[?25l\u001b[m\u001b[2;3H\u001b[38;5;130m2\r\n  1\r\n3  \r\n  1\r\n  2\r\n  3\r\n  4\r\n  5\r\n  6\r\n  7\u001b[m\u001b[35;122H\u001b[1m\u001b[7m3,0-1\u001b[4;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.726039,
+      "\u001b[?25l\u001b[m\u001b[36;1H\u001b[K\u001b[36;1H:call NumberToggle()\r\u001b[1;139H\u001b[7m \u001b[m\u001b[1;139H\u001b[4m\u001b[30m\u001b[47mX\u001b[m\u001b[2;3H\u001b[38;5;130m1\r\n  2\r\n  3\r\n  4\r\n  5\r\n  6\r\n  7\r\n  8\r\n  9\r\n 10\u001b[4;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.539857,
+      "\u001b[27m\u001b[23m\u001b[m\u001b[H\u001b[2J\u001b[1;1H\u001b[1m .vimrc \u001b[m\u001b[4m\u001b[30m\u001b[47m d/w/S/vimrc-006 \u001b[m\u001b[7m                                                                                                                  \u001b[m\u001b[1;139H\u001b[4m\u001b[30m\u001b[47mX\u001b[?25l\u001b[m\u001b[2;1H\u001b[38;5;130m1   \u001b[m\u001b[34m\"\u001b[m \u001b[35mAuthor:\u001b[m\u001b[34m       John F. Hogarty\u001b[m\r\n\u001b[38;5;130m  1 \u001b[m\u001b[34m\"\u001b[m \u001b[35mEmail:\u001b[m\u001b[34m        hogihung@gmail.com\u001b[m\r\n\u001b[38;5;130m  2 \u001b[m\u001b[34m\" --------------------------------------\u001b[m\r\n\u001b[38;5;130m  3 set\u001b[m \u001b[35mnocompatible\u001b[m    \u001b[34m\" be iMproved, required\u001b[m\r\n\u001b[38;5;130m  4 filetype\u001b[m \u001b[32moff\u001b[m\u001b[8C\u001b[34m\" required\u001b[m\r\n\u001b[38;5;130m  5 \r\n  6 \u001b[m\u001b[34m\" Set basic setup\u001b[m\r\n\u001b[38;5;130m  7 syntax\u001b[m \u001b[32mon\u001b[m\u001b[20C\u001b[34m\" Enable syntax highlighting\u001b[m\r\n\u001b[38;5;130m  8 set\u001b[m \u001b[35mencoding\u001b[m=utf-8\u001b[11C\u001b[34m\" Add support for Unicode characters (used in listc\u001b[m\u001b[34m\u001b[105mh\u001b[m\u001b[34mars below)\u001b[m\r\n\u001b[38;5;130m  9 set\u001b[m \u001b[35mshell\u001b[m=bash\u001b[15C\u001b[34m\" Can switch to zsh if you use z-shell\u001b[m\r\n\u001b[38;5;130m 10 set\u001b[m \u001b[35mnumber\u001b[m\u001b[19C\u001b[34m\" Enables line nu"
+    ],
+    [
+      0.000196,
+      "mbering\u001b[m\r\n\u001b[38;5;130m 11 set\u001b[m \u001b[35mt_Co\u001b[m=256\u001b[17C\u001b[34m\" Set terminal colors to 256\u001b[m\r\n\u001b[38;5;130m 12 set\u001b[m \u001b[35mlistchars\u001b[m=tab\u001b[38;5;130m:\u001b[m▸\\ \u001b[38;5;130m,\u001b[meol\u001b[38;5;130m:\u001b[m¬  \u001b[34m\" Use same symbols as TextMate for tabstops and EOL\u001b[m\u001b[34m\u001b[105ms\u001b[m\r\n\u001b[38;5;130m 13 set\u001b[m \u001b[35mlaststatus\u001b[m=2\u001b[13C\u001b[34m\" Display vim status bar\u001b[m\r\n\u001b[38;5;130m 14 set\u001b[m \u001b[35mupdatecount\u001b[m=0\u001b[12C\u001b[34m\" Disable swap files\u001b[m\r\n\u001b[38;5;130m 15 set\u001b[m \u001b[35msplitright\u001b[m\u001b[15C\u001b[34m\" Put new file to right on vertical split\u001b[m\r\n\u001b[38;5;130m 16 set\u001b[m \u001b[35msplitbelow\u001b[m\u001b[15C\u001b[34m\" Put new file to bottom on horizontal split\u001b[m\r\n\u001b[38;5;130m 17 set\u001b[m \u001b[35mrelativenumber\u001b[m\u001b[11C\u001b[34m\" Set relative numbering (set rnu / set nornu)\u001b[m\r\n\u001b[38;5;130m 18 \r\n 19 \r\n 20 \u001b[m\u001b[34m\" Change leader, which defaults as backslash, to the comma key\u001b[m\r\n\u001b[38;5;130m 21 let\u001b[m \u001b[36mmapleader\u001b[m \u001b[38;5;130m=\u001b[m \u001b[31m\",\"\u001b[m\r\n\u001b[38;5;130m 22 \r\n 23 \u001b[m\u001b[34m\" Swap the less used semi-colon for colon\u001b[m\r\n\u001b[38;5;130m 24 nnoremap\u001b[m ; :\r\n"
+    ],
+    [
+      0.002567,
+      "\u001b[38;5;130m 25 \r\n 26 \u001b[m\u001b[34m\" Auto save files when switching focus\u001b[m\r\n\u001b[38;5;130m 27 autocmd\u001b[m \u001b[32mFocusLost\u001b[m * \u001b[38;5;130msilent\u001b[m! \u001b[38;5;130mwall\r\n 28 \r\n 29 \u001b[m\u001b[34m\" Adjusting tab spacing, use softtabs\u001b[m\r\n\u001b[38;5;130m 30 set\u001b[m \u001b[35mtabstop\u001b[m=2\r\n\u001b[38;5;130m 31 set\u001b[m \u001b[35msofttabstop\u001b[m=2\r\n\u001b[38;5;130m 32 set\u001b[m \u001b[35mshiftwidth\u001b[m=2\r\n\u001b[1m\u001b[7m.vimrc                                                                                                                   1,1            Top\u001b[2;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.300717,
+      "\u001b[?25l\u001b[36;1H\u001b[m:call NumberToggle()\r"
+    ],
+    [
+      0.007872,
+      "\u001b[1;139H\u001b[7m \u001b[m\u001b[1;139H\u001b[4m\u001b[30m\u001b[47mX\u001b[m\u001b[2;1H\u001b[38;5;130m  1\r\n  2\r\n  3\r\n  4\r\n  5\r\n  6\r\n  7\r\n  8\r\n  9\r\n 10\r\n 11\r\n 12\r\n 13\r\n 14\r\n 15\r\n 16\r\n 17\r\n 18\r\n 19\r\n 20\r\n 21\r\n 22\r\n 23\r\n 24\r\n 25\r\n 26\r\n 27\r\n 28\r\n 29\r\n 30\r\n 31\r\n 32\r\n 33\u001b[2;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.748067,
+      "\u001b[27m\u001b[23m\u001b[m\u001b[H\u001b[2J\u001b[1;1H\u001b[4m\u001b[30m\u001b[47m .vimrc \u001b[m\u001b[1m d/w/S/vimrc-006 \u001b[m\u001b[7m                                                                                                                  \u001b[m\u001b[1;139H\u001b[4m\u001b[30m\u001b[47mX\u001b[?25l\u001b[m\u001b[2;1H\u001b[38;5;130m  1 \u001b[m\u001b[34m\" Clone the Solarized repo:\u001b[m\r\n\u001b[38;5;130m  2 \u001b[m\u001b[34m\" git clone https://github.com/lifepillar/vim-solarized8.git ~/.vim/pack/themes/opt/solarized8\u001b[m\r\n\u001b[38;5;130m  3 \r\n  4 \u001b[m\u001b[34m\" Configure color theme\u001b[m\r\n\u001b[38;5;130m  5 let\u001b[m \u001b[36mg:solarized_termcolors\u001b[m\u001b[38;5;130m=\u001b[m\u001b[31m256\u001b[m\r\n\u001b[38;5;130m  6 syntax\u001b[m \u001b[32menable\u001b[m\r\n\u001b[38;5;130m  7 set\u001b[m \u001b[35mbackground\u001b[m=dark\r\n\u001b[38;5;130m  8 colorscheme\u001b[m solarized8\r\n\u001b[38;5;130m  9 \r\n 10 \u001b[m\u001b[34m\"\u001b[m \u001b[35mCOMMENT:\u001b[m\u001b[34m save the file ->  :w\u001b[m\r\n\u001b[94m~                                                                                                                                          \u001b[13;1H~                                                                                                                 "
+    ],
+    [
+      0.000121,
+      "                         \u001b[14;1H~                                                                                                                                          \u001b[15;1H~                                                                                                                                          \u001b[16;1H~                                                                                                                                          \u001b[17;1H~                                                                                                                                          \u001b[18;1H~                                                                                                                                          \u001b[19;1H~                                                                                                                                          \u001b[20;1H~                                                                                                                  "
+    ],
+    [
+      0.000208,
+      "                        \u001b[21;1H~                                                                                                                                          \u001b[22;1H~                                                                                                                                          \u001b[23;1H~                                                                                                                                          \u001b[24;1H~                                                                                                                                          \u001b[25;1H~                                                                                                                                          \u001b[26;1H~                                                                                                                                          \u001b[27;1H~                                                                                                                    "
+    ],
+    [
+      0.000102,
+      "                      \u001b[28;1H~                                                                                                                                          \u001b[29;1H~                                                                                                                                          \u001b[30;1H~                                                                                                                                          \u001b[31;1H~                                                                                                                                          \u001b[32;1H~                                                                                                                                          \u001b[33;1H~                                                                                                                                          \u001b[34;1H~                                                                                                                     "
+    ],
+    [
+      0.00018,
+      "                     \u001b[m\u001b[35;1H\u001b[1m\u001b[7mdocker-vim-demo/workshop/STEP-SIX/vimrc-006                                                                              3,0-1          All\u001b[4;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      2.070443,
+      "\u001b[?25l\u001b[35;122H2,1   \u001b[3;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.188153,
+      "\u001b[?25l\u001b[35;122H1,\u001b[2;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.674482,
+      "\u001b[?25l\u001b[35;122H2,\u001b[3;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.238479,
+      "\u001b[?25l\u001b[35;122H3,0-1\u001b[4;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.00849,
+      "\u001b[?25l\u001b[35;122H2,1   \u001b[3;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      10.377083,
+      "\u001b[36;1H\r\n"
+    ],
+    [
+      0.101867,
+      "\u001b[m\u001b[?1l\u001b>\u001b[?1049l\r\n"
+    ],
+    [
+      0.000287,
+      "[1]+  Stopped                 vim .vimrc docker-vim-demo/workshop/STEP-SIX/vimrc-006"
+    ],
+    [
+      9.8e-05,
+      "\r\n"
+    ],
+    [
+      0.00081,
+      "\u001b]0;jfhogarty@workshop-one: ~\u0007\u001b[01;32mjfhogarty@workshop-one\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      2.187146,
+      "git clone https://github.com/lifepillar/vim-solarized8.git ~/.vim/pack/themes/opt/solarized8"
+    ],
+    [
+      2.623375,
+      "\r\n"
+    ],
+    [
+      0.016493,
+      "Cloning into '/home/jfhogarty/.vim/pack/themes/opt/solarized8'...\r\n"
+    ],
+    [
+      0.359422,
+      "remote: Counting objects: 1001, done.\u001b[K"
+    ],
+    [
+      0.000191,
+      "\r\n"
+    ],
+    [
+      0.003968,
+      "Receiving objects:   0% (1/1001)   \r"
+    ],
+    [
+      0.000665,
+      "Receiving objects:   1% (11/1001)   \r"
+    ],
+    [
+      0.000394,
+      "Receiving objects:   2% (21/1001)   \r"
+    ],
+    [
+      0.000649,
+      "Receiving objects:   3% (31/1001)   \r"
+    ],
+    [
+      0.000388,
+      "Receiving objects:   4% (41/1001)   \r"
+    ],
+    [
+      0.01682,
+      "Receiving objects:   5% (51/1001)   \r"
+    ],
+    [
+      0.000548,
+      "Receiving objects:   6% (61/1001)   \r"
+    ],
+    [
+      0.000786,
+      "Receiving objects:   7% (71/1001)   \r"
+    ],
+    [
+      0.000398,
+      "Receiving objects:   8% (81/1001)   \r"
+    ],
+    [
+      0.00264,
+      "Receiving objects:   9% (91/1001)   \r"
+    ],
+    [
+      0.001011,
+      "Receiving objects:  10% (101/1001)   \r"
+    ],
+    [
+      0.000921,
+      "Receiving objects:  11% (111/1001)   \r"
+    ],
+    [
+      0.000836,
+      "Receiving objects:  12% (121/1001)   \r"
+    ],
+    [
+      0.000901,
+      "Receiving objects:  13% (131/1001)   \r"
+    ],
+    [
+      0.000364,
+      "Receiving objects:  14% (141/1001)   \r"
+    ],
+    [
+      0.001066,
+      "Receiving objects:  15% (151/1001)   \r"
+    ],
+    [
+      0.016846,
+      "Receiving objects:  16% (161/1001)   \r"
+    ],
+    [
+      0.000475,
+      "Receiving objects:  17% (171/1001)   \r"
+    ],
+    [
+      0.000463,
+      "Receiving objects:  18% (181/1001)   \r"
+    ],
+    [
+      0.000417,
+      "Receiving objects:  19% (191/1001)   \r"
+    ],
+    [
+      0.008988,
+      "Receiving objects:  20% (201/1001)   \r"
+    ],
+    [
+      0.000894,
+      "Receiving objects:  21% (211/1001)   \r"
+    ],
+    [
+      0.000207,
+      "Receiving objects:  22% (221/1001)   \r"
+    ],
+    [
+      0.000166,
+      "Receiving objects:  23% (231/1001)   \r"
+    ],
+    [
+      0.000498,
+      "Receiving objects:  24% (241/1001)   \r"
+    ],
+    [
+      0.00041,
+      "Receiving objects:  25% (251/1001)   \r"
+    ],
+    [
+      0.000304,
+      "Receiving objects:  26% (261/1001)   \r"
+    ],
+    [
+      0.000156,
+      "Receiving objects:  27% (271/1001)   \r"
+    ],
+    [
+      0.000482,
+      "Receiving objects:  28% (281/1001)   \r"
+    ],
+    [
+      0.00033,
+      "Receiving objects:  29% (291/1001)   \r"
+    ],
+    [
+      0.000394,
+      "Receiving objects:  30% (301/1001)   \r"
+    ],
+    [
+      0.001971,
+      "Receiving objects:  31% (311/1001)   \r"
+    ],
+    [
+      0.000419,
+      "Receiving objects:  32% (321/1001)   \r"
+    ],
+    [
+      0.000328,
+      "Receiving objects:  33% (331/1001)   \r"
+    ],
+    [
+      0.011066,
+      "Receiving objects:  34% (341/1001)   \r"
+    ],
+    [
+      0.000214,
+      "Receiving objects:  35% (351/1001)   \r"
+    ],
+    [
+      0.000162,
+      "Receiving objects:  36% (361/1001)   \r"
+    ],
+    [
+      0.000417,
+      "Receiving objects:  37% (371/1001)   \r"
+    ],
+    [
+      0.00019,
+      "Receiving objects:  38% (381/1001)   \r"
+    ],
+    [
+      0.000283,
+      "Receiving objects:  39% (391/1001)   \r"
+    ],
+    [
+      0.000464,
+      "Receiving objects:  40% (401/1001)   \r"
+    ],
+    [
+      0.000126,
+      "Receiving objects:  41% (411/1001)   \r"
+    ],
+    [
+      0.008623,
+      "Receiving objects:  42% (421/1001)   \r"
+    ],
+    [
+      0.001616,
+      "Receiving objects:  43% (431/1001)   \r"
+    ],
+    [
+      0.001302,
+      "Receiving objects:  44% (441/1001)   \r"
+    ],
+    [
+      0.000859,
+      "Receiving objects:  45% (451/1001)   \r"
+    ],
+    [
+      0.000122,
+      "Receiving objects:  46% (461/1001)   \r"
+    ],
+    [
+      0.000183,
+      "Receiving objects:  47% (471/1001)   \r"
+    ],
+    [
+      0.000535,
+      "Receiving objects:  48% (481/1001)   \r"
+    ],
+    [
+      0.000429,
+      "Receiving objects:  49% (491/1001)   \r"
+    ],
+    [
+      0.000304,
+      "Receiving objects:  50% (501/1001)   \r"
+    ],
+    [
+      0.000315,
+      "Receiving objects:  51% (511/1001)   \r"
+    ],
+    [
+      0.000521,
+      "Receiving objects:  52% (521/1001)   \r"
+    ],
+    [
+      0.000587,
+      "Receiving objects:  53% (531/1001)   \r"
+    ],
+    [
+      0.000375,
+      "Receiving objects:  54% (541/1001)   \r"
+    ],
+    [
+      0.000227,
+      "Receiving objects:  55% (551/1001)   \r"
+    ],
+    [
+      0.00016,
+      "Receiving objects:  56% (561/1001)   \r"
+    ],
+    [
+      0.000175,
+      "Receiving objects:  57% (571/1001)   \r"
+    ],
+    [
+      0.000119,
+      "Receiving objects:  58% (581/1001)   \r"
+    ],
+    [
+      0.000418,
+      "Receiving objects:  59% (591/1001)   \r"
+    ],
+    [
+      0.00017,
+      "Receiving objects:  60% (601/1001)   \r"
+    ],
+    [
+      0.000484,
+      "Receiving objects:  61% (611/1001)   \r"
+    ],
+    [
+      0.000522,
+      "Receiving objects:  62% (621/1001)   \r"
+    ],
+    [
+      0.000151,
+      "Receiving objects:  63% (631/1001)   \r"
+    ],
+    [
+      0.000284,
+      "Receiving objects:  64% (641/1001)   \r"
+    ],
+    [
+      0.000451,
+      "Receiving objects:  65% (651/1001)   \r"
+    ],
+    [
+      0.000282,
+      "Receiving objects:  66% (661/1001)   \r"
+    ],
+    [
+      0.000152,
+      "Receiving objects:  67% (671/1001)   \r"
+    ],
+    [
+      0.000906,
+      "Receiving objects:  68% (681/1001)   \r"
+    ],
+    [
+      0.000177,
+      "Receiving objects:  69% (691/1001)   \r"
+    ],
+    [
+      0.000247,
+      "Receiving objects:  70% (701/1001)   \r"
+    ],
+    [
+      0.000263,
+      "Receiving objects:  71% (711/1001)   \r"
+    ],
+    [
+      0.00017,
+      "Receiving objects:  72% (721/1001)   \r"
+    ],
+    [
+      0.000342,
+      "Receiving objects:  73% (731/1001)   \r"
+    ],
+    [
+      0.000204,
+      "Receiving objects:  74% (741/1001)   \r"
+    ],
+    [
+      0.000378,
+      "Receiving objects:  75% (751/1001)   \r"
+    ],
+    [
+      0.000201,
+      "Receiving objects:  76% (761/1001)   \r"
+    ],
+    [
+      0.000274,
+      "Receiving objects:  77% (771/1001)   \r"
+    ],
+    [
+      0.000174,
+      "Receiving objects:  78% (781/1001)   \r"
+    ],
+    [
+      0.000212,
+      "Receiving objects:  79% (791/1001)   \r"
+    ],
+    [
+      0.000119,
+      "Receiving objects:  80% (801/1001)   \r"
+    ],
+    [
+      0.000145,
+      "Receiving objects:  81% (811/1001)   \r"
+    ],
+    [
+      0.000179,
+      "Receiving objects:  82% (821/1001)   \r"
+    ],
+    [
+      0.00086,
+      "Receiving objects:  83% (831/1001)   \r"
+    ],
+    [
+      0.000211,
+      "remote: Total 1001 (delta 0), reused 0 (delta 0), pack-reused 1001\u001b[K"
+    ],
+    [
+      7.5e-05,
+      "\r\n"
+    ],
+    [
+      0.001454,
+      "Receiving objects:  84% (841/1001)   \r"
+    ],
+    [
+      0.000153,
+      "Receiving objects:  85% (851/1001)   \r"
+    ],
+    [
+      0.00016,
+      "Receiving objects:  86% (861/1001)   \r"
+    ],
+    [
+      0.000124,
+      "Receiving objects:  87% (871/1001)   \r"
+    ],
+    [
+      0.00021,
+      "Receiving objects:  88% (881/1001)   \r"
+    ],
+    [
+      0.000142,
+      "Receiving objects:  89% (891/1001)   \r"
+    ],
+    [
+      0.001406,
+      "Receiving objects:  90% (901/1001)   \r"
+    ],
+    [
+      0.000243,
+      "Receiving objects:  91% (911/1001)   \r"
+    ],
+    [
+      0.00016,
+      "Receiving objects:  92% (921/1001)   \r"
+    ],
+    [
+      0.000424,
+      "Receiving objects:  93% (931/1001)   \r"
+    ],
+    [
+      0.000178,
+      "Receiving objects:  94% (941/1001)   \r"
+    ],
+    [
+      0.000206,
+      "Receiving objects:  95% (951/1001)   \r"
+    ],
+    [
+      0.00018,
+      "Receiving objects:  96% (961/1001)   \r"
+    ],
+    [
+      0.00013,
+      "Receiving objects:  97% (971/1001)   \r"
+    ],
+    [
+      0.000152,
+      "Receiving objects:  98% (981/1001)   \r"
+    ],
+    [
+      0.000236,
+      "Receiving objects:  99% (991/1001)   \r"
+    ],
+    [
+      0.000845,
+      "Receiving objects: 100% (1001/1001)   \r"
+    ],
+    [
+      0.000118,
+      "Receiving objects: 100% (1001/1001), 344.13 KiB | 3.16 MiB/s, done."
+    ],
+    [
+      0.000101,
+      "\r\n"
+    ],
+    [
+      0.000242,
+      "Resolving deltas:   0% (0/629)   \r"
+    ],
+    [
+      0.001666,
+      "Resolving deltas:   4% (30/629)   \r"
+    ],
+    [
+      0.000194,
+      "Resolving deltas:   5% (33/629)   \r"
+    ],
+    [
+      0.041402,
+      "Resolving deltas:  13% (86/629)   \r"
+    ],
+    [
+      0.000241,
+      "Resolving deltas:  14% (89/629)   \r"
+    ],
+    [
+      0.000745,
+      "Resolving deltas:  18% (115/629)   \r"
+    ],
+    [
+      0.000222,
+      "Resolving deltas:  19% (121/629)   \r"
+    ],
+    [
+      0.000287,
+      "Resolving deltas:  20% (131/629)   \r"
+    ],
+    [
+      0.000137,
+      "Resolving deltas:  21% (134/629)   \r"
+    ],
+    [
+      0.000181,
+      "Resolving deltas:  22% (139/629)   \r"
+    ],
+    [
+      0.000221,
+      "Resolving deltas:  23% (146/629)   \r"
+    ],
+    [
+      0.024982,
+      "Resolving deltas:  34% (217/629)   \r"
+    ],
+    [
+      0.000484,
+      "Resolving deltas:  38% (242/629)   \r"
+    ],
+    [
+      0.000287,
+      "Resolving deltas:  39% (246/629)   \r"
+    ],
+    [
+      0.016431,
+      "Resolving deltas:  48% (305/629)   \r"
+    ],
+    [
+      0.01018,
+      "Resolving deltas:  58% (371/629)   \r"
+    ],
+    [
+      0.017448,
+      "Resolving deltas:  75% (478/629)   \r"
+    ],
+    [
+      0.004996,
+      "Resolving deltas:  80% (507/629)   \r"
+    ],
+    [
+      0.003177,
+      "Resolving deltas:  83% (523/629)   \r"
+    ],
+    [
+      0.005093,
+      "Resolving deltas:  87% (553/629)   \r"
+    ],
+    [
+      0.000204,
+      "Resolving deltas:  88% (555/629)   \r"
+    ],
+    [
+      0.000186,
+      "Resolving deltas:  89% (561/629)   \r"
+    ],
+    [
+      0.003883,
+      "Resolving deltas:  93% (588/629)   \r"
+    ],
+    [
+      0.000873,
+      "Resolving deltas:  96% (607/629)   \r"
+    ],
+    [
+      0.00027,
+      "Resolving deltas:  97% (615/629)   \r"
+    ],
+    [
+      0.00018,
+      "Resolving deltas:  98% (617/629)   \r"
+    ],
+    [
+      0.000207,
+      "Resolving deltas:  99% (623/629)   \r"
+    ],
+    [
+      0.000722,
+      "Resolving deltas: 100% (629/629)   \r"
+    ],
+    [
+      0.000149,
+      "Resolving deltas: 100% (629/629), done."
+    ],
+    [
+      8.1e-05,
+      "\r\n"
+    ],
+    [
+      0.046148,
+      "\u001b]0;jfhogarty@workshop-one: ~\u0007\u001b[01;32mjfhogarty@workshop-one\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      1.080013,
+      "f"
+    ],
+    [
+      0.344205,
+      "g"
+    ],
+    [
+      0.652616,
+      "\r\nvim .vimrc docker-vim-demo/workshop/STEP-SIX/vimrc-006\r\n\u001b[?1049h\u001b[?1h\u001b="
+    ],
+    [
+      0.004473,
+      "\u001b[?12;25h\u001b[?12l\u001b[?25h\u001b[27m\u001b[23m\u001b[m\u001b[H\u001b[2J\u001b[1;1H\u001b[4m\u001b[30m\u001b[47m .vimrc \u001b[m\u001b[1m d/w/S/vimrc-006 \u001b[m\u001b[7m                                                                                                                  \u001b[m\u001b[1;139H\u001b[4m\u001b[30m\u001b[47mX\u001b[?25l\u001b[m\u001b[2;1H\u001b[38;5;130m  1 \u001b[m\u001b[34m\" Clone the Solarized repo:\u001b[m\r\n\u001b[38;5;130m  2 \u001b[m\u001b[34m\" git clone https://github.com/lifepillar/vim-solarized8.git ~/.vim/pack/themes/opt/solarized8\u001b[m\r\n\u001b[38;5;130m  3 \r\n  4 \u001b[m\u001b[34m\" Configure color theme\u001b[m\r\n\u001b[38;5;130m  5 let\u001b[m \u001b[36mg:solarized_termcolors\u001b[m\u001b[38;5;130m=\u001b[m\u001b[31m256\u001b[m\r\n\u001b[38;5;130m  6 syntax\u001b[m \u001b[32menable\u001b[m\r\n\u001b[38;5;130m  7 set\u001b[m \u001b[35mbackground\u001b[m=dark\r\n\u001b[38;5;130m  8 colorscheme\u001b[m solarized8\r\n\u001b[38;5;130m  9 \r\n 10 \u001b[m\u001b[34m\"\u001b[m \u001b[35mCOMMENT:\u001b[m\u001b[34m save the file ->  :w\u001b[m\r\n\u001b[94m~                                                                                                                                          \u001b[13;1H~                                                                                            "
+    ],
+    [
+      6.9e-05,
+      "                                              \u001b[14;1H~                                                                                                                                          \u001b[15;1H~                                                                                                                                          \u001b[16;1H~                                                                                                                                          \u001b[17;1H~                                                                                                                                          \u001b[18;1H~                                                                                                                                          \u001b[19;1H~                                                                                                                                          \u001b[20;1H~                                                                                             "
+    ],
+    [
+      0.000303,
+      "                                             \u001b[21;1H~                                                                                                                                          \u001b[22;1H~                                                                                                                                          \u001b[23;1H~                                                                                                                                          \u001b[24;1H~                                                                                                                                          \u001b[25;1H~                                                                                                                                          \u001b[26;1H~                                                                                                                                          \u001b[27;1H~                                                                                               "
+    ],
+    [
+      3.5e-05,
+      "                                           \u001b[28;1H~                                                                                                                                          \u001b[29;1H~                                                                                                                                          \u001b[30;1H~                                                                                                                                          \u001b[31;1H~                                                                                                                                          \u001b[32;1H~                                                                                                                                          \u001b[33;1H~                                                                                                                                          \u001b[34;1H~                                                                                                "
+    ],
+    [
+      0.000402,
+      "                                          \u001b[m\u001b[35;1H\u001b[1m\u001b[7mdocker-vim-demo/workshop/STEP-SIX/vimrc-006                                                                              2,1            All\u001b[3;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.941964,
+      "\u001b[?25l\u001b[35;122H3,0-1\u001b[4;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.224639,
+      "\u001b[?25l\u001b[35;122H4,1   \u001b[5;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.571064,
+      "\u001b[?25l\u001b[m\u001b[1C\u001b[34m\u001b[47m Configure color theme\u001b[m\u001b[47m \u001b[m\u001b[36;1H\u001b[1m-- VISUAL LINE --\u001b[5;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.419384,
+      "\u001b[?25l\u001b[m\u001b[34m\u001b[47m\"\u001b[m\u001b[6;5H\u001b[38;5;130m\u001b[47mlet\u001b[m\u001b[47m \u001b[m\u001b[36m\u001b[47mg:solarized_termcolors\u001b[m\u001b[38;5;130m\u001b[47m=\u001b[m\u001b[31m\u001b[47m256\u001b[m\u001b[47m \u001b[m\u001b[7;5H\u001b[38;5;130m\u001b[47msyntax\u001b[m\u001b[47m \u001b[m\u001b[32m\u001b[47menable\u001b[m\u001b[47m \u001b[m\u001b[8;5H\u001b[38;5;130m\u001b[47mset\u001b[m\u001b[47m \u001b[m\u001b[35m\u001b[47mbackground\u001b[m\u001b[47m=dark \u001b[m\u001b[9;5H\u001b[38;5;130m\u001b[47mcolorscheme\u001b[m\u001b[47m solarized8 \u001b[10;5H \u001b[11;6H \u001b[m\u001b[35m\u001b[47mCOMMENT:\u001b[m\u001b[34m\u001b[47m save the file ->  :w\u001b[m\u001b[47m \u001b[m\u001b[35;122H\u001b[1m\u001b[7m10,1\u001b[11;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.070751,
+      "\u001b[?25l\u001b[m\u001b[5;5H\u001b[34m\" Configure color theme\u001b[m\u001b[5;28H\u001b[K\u001b[6;5H\u001b[38;5;130mlet\u001b[m \u001b[36mg:solarized_termcolors\u001b[m\u001b[38;5;130m=\u001b[m\u001b[31m256\u001b[m\u001b[6;35H\u001b[K\u001b[7;5H\u001b[38;5;130msyntax\u001b[m \u001b[32menable\u001b[m\u001b[7;18H\u001b[K\u001b[8;5H\u001b[38;5;130mset\u001b[m \u001b[35mbackground\u001b[m=dark\u001b[8;24H\u001b[K\u001b[9;5H\u001b[38;5;130mcolorscheme\u001b[m solarized8\u001b[9;27H\u001b[K\u001b[10;5H\u001b[K\u001b[11;6H \u001b[35mCOMMENT:\u001b[m\u001b[34m save the file ->  :w\u001b[m\u001b[11;36H\u001b[K\u001b[36;1H\u001b[K\u001b[36;1H7 lines yanked"
+    ],
+    [
+      0.000484,
+      "\u001b[35;122H\u001b[1m\u001b[7m4,1  \u001b[5;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.530303,
+      "\u001b[27m\u001b[23m\u001b[m\u001b[H\u001b[2J\u001b[1;1H\u001b[1m .vimrc \u001b[m\u001b[4m\u001b[30m\u001b[47m d/w/S/vimrc-006 \u001b[m\u001b[7m                                                                                                                  \u001b[m\u001b[1;139H\u001b[4m\u001b[30m\u001b[47mX\u001b[?25l\u001b[m\u001b[2;1H\u001b[38;5;130m  1 \u001b[m\u001b[34m\"\u001b[m \u001b[35mAuthor:\u001b[m\u001b[34m       John F. Hogarty\u001b[m\r\n\u001b[38;5;130m  2 \u001b[m\u001b[34m\"\u001b[m \u001b[35mEmail:\u001b[m\u001b[34m        hogihung@gmail.com\u001b[m\r\n\u001b[38;5;130m  3 \u001b[m\u001b[34m\" --------------------------------------\u001b[m\r\n\u001b[38;5;130m  4 set\u001b[m \u001b[35mnocompatible\u001b[m    \u001b[34m\" be iMproved, required\u001b[m\r\n\u001b[38;5;130m  5 filetype\u001b[m \u001b[32moff\u001b[m\u001b[8C\u001b[34m\" required\u001b[m\r\n\u001b[38;5;130m  6 \r\n  7 \u001b[m\u001b[34m\" Set basic setup\u001b[m\r\n\u001b[38;5;130m  8 syntax\u001b[m \u001b[32mon\u001b[m\u001b[20C\u001b[34m\" Enable syntax highlighting\u001b[m\r\n\u001b[38;5;130m  9 set\u001b[m \u001b[35mencoding\u001b[m=utf-8\u001b[11C\u001b[34m\" Add support for Unicode characters (used in listc\u001b[m\u001b[34m\u001b[105mh\u001b[m\u001b[34mars below)\u001b[m\r\n\u001b[38;5;130m 10 set\u001b[m \u001b[35mshell\u001b[m=bash\u001b[15C\u001b[34m\" Can switch to zsh if you use z-shell\u001b[m\r\n\u001b[38;5;130m 11 set\u001b[m \u001b[35mnumber\u001b[m\u001b[19C\u001b[34m\" Enables line nu"
+    ],
+    [
+      7.3e-05,
+      "mbering\u001b[m\r\n\u001b[38;5;130m 12 set\u001b[m \u001b[35mt_Co\u001b[m=256\u001b[17C\u001b[34m\" Set terminal colors to 256\u001b[m\r\n\u001b[38;5;130m 13 set\u001b[m \u001b[35mlistchars\u001b[m=tab\u001b[38;5;130m:\u001b[m▸\\ \u001b[38;5;130m,\u001b[meol\u001b[38;5;130m:\u001b[m¬  \u001b[34m\" Use same symbols as TextMate for tabstops and EOL\u001b[m\u001b[34m\u001b[105ms\u001b[m\r\n\u001b[38;5;130m 14 set\u001b[m \u001b[35mlaststatus\u001b[m=2\u001b[13C\u001b[34m\" Display vim status bar\u001b[m\r\n\u001b[38;5;130m 15 set\u001b[m \u001b[35mupdatecount\u001b[m=0\u001b[12C\u001b[34m\" Disable swap files\u001b[m\r\n\u001b[38;5;130m 16 set\u001b[m \u001b[35msplitright\u001b[m\u001b[15C\u001b[34m\" Put new file to right on vertical split\u001b[m\r\n\u001b[38;5;130m 17 set\u001b[m \u001b[35msplitbelow\u001b[m\u001b[15C\u001b[34m\" Put new file to bottom on horizontal split\u001b[m\r\n\u001b[38;5;130m 18 set\u001b[m \u001b[35mrelativenumber\u001b[m\u001b[11C\u001b[34m\" Set relative numbering (set rnu / set nornu)\u001b[m\r\n\u001b[38;5;130m 19 \r\n 20 \r\n 21 \u001b[m\u001b[34m\" Change leader, which defaults as backslash, to the comma key\u001b[m\r\n\u001b[38;5;130m 22 let\u001b[m \u001b[36mmapleader\u001b[m \u001b[38;5;130m=\u001b[m \u001b[31m\",\"\u001b[m\r\n\u001b[38;5;130m 23 \r\n 24 \u001b[m\u001b[34m\" Swap the less used semi-colon for colon\u001b[m\r\n\u001b[38;5;130m 25 nnoremap\u001b[m ; :\r\n"
+    ],
+    [
+      0.002977,
+      "\u001b[38;5;130m 26 \r\n 27 \u001b[m\u001b[34m\" Auto save files when switching focus\u001b[m\r\n\u001b[38;5;130m 28 autocmd\u001b[m \u001b[32mFocusLost\u001b[m * \u001b[38;5;130msilent\u001b[m! \u001b[38;5;130mwall\r\n 29 \r\n 30 \u001b[m\u001b[34m\" Adjusting tab spacing, use softtabs\u001b[m\r\n\u001b[38;5;130m 31 set\u001b[m \u001b[35mtabstop\u001b[m=2\r\n\u001b[38;5;130m 32 set\u001b[m \u001b[35msofttabstop\u001b[m=2\r\n\u001b[38;5;130m 33 set\u001b[m \u001b[35mshiftwidth\u001b[m=2\r\n\u001b[1m\u001b[7m.vimrc                                                                                                                   1,1            Top\u001b[2;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.03214,
+      "\u001b[?25l\u001b[27m\u001b[23m\u001b[m\u001b[H\u001b[2J\u001b[1;1H\u001b[1m .vimrc \u001b[m\u001b[4m\u001b[30m\u001b[47m d/w/S/vimrc-006 \u001b[m\u001b[7m                                                                                                                  \u001b[m\u001b[1;139H\u001b[4m\u001b[30m\u001b[47mX\u001b[m\u001b[2;1H\u001b[38;5;130m135 \u001b[m      \u001b[38;5;130mechon\u001b[m \u001b[31m'noexpandtab'\u001b[m\r\n\u001b[38;5;130m136 \u001b[m    \u001b[38;5;130mendif\r\n137 \u001b[m  \u001b[38;5;130mfinally\r\n138 \u001b[m    \u001b[38;5;130mechohl\u001b[m \u001b[32mNone\u001b[m\r\n\u001b[38;5;130m139 \u001b[m  \u001b[38;5;130mendtry\r\n140 endfunction\r\n141 \r\n142 function\u001b[m! \u001b[35m<SID>\u001b[mStripTrailingWhitespaces\u001b[35m()\u001b[m\r\n\u001b[38;5;130m143 \u001b[m\u001b[34m  \"\u001b[m \u001b[35mPreparation:\u001b[m\u001b[34m save last search, and cursor position.\u001b[m\r\n\u001b[38;5;130m144 \u001b[m  \u001b[38;5;130mlet\u001b[m \u001b[36m_s\u001b[m\u001b[38;5;130m=\u001b[m@/\r\n\u001b[38;5;130m145 \u001b[m  \u001b[38;5;130mlet\u001b[m \u001b[36ml\u001b[m \u001b[38;5;130m=\u001b[m \u001b[36mline\u001b[m\u001b[35m(\u001b[m\u001b[31m\".\"\u001b[m\u001b[35m)\u001b[m\r\n\u001b[38;5;130m146 \u001b[m  \u001b[38;5;130mlet\u001b[m \u001b[36mc\u001b[m \u001b[38;5;130m=\u001b[m \u001b[36mcol\u001b[m\u001b[35m(\u001b[m\u001b[31m\".\"\u001b[m\u001b[35m)\u001b[m\r\n\u001b[38;5;130m147 \u001b[m\u001b[34m  \" Do the business:\u001b[m\r\n\u001b[38;5;130m148 \u001b[m  \u001b[31m%\u001b[m\u001b[38;5;130ms\u001b[m\u001b[35m/\u001b[m"
+    ],
+    [
+      0.000117,
+      "\\s\\+$\u001b[35m//e\u001b[m\r\n\u001b[38;5;130m149 \u001b[m\u001b[34m  \" Clean up: restore previous search history, and cursor position\u001b[m\r\n\u001b[38;5;130m150 \u001b[m  \u001b[38;5;130mlet\u001b[m @/\u001b[38;5;130m=\u001b[m_s\r\n\u001b[38;5;130m151 \u001b[m  \u001b[38;5;130mcall\u001b[m \u001b[36mcursor\u001b[m\u001b[35m(\u001b[ml, c\u001b[35m)\u001b[m\r\n\u001b[38;5;130m152 endfunction\r\n153 \r\n154 \u001b[m\u001b[34m\"Support Tabularize\u001b[m\r\n\u001b[38;5;130m155 inoremap\u001b[m \u001b[35m<silent>\u001b[m \u001b[35m<Bar>\u001b[m   \u001b[35m<Bar><Esc>\u001b[m:call \u001b[35m<SID>\u001b[malign()\u001b[35m<CR>\u001b[ma\r\n\u001b[38;5;130m156 \r\n157 function\u001b[m! \u001b[35ms:\u001b[malign\u001b[35m()\u001b[m\r\n\u001b[38;5;130m158 \u001b[m  \u001b[38;5;130mlet\u001b[m \u001b[36mp\u001b[m \u001b[38;5;130m=\u001b[m \u001b[31m'^\\s*|\\s.*\\s|\\s*$'\u001b[m\r\n\u001b[38;5;130m159 \u001b[m  \u001b[38;5;130mif\u001b[m \u001b[36mexists\u001b[m\u001b[35m(\u001b[m\u001b[31m':Tabularize'\u001b[m\u001b[35m)\u001b[m \u001b[38;5;130m&&\u001b[m \u001b[36mgetline\u001b[m\u001b[35m(\u001b[m\u001b[31m'.'\u001b[m\u001b[35m)\u001b[m \u001b[38;5;130m=~#\u001b[m \u001b[31m'^\\s*|'\u001b[m \u001b[38;5;130m&&\u001b[m \u001b[35m(\u001b[m\u001b[36mgetline\u001b[m\u001b[35m(\u001b[m\u001b[36mline\u001b[m\u001b[35m(\u001b[m\u001b[31m'.'\u001b[m\u001b[35m)\u001b[m\u001b[38;5;130m-\u001b[m\u001b[31m1\u001b[m\u001b[35m)\u001b[m \u001b[38;5;130m\u001b[105m=\u001b[m\u001b[38;5;130m~#\u001b[m p \u001b[38;5;130m||\u001b[m \u001b[36mgetline\u001b[m\u001b[35m(\u001b[m\u001b[36mline\u001b[m\u001b[35m(\u001b[m"
+    ],
+    [
+      0.003567,
+      "\u001b[31m'.'\u001b[m\u001b[35m)\u001b[m\u001b[38;5;130m+\u001b[m\u001b[31m1\u001b[m\u001b[35m)\u001b[m \u001b[38;5;130m=~#\u001b[m p\u001b[35m)\u001b[m\r\n\u001b[38;5;130m160 \u001b[m    \u001b[38;5;130mlet\u001b[m \u001b[36mcolumn\u001b[m \u001b[38;5;130m=\u001b[m \u001b[36mstrlen\u001b[m\u001b[38;5;130m(substitute\u001b[m\u001b[35m(\u001b[m\u001b[36mgetline\u001b[m\u001b[35m(\u001b[m\u001b[31m'.'\u001b[m\u001b[35m)\u001b[m[\u001b[31m0\u001b[m:\u001b[36mcol\u001b[m\u001b[35m(\u001b[m\u001b[31m'.'\u001b[m\u001b[35m)\u001b[m],\u001b[31m'[^|]'\u001b[m,\u001b[31m''\u001b[m,\u001b[31m'g'\u001b[m\u001b[35m)\u001b[m)\r\n\u001b[38;5;130m161 \u001b[m    \u001b[38;5;130mlet\u001b[m \u001b[36mposition\u001b[m \u001b[38;5;130m=\u001b[m \u001b[36mstrlen\u001b[m\u001b[35m(\u001b[m\u001b[36mmatchstr\u001b[m\u001b[35m(\u001b[m\u001b[36mgetline\u001b[m\u001b[35m(\u001b[m\u001b[31m'.'\u001b[m\u001b[35m)\u001b[m[\u001b[31m0\u001b[m:\u001b[36mcol\u001b[m\u001b[35m(\u001b[m\u001b[31m'.'\u001b[m\u001b[35m)\u001b[m],\u001b[31m'.*|\\s*\\zs.*'\u001b[m\u001b[35m))\u001b[m\r\n\u001b[38;5;130m162 \u001b[m    Tabularize/|/l1\r\n\u001b[38;5;130m163 \u001b[m    \u001b[38;5;130mnormal!\u001b[m 0\r\n\u001b[38;5;130m164 \u001b[m    \u001b[38;5;130mcall\u001b[m \u001b[36msearch\u001b[m\u001b[35m(\u001b[m\u001b[36mrepeat\u001b[m\u001b[35m(\u001b[m\u001b[31m'[^|]*|'\u001b[m,column\u001b[35m)\u001b[m\u001b[38;5;130m.\u001b[m\u001b[31m'\\s\\{-\\}'\u001b[m\u001b[38;5;130m.\u001b[m\u001b[36mrepeat\u001b[m\u001b[35m(\u001b[m\u001b[31m'.'\u001b[m,position\u001b[35m)\u001b[m,\u001b[31m'ce'\u001b[m,\u001b[36mline\u001b[m\u001b[35m\u001b[105m(\u001b[m\u001b[31m'.'\u001b[m\u001b[35m))\u001b[m\r\n\u001b[38;5;130m165 \u001b[m  \u001b[38;5;130mendif\r\n166 endfunction\r\n1"
+    ],
+    [
+      0.00019,
+      "67 \u001b[m\r\n\u001b[1m\u001b[7m.vimrc                                                                                                                   167,0-1        Bot\u001b[34;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.731802,
+      "\u001b[?25l\u001b[m\r\n\r\n7 more lines"
+    ],
+    [
+      0.001447,
+      "\u001b[1;2H\u001b[1m+v\b i\b.vimrc \u001b[m\u001b[4m\u001b[30m\u001b[47m d/w/S/vimrc-006 \u001b[m\u001b[111C\u001b[7m \u001b[m\u001b[1;139H\u001b[4m\u001b[30m\u001b[47mX\u001b[2;34r\u001b[m\u001b[34;1H\r\n\u001b[1;36r\u001b[34;1H\u001b[38;5;130m168 \u001b[m\u001b[34m\" Configure color theme\u001b[m\u001b[35;8H\u001b[1m\u001b[7m[+]\u001b[113C8,1   \u001b[7C95%\u001b[m\u001b[36;1H\u001b[K\u001b[36;1H7 more lines"
+    ],
+    [
+      0.000133,
+      "\u001b[34;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      2.294539,
+      "\u0007\u001b[?25l\u001b[2;34r\u001b[2;1H\u001b[6M\u001b[1;36r\u001b[29;1H\u001b[38;5;130m169 let\u001b[m \u001b[36mg:solarized_termcolors\u001b[m\u001b[38;5;130m=\u001b[m\u001b[31m256\u001b[m\r\n\u001b[38;5;130m170 syntax\u001b[m \u001b[32menable\u001b[m\r\n\u001b[38;5;130m171 set\u001b[m \u001b[35mbackground\u001b[m=dark\r\n\u001b[38;5;130m172 colorscheme\u001b[m solarized8\r\n\u001b[38;5;130m173 \r\n174 \u001b[m\u001b[34m\"\u001b[m \u001b[35mCOMMENT:\u001b[m\u001b[34m save the file ->  :w\u001b[m\u001b[36;1H\u001b[K\u001b[35;123H\u001b[1m\u001b[7m74,\u001b[11CBot\u001b[34;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.989641,
+      "\u001b[?25l\u001b[m\r\u001b[94m~                                                                                                                                          \u001b[m\u001b[35;124H\u001b[1m\u001b[7m3,0-1\u001b[33;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.265673,
+      "\u0007\u001b[?25l\r\n\r\n\r\n\u001b[m:\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.336958,
+      "w\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.208931,
+      "\r\u001b[?25l\".vimrc\""
+    ],
+    [
+      0.001693,
+      " 173L, 5096C written"
+    ],
+    [
+      0.000733,
+      "\u001b[1;2H\u001b[1m.vimrcr\b c\u001b[m\b\u001b[4m\u001b[30m\u001b[47m \u001b[m\u001b[1m \u001b[m\b\u001b[4m\u001b[30m\u001b[47md/w/S/vimrc-006 \u001b[m\u001b[7m  \u001b[111C \u001b[m\u001b[1;139H\u001b[4m\u001b[30m\u001b[47mX\u001b[m\u001b[35;8H\u001b[1m\u001b[7m    "
+    ],
+    [
+      0.000157,
+      "\u001b[33;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.77005,
+      "\u001b[?25l\u001b[35;124H2,1   \u001b[32;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.190738,
+      "\u001b[?25l\u001b[35;124H1,\u001b[31;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.167546,
+      "\u001b[?25l\u001b[35;124H0,\u001b[30;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.16046,
+      "\u001b[?25l\u001b[35;123H69,\u001b[29;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.151681,
+      "\u001b[?25l\u001b[35;124H8,\u001b[28;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.672708,
+      "\u001b[?25l\u001b[35;124H9,\u001b[29;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.345032,
+      "\u001b[?25l\u001b[35;123H70,\u001b[30;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.310707,
+      "\u001b[?25l\u001b[35;124H1,\u001b[31;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.320434,
+      "\u001b[?25l\u001b[35;124H2,\u001b[32;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.338267,
+      "\u001b[?25l\u001b[35;124H3,0-1\u001b[33;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      3.423148,
+      "\u001b[?25l\u001b[m\u001b[36;1H\u001b[K\u001b[36;1H:\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.6969,
+      "w\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.262764,
+      "q"
+    ],
+    [
+      0.002013,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.558835,
+      "\r\u001b[?25l\".vimrc\""
+    ],
+    [
+      0.001619,
+      " 173L, 5096C written"
+    ],
+    [
+      0.007673,
+      "\u001b[27m\u001b[23m\u001b[m\u001b[H\u001b[2J\u001b[1;1H\u001b[38;5;130m  1 \u001b[m\u001b[34m\" Clone the Solarized repo:\u001b[m\r\n\u001b[38;5;130m  2 \u001b[m\u001b[34m\" git clone https://github.com/lifepillar/vim-solarized8.git ~/.vim/pack/themes/opt/solarized8\u001b[m\r\n\u001b[38;5;130m  3 \r\n  4 \u001b[m\u001b[34m\" Configure color theme\u001b[m\r\n\u001b[38;5;130m  5 let\u001b[m \u001b[36mg:solarized_termcolors\u001b[m\u001b[38;5;130m=\u001b[m\u001b[31m256\u001b[m\r\n\u001b[38;5;130m  6 syntax\u001b[m \u001b[32menable\u001b[m\r\n\u001b[38;5;130m  7 set\u001b[m \u001b[35mbackground\u001b[m=dark\r\n\u001b[38;5;130m  8 colorscheme\u001b[m solarized8\r\n\u001b[38;5;130m  9 \r\n 10 \u001b[m\u001b[34m\"\u001b[m \u001b[35mCOMMENT:\u001b[m\u001b[34m save the file ->  :w\u001b[m\r\n\u001b[94m~                                                                                                                                          \u001b[12;1H~                                                                                                                                          \u001b[13;1H~                                                                                                                                          \u001b[14;1H~                             "
+    ],
+    [
+      6.9e-05,
+      "                                                                                                             \u001b[15;1H~                                                                                                                                          \u001b[16;1H~                                                                                                                                          \u001b[17;1H~                                                                                                                                          \u001b[18;1H~                                                                                                                                          \u001b[19;1H~                                                                                                                                          \u001b[20;1H~                                                                                                                                          \u001b[21;1H~                              "
+    ],
+    [
+      0.0003,
+      "                                                                                                            \u001b[22;1H~                                                                                                                                          \u001b[23;1H~                                                                                                                                          \u001b[24;1H~                                                                                                                                          \u001b[25;1H~                                                                                                                                          \u001b[26;1H~                                                                                                                                          \u001b[27;1H~                                                                                                                                          \u001b[28;1H~                                "
+    ],
+    [
+      3.1e-05,
+      "                                                                                                          \u001b[29;1H~                                                                                                                                          \u001b[30;1H~                                                                                                                                          \u001b[31;1H~                                                                                                                                          \u001b[32;1H~                                                                                                                                          \u001b[33;1H~                                                                                                                                          \u001b[34;1H~                                                                                                                                          \u001b[m\u001b[35;1H\u001b[1m\u001b[7mdocker-vim-demo/worksho"
+    ],
+    [
+      0.000256,
+      "p/STEP-SIX/vimrc-006                                                                              4,1            All\u001b[4;5H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.082687,
+      "\u001b[?25l\u001b[36;1H\u001b[m:"
+    ],
+    [
+      0.000593,
+      "\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.24809,
+      "q"
+    ],
+    [
+      0.001652,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.687282,
+      "\r\u001b[?25l"
+    ],
+    [
+      0.101126,
+      "\u001b[36;1H\u001b[K\u001b[36;1H\u001b[?1l\u001b>"
+    ],
+    [
+      0.00024,
+      "\u001b[?12l\u001b[?25h\u001b[?1049l"
+    ],
+    [
+      0.008122,
+      "\u001b]0;jfhogarty@workshop-one: ~\u0007\u001b[01;32mjfhogarty@workshop-one\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      0.943857,
+      "e"
+    ],
+    [
+      0.248754,
+      "x"
+    ],
+    [
+      0.218047,
+      "i"
+    ],
+    [
+      0.110272,
+      "t"
+    ],
+    [
+      0.345614,
+      "\r\nexit\r\n"
+    ]
+  ]
+}
