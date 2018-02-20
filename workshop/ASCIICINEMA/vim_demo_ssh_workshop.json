@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "width": 160,
-  "height": 40,
-  "duration": 18.341517,
+  "width": 166,
+  "height": 44,
+  "duration": 48.564748,
   "command": null,
   "title": "Vim Demo - ssh to workshop",
   "env": {
@@ -11,152 +11,188 @@
   },
   "stdout": [
     [
-      0.663676,
-      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                               \r \r\u001b]2;jfhogarty@Serenity: ~\u0007\u001b]1;~\u0007"
+      0.652889,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                     \r \r"
     ],
     [
-      0.030807,
+      8.3e-05,
+      "\u001b]2;jfhogarty@Serenity: ~\u0007\u001b]1;~\u0007"
+    ],
+    [
+      0.031042,
       "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36m~\u001b[00m \u001b[K"
     ],
     [
-      0.000155,
+      0.00016,
       "\u001b[?1h\u001b="
     ],
     [
-      7.4e-05,
+      3.2e-05,
       "\u001b[?2004h"
     ],
     [
-      0.559719,
+      10.452853,
       "s"
     ],
     [
-      0.143031,
+      0.14254,
       "\bss"
     ],
     [
-      0.207779,
+      0.255806,
       "h"
     ],
     [
-      0.144472,
+      0.136871,
       " "
     ],
     [
-      0.528094,
-      "\u001b[7mjfhogarty@45.32.169.136\u001b[27m"
+      0.391171,
+      "s"
     ],
     [
-      1.263558,
-      "\u001b[23D\u001b[27mj\u001b[27mf\u001b[27mh\u001b[27mo\u001b[27mg\u001b[27ma\u001b[27mr\u001b[27mt\u001b[27my\u001b[27m@\u001b[27m4\u001b[27m5\u001b[27m.\u001b[27m3\u001b[27m2\u001b[27m.\u001b[27m1\u001b[27m6\u001b[27m9\u001b[27m.\u001b[27m1\u001b[27m3\u001b[27m6"
+      0.184472,
+      "t"
     ],
     [
-      3.5e-05,
-      "\u001b[?1l\u001b>"
+      0.096004,
+      "u"
     ],
     [
-      0.000107,
-      "\u001b[?2004l\r\r\n"
+      0.079845,
+      "d"
     ],
     [
-      0.001146,
-      "\u001b]2;ssh jfhogarty@45.32.169.136\u0007\u001b]1;jfhogarty@45.32.169.136\u0007"
+      0.200056,
+      "e"
     ],
     [
-      0.358525,
-      "jfhogarty@45.32.169.136's password: "
+      0.231917,
+      "n"
     ],
     [
-      3.728825,
+      0.478916,
+      "t"
+    ],
+    [
+      0.833364,
+      "4"
+    ],
+    [
+      0.51162,
+      "@"
+    ],
+    [
+      8.694106,
+      "\u001b[7m144.202.81.204\u001b[27m"
+    ],
+    [
+      1.146335,
+      "\u001b[14D\u001b[27m1\u001b[27m4\u001b[27m4\u001b[27m.\u001b[27m2\u001b[27m0\u001b[27m2\u001b[27m.\u001b[27m8\u001b[27m1\u001b[27m.\u001b[27m2\u001b[27m0\u001b[27m4"
+    ],
+    [
+      4.3e-05,
+      "\u001b[?1l\u001b>\u001b[?2004l"
+    ],
+    [
+      3.2e-05,
+      "\r\r\n"
+    ],
+    [
+      0.001405,
+      "\u001b]2;ssh student4@144.202.81.204\u0007\u001b]1;student4@144.202.81.204\u0007"
+    ],
+    [
+      0.863097,
+      "student4@144.202.81.204's password: "
+    ],
+    [
+      7.925417,
       "\r\n"
     ],
     [
-      0.798997,
-      "Welcome to Ubuntu 17.10 (GNU/Linux 4.13.0-25-generic x86_64)\r\n\r\n * Documentation:  https://help.ubuntu.com\r\n * Management:     https://landscape.canonical.com\r\n * Support:        https://ubuntu.com/advantage\r\n"
+      0.909516,
+      "Welcome to Ubuntu 17.10 (GNU/Linux 4.13.0-25-generic x86_64)\r\n"
     ],
     [
-      0.021081,
-      "\r\n\r\n0 packages can be updated.\r\n0 updates are security updates.\r\n\r\n\r\n*** System restart required ***\r\nLast login: Sun Feb  4 21:21:18 2018 from 45.30.196.18\r\r\n"
+      0.000147,
+      "\r\n * Documentation:  https://help.ubuntu.com\r\n * Management:     https://landscape.canonical.com\r\n * Support:        https://ubuntu.com/advantage\r\n"
     ],
     [
-      0.077886,
-      "\u001b]0;jfhogarty@workshop-one: ~\u0007\u001b[01;32mjfhogarty@workshop-one\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+      0.105903,
+      "\r\n\r\n15 packages can be updated.\r\n1 update is a security update.\r\n\r\n\r\n*** System restart required ***\r\nLast login: Mon Feb 19 22:39:16 2018 from 45.30.196.18\r\r\n\u001b]0;student4@workshop-three: ~\u0007\u001b[01;32mstudent4@workshop-three\u001b[00m:\u001b[01;34m~\u001b[00m$ "
     ],
     [
-      7.905901,
+      1.186994,
+      "\r\n\u001b]0;student4@workshop-three: ~\u0007\u001b[01;32mstudent4@workshop-three\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      1.865486,
+      "p"
+    ],
+    [
+      0.086002,
+      "w"
+    ],
+    [
+      0.16522,
+      "d"
+    ],
+    [
+      0.883231,
+      "\r\n/home/student4\r\n\u001b]0;student4@workshop-three: ~\u0007\u001b[01;32mstudent4@workshop-three\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      3.951768,
       "e"
     ],
     [
-      0.223369,
+      0.352024,
       "x"
     ],
     [
-      0.191633,
+      0.194329,
       "i"
     ],
     [
-      0.099368,
+      0.125416,
       "t"
     ],
     [
-      0.216775,
+      0.667919,
       "\r\nlogout\r\n"
     ],
     [
-      0.001856,
-      "Connection to 45.32.169.136 closed.\r\r\n"
+      0.002173,
+      "Connection to 144.202.81.204 closed.\r\r\n"
     ],
     [
-      0.000681,
-      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                               \r \r"
+      0.000858,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                     \r \r"
     ],
     [
-      0.000182,
+      0.000216,
       "\u001b]2;jfhogarty@Serenity: ~\u0007"
     ],
     [
-      8.8e-05,
+      3.4e-05,
       "\u001b]1;~\u0007"
     ],
     [
-      0.024645,
+      0.024003,
       "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36m~\u001b[00m \u001b[K"
     ],
     [
-      4.8e-05,
+      3.3e-05,
       "\u001b[?1h\u001b="
     ],
     [
-      2.4e-05,
+      3.3e-05,
       "\u001b[?2004h"
     ],
     [
-      0.587087,
-      "e"
-    ],
-    [
-      0.151989,
-      "\bex"
-    ],
-    [
-      0.113225,
-      "i"
-    ],
-    [
-      0.070472,
-      "t"
-    ],
-    [
-      0.184092,
-      "\u001b[?1l\u001b>"
-    ],
-    [
-      2.7e-05,
+      4.694052,
       "\u001b[?2004l\r\r\n"
-    ],
-    [
-      0.001875,
-      "\u001b]2;exit\u0007\u001b]1;exit\u0007"
     ]
   ]
 }
