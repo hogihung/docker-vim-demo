@@ -1,0 +1,1306 @@
+{
+  "version": 1,
+  "width": 166,
+  "height": 44,
+  "duration": 75.564896,
+  "command": null,
+  "title": "Vim Demo - Vundle Install",
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.044078,
+      "\u001b]0;student4@workshop-three: ~\u0007\u001b[01;32mstudent4@workshop-three\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      0.992302,
+      "d"
+    ],
+    [
+      0.111873,
+      "o"
+    ],
+    [
+      0.116533,
+      "c"
+    ],
+    [
+      0.105618,
+      "k"
+    ],
+    [
+      0.12697,
+      "e"
+    ],
+    [
+      0.088905,
+      "r"
+    ],
+    [
+      0.119038,
+      " "
+    ],
+    [
+      0.210612,
+      "p"
+    ],
+    [
+      0.719958,
+      "\b\u001b[K"
+    ],
+    [
+      0.205126,
+      "i"
+    ],
+    [
+      0.088934,
+      "m"
+    ],
+    [
+      0.126982,
+      "a"
+    ],
+    [
+      0.088212,
+      "g"
+    ],
+    [
+      0.096298,
+      "e"
+    ],
+    [
+      0.088306,
+      "s"
+    ],
+    [
+      0.217083,
+      "\r\n"
+    ],
+    [
+      0.030725,
+      "REPOSITORY"
+    ],
+    [
+      0.000167,
+      "        "
+    ],
+    [
+      0.000135,
+      "        "
+    ],
+    [
+      0.000118,
+      " "
+    ],
+    [
+      0.000116,
+      "TAG"
+    ],
+    [
+      0.000151,
+      "        "
+    ],
+    [
+      0.00012,
+      "        "
+    ],
+    [
+      0.000108,
+      " "
+    ],
+    [
+      0.00017,
+      "IMAGE ID"
+    ],
+    [
+      0.000128,
+      "        "
+    ],
+    [
+      8.9e-05,
+      "    "
+    ],
+    [
+      9.1e-05,
+      "CREATED"
+    ],
+    [
+      9e-05,
+      "        "
+    ],
+    [
+      8.8e-05,
+      "     "
+    ],
+    [
+      8.8e-05,
+      "SIZE"
+    ],
+    [
+      9.9e-05,
+      "\r\n"
+    ],
+    [
+      8.8e-05,
+      "hogihung/ubuntu-ruby-vim"
+    ],
+    [
+      8.7e-05,
+      "   "
+    ],
+    [
+      8.5e-05,
+      "1.0.0"
+    ],
+    [
+      0.000115,
+      "        "
+    ],
+    [
+      8.6e-05,
+      "       "
+    ],
+    [
+      8.5e-05,
+      "92379827484f"
+    ],
+    [
+      8.6e-05,
+      "        "
+    ],
+    [
+      8.9e-05,
+      "7 weeks ago"
+    ],
+    [
+      8.8e-05,
+      "        "
+    ],
+    [
+      9e-05,
+      " "
+    ],
+    [
+      9.2e-05,
+      "915MB"
+    ],
+    [
+      9.1e-05,
+      "\r\n"
+    ],
+    [
+      0.002022,
+      "\u001b]0;student4@workshop-three: ~\u0007\u001b[01;32mstudent4@workshop-three\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      0.715379,
+      "\r\n\u001b]0;student4@workshop-three: ~\u0007\u001b[01;32mstudent4@workshop-three\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      0.314389,
+      "d"
+    ],
+    [
+      0.188913,
+      "o"
+    ],
+    [
+      0.19995,
+      "c"
+    ],
+    [
+      0.112809,
+      "k"
+    ],
+    [
+      0.087515,
+      "e"
+    ],
+    [
+      0.072595,
+      "r"
+    ],
+    [
+      0.070931,
+      " "
+    ],
+    [
+      1.248545,
+      "r"
+    ],
+    [
+      0.112668,
+      "u"
+    ],
+    [
+      0.206913,
+      "n"
+    ],
+    [
+      0.088166,
+      " "
+    ],
+    [
+      0.159873,
+      "-"
+    ],
+    [
+      0.223985,
+      "i"
+    ],
+    [
+      0.124758,
+      "t"
+    ],
+    [
+      0.05881,
+      " "
+    ],
+    [
+      0.253153,
+      "-"
+    ],
+    [
+      0.147354,
+      "-"
+    ],
+    [
+      0.256681,
+      "n"
+    ],
+    [
+      0.143266,
+      "a"
+    ],
+    [
+      0.098101,
+      "m"
+    ],
+    [
+      0.109198,
+      "e"
+    ],
+    [
+      0.809136,
+      "="
+    ],
+    [
+      0.255707,
+      "s"
+    ],
+    [
+      0.159742,
+      "t"
+    ],
+    [
+      0.121002,
+      "u"
+    ],
+    [
+      0.079381,
+      "d"
+    ],
+    [
+      0.167961,
+      "e"
+    ],
+    [
+      0.08862,
+      "n"
+    ],
+    [
+      0.09589,
+      "t"
+    ],
+    [
+      0.890685,
+      "4"
+    ],
+    [
+      0.471254,
+      " "
+    ],
+    [
+      0.34928,
+      "-"
+    ],
+    [
+      0.531096,
+      "h"
+    ],
+    [
+      2.101974,
+      "="
+    ],
+    [
+      0.414097,
+      "v"
+    ],
+    [
+      0.273138,
+      "i"
+    ],
+    [
+      0.165644,
+      "m"
+    ],
+    [
+      0.952078,
+      "-"
+    ],
+    [
+      0.66236,
+      "s"
+    ],
+    [
+      0.125273,
+      "t"
+    ],
+    [
+      0.10529,
+      "u"
+    ],
+    [
+      0.093465,
+      "d"
+    ],
+    [
+      0.151686,
+      "e"
+    ],
+    [
+      0.088009,
+      "n"
+    ],
+    [
+      0.08106,
+      "t"
+    ],
+    [
+      0.810583,
+      "4"
+    ],
+    [
+      0.476522,
+      " "
+    ],
+    [
+      2.378958,
+      "-"
+    ],
+    [
+      3.578039,
+      "r"
+    ],
+    [
+      0.20846,
+      "m"
+    ],
+    [
+      0.69574,
+      " "
+    ],
+    [
+      2.673048,
+      "92379827484f"
+    ],
+    [
+      1.13907,
+      "\r\n"
+    ],
+    [
+      0.016055,
+      "unknown shorthand flag: 'r' in -rm"
+    ],
+    [
+      0.00012,
+      "\r\n"
+    ],
+    [
+      6.8e-05,
+      "See 'docker run --help'."
+    ],
+    [
+      6.4e-05,
+      "\r\n"
+    ],
+    [
+      0.001616,
+      "\u001b]0;student4@workshop-three: ~\u0007\u001b[01;32mstudent4@workshop-three\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      1.851898,
+      "docker run -it --name=student4 -h=vim-student4 -rm 92379827484f"
+    ],
+    [
+      0.329013,
+      "\b"
+    ],
+    [
+      0.497604,
+      "\b"
+    ],
+    [
+      0.08914,
+      "\b"
+    ],
+    [
+      0.08664,
+      "\b"
+    ],
+    [
+      0.083175,
+      "\b"
+    ],
+    [
+      0.121958,
+      "\b"
+    ],
+    [
+      0.075118,
+      "\b"
+    ],
+    [
+      0.066075,
+      "\b"
+    ],
+    [
+      0.086661,
+      "\b"
+    ],
+    [
+      0.083905,
+      "\b"
+    ],
+    [
+      0.086139,
+      "\b"
+    ],
+    [
+      0.087633,
+      "\b"
+    ],
+    [
+      0.088998,
+      "\b"
+    ],
+    [
+      0.08752,
+      "\b"
+    ],
+    [
+      0.279528,
+      "\b"
+    ],
+    [
+      0.613686,
+      "\u001b[1@-"
+    ],
+    [
+      0.287581,
+      "\r\n"
+    ],
+    [
+      0.826931,
+      "\u001b]0;root@vim-student4: /\u0007root@vim-student4:/# "
+    ],
+    [
+      6.777922,
+      "c"
+    ],
+    [
+      0.164712,
+      "d"
+    ],
+    [
+      0.07976,
+      " "
+    ],
+    [
+      0.714981,
+      "~"
+    ],
+    [
+      0.290124,
+      "\r\n"
+    ],
+    [
+      0.028779,
+      "\u001b]0;root@vim-student4: ~\u0007root@vim-student4:~# "
+    ],
+    [
+      0.774435,
+      "p"
+    ],
+    [
+      0.106575,
+      "w"
+    ],
+    [
+      0.14906,
+      "d"
+    ],
+    [
+      0.135615,
+      "\r\n/root\r\n\u001b]0;root@vim-student4: ~\u0007root@vim-student4:~# "
+    ],
+    [
+      0.496975,
+      "l"
+    ],
+    [
+      0.196547,
+      "s"
+    ],
+    [
+      0.04309,
+      " "
+    ],
+    [
+      0.200966,
+      "-"
+    ],
+    [
+      0.270953,
+      "l"
+    ],
+    [
+      0.143653,
+      "a"
+    ],
+    [
+      0.188771,
+      "\r\ntotal 28\r\ndrwx------ 1 root root 4096 Dec 27 20:14 \u001b[0m\u001b[01;34m.\u001b[0m"
+    ],
+    [
+      0.000257,
+      "\r\ndrwxr-xr-x 1 root root 4096 Feb 20 01:54 \u001b[01;34m..\u001b[0m\r\n-rw-r--r-- 1 root root 3106 Oct 22  2015 .bashrc"
+    ],
+    [
+      0.000408,
+      "\r\ndrwxrwxr-x 3 root root 4096 Dec 27 20:14 \u001b[01;34m.gem\u001b[0m\r\n"
+    ],
+    [
+      0.000341,
+      "drwx------ 4 root root 4096 Dec 27 20:09 \u001b[01;34m.gnupg\u001b[0m\r\n-rw-r--r-- 1 root root  148 Aug 17  2015 .profile\r\n-rw-r--r-- 1 root root   80 Dec 27 20:09 .rvmrc"
+    ],
+    [
+      0.000665,
+      "\r\n\u001b]0;root@vim-student4: ~\u0007root@vim-student4:~# "
+    ],
+    [
+      10.539172,
+      "mkdir -p .vim/bundle"
+    ],
+    [
+      0.893456,
+      "\r\n\u001b]0;root@vim-student4: ~\u0007root@vim-student4:~# "
+    ],
+    [
+      7.237302,
+      "git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim"
+    ],
+    [
+      0.858921,
+      "\r\n"
+    ],
+    [
+      0.002852,
+      "Cloning into '/root/.vim/bundle/Vundle.vim'...\r\n"
+    ],
+    [
+      0.360682,
+      "remote: Counting objects: 3136, done.\u001b[K\r\n"
+    ],
+    [
+      0.004994,
+      "Receiving objects:   0% (1/3136)   \r"
+    ],
+    [
+      0.001011,
+      "Receiving objects:   1% (32/3136)   \r"
+    ],
+    [
+      0.000739,
+      "Receiving objects:   2% (63/3136)   \r"
+    ],
+    [
+      0.000958,
+      "Receiving objects:   3% (95/3136)   \r"
+    ],
+    [
+      0.000733,
+      "Receiving objects:   4% (126/3136)   \r"
+    ],
+    [
+      0.000886,
+      "Receiving objects:   5% (157/3136)   \r"
+    ],
+    [
+      0.000784,
+      "Receiving objects:   6% (189/3136)   \r"
+    ],
+    [
+      0.000815,
+      "Receiving objects:   7% (220/3136)   \r"
+    ],
+    [
+      0.000901,
+      "Receiving objects:   8% (251/3136)   \r"
+    ],
+    [
+      0.000811,
+      "Receiving objects:   9% (283/3136)   \r"
+    ],
+    [
+      0.000599,
+      "Receiving objects:  10% (314/3136)   \r"
+    ],
+    [
+      0.000628,
+      "Receiving objects:  11% (345/3136)   \r"
+    ],
+    [
+      0.000812,
+      "Receiving objects:  12% (377/3136)   \r"
+    ],
+    [
+      0.000633,
+      "Receiving objects:  13% (408/3136)   \r"
+    ],
+    [
+      0.000787,
+      "Receiving objects:  14% (440/3136)   \r"
+    ],
+    [
+      0.000849,
+      "Receiving objects:  15% (471/3136)   \r"
+    ],
+    [
+      0.000622,
+      "Receiving objects:  16% (502/3136)   \r"
+    ],
+    [
+      0.000713,
+      "Receiving objects:  17% (534/3136)   \r"
+    ],
+    [
+      0.000691,
+      "Receiving objects:  18% (565/3136)   \r"
+    ],
+    [
+      0.000841,
+      "Receiving objects:  19% (596/3136)   \r"
+    ],
+    [
+      0.00087,
+      "Receiving objects:  20% (628/3136)   \r"
+    ],
+    [
+      0.000601,
+      "Receiving objects:  21% (659/3136)   \r"
+    ],
+    [
+      0.000672,
+      "Receiving objects:  22% (690/3136)   \r"
+    ],
+    [
+      0.001706,
+      "Receiving objects:  23% (722/3136)   \r"
+    ],
+    [
+      0.001529,
+      "Receiving objects:  24% (753/3136)   \r"
+    ],
+    [
+      0.001137,
+      "Receiving objects:  25% (784/3136)   \r"
+    ],
+    [
+      0.000726,
+      "Receiving objects:  26% (816/3136)   \r"
+    ],
+    [
+      0.000646,
+      "Receiving objects:  27% (847/3136)   \r"
+    ],
+    [
+      0.000955,
+      "Receiving objects:  28% (879/3136)   \r"
+    ],
+    [
+      0.000446,
+      "Receiving objects:  29% (910/3136)   \r"
+    ],
+    [
+      0.001407,
+      "Receiving objects:  30% (941/3136)   \r"
+    ],
+    [
+      0.00832,
+      "Receiving objects:  31% (973/3136)   \r"
+    ],
+    [
+      0.011744,
+      "Receiving objects:  32% (1004/3136)   \r"
+    ],
+    [
+      0.000908,
+      "Receiving objects:  33% (1035/3136)   \r"
+    ],
+    [
+      0.000725,
+      "Receiving objects:  34% (1067/3136)   \r"
+    ],
+    [
+      0.000654,
+      "Receiving objects:  35% (1098/3136)   \r"
+    ],
+    [
+      0.000633,
+      "Receiving objects:  36% (1129/3136)   \r"
+    ],
+    [
+      0.000379,
+      "Receiving objects:  37% (1161/3136)   \r"
+    ],
+    [
+      0.00063,
+      "Receiving objects:  38% (1192/3136)   \r"
+    ],
+    [
+      0.000579,
+      "Receiving objects:  39% (1224/3136)   \r"
+    ],
+    [
+      0.000427,
+      "Receiving objects:  40% (1255/3136)   \r"
+    ],
+    [
+      0.000654,
+      "Receiving objects:  41% (1286/3136)   \r"
+    ],
+    [
+      0.000562,
+      "Receiving objects:  42% (1318/3136)   \r"
+    ],
+    [
+      0.000492,
+      "Receiving objects:  43% (1349/3136)   \r"
+    ],
+    [
+      0.000632,
+      "Receiving objects:  44% (1380/3136)   \r"
+    ],
+    [
+      0.000488,
+      "Receiving objects:  45% (1412/3136)   \r"
+    ],
+    [
+      0.00036,
+      "Receiving objects:  46% (1443/3136)   \r"
+    ],
+    [
+      0.000394,
+      "Receiving objects:  47% (1474/3136)   \r"
+    ],
+    [
+      0.000515,
+      "Receiving objects:  48% (1506/3136)   \r"
+    ],
+    [
+      0.000425,
+      "Receiving objects:  49% (1537/3136)   \r"
+    ],
+    [
+      0.00063,
+      "Receiving objects:  50% (1568/3136)   \r"
+    ],
+    [
+      0.000691,
+      "Receiving objects:  51% (1600/3136)   \r"
+    ],
+    [
+      0.000748,
+      "Receiving objects:  52% (1631/3136)   \r"
+    ],
+    [
+      0.000745,
+      "Receiving objects:  53% (1663/3136)   \r"
+    ],
+    [
+      0.000677,
+      "Receiving objects:  54% (1694/3136)   \r"
+    ],
+    [
+      0.000389,
+      "Receiving objects:  55% (1725/3136)   \r"
+    ],
+    [
+      0.000402,
+      "Receiving objects:  56% (1757/3136)   \r"
+    ],
+    [
+      0.000546,
+      "Receiving objects:  57% (1788/3136)   \r"
+    ],
+    [
+      0.000399,
+      "Receiving objects:  58% (1819/3136)   \r"
+    ],
+    [
+      0.000347,
+      "Receiving objects:  59% (1851/3136)   \r"
+    ],
+    [
+      0.000562,
+      "Receiving objects:  60% (1882/3136)   \r"
+    ],
+    [
+      0.000424,
+      "Receiving objects:  61% (1913/3136)   \r"
+    ],
+    [
+      0.00038,
+      "Receiving objects:  62% (1945/3136)   \r"
+    ],
+    [
+      0.000554,
+      "Receiving objects:  63% (1976/3136)   \r"
+    ],
+    [
+      0.000423,
+      "Receiving objects:  64% (2008/3136)   \r"
+    ],
+    [
+      0.00056,
+      "Receiving objects:  65% (2039/3136)   \r"
+    ],
+    [
+      0.000447,
+      "Receiving objects:  66% (2070/3136)   \r"
+    ],
+    [
+      0.000373,
+      "Receiving objects:  67% (2102/3136)   \r"
+    ],
+    [
+      0.00037,
+      "Receiving objects:  68% (2133/3136)   \r"
+    ],
+    [
+      0.000436,
+      "Receiving objects:  69% (2164/3136)   \r"
+    ],
+    [
+      0.000409,
+      "Receiving objects:  70% (2196/3136)   \r"
+    ],
+    [
+      0.000454,
+      "Receiving objects:  71% (2227/3136)   \r"
+    ],
+    [
+      0.000356,
+      "Receiving objects:  72% (2258/3136)   \r"
+    ],
+    [
+      0.000508,
+      "Receiving objects:  73% (2290/3136)   \r"
+    ],
+    [
+      0.000464,
+      "Receiving objects:  74% (2321/3136)   \r"
+    ],
+    [
+      0.000494,
+      "Receiving objects:  75% (2352/3136)   \r"
+    ],
+    [
+      0.000366,
+      "Receiving objects:  76% (2384/3136)   \r"
+    ],
+    [
+      0.000445,
+      "Receiving objects:  77% (2415/3136)   \r"
+    ],
+    [
+      0.000534,
+      "Receiving objects:  78% (2447/3136)   \r"
+    ],
+    [
+      0.000422,
+      "Receiving objects:  79% (2478/3136)   \r"
+    ],
+    [
+      0.0004,
+      "Receiving objects:  80% (2509/3136)   \r"
+    ],
+    [
+      0.000453,
+      "Receiving objects:  81% (2541/3136)   \r"
+    ],
+    [
+      0.000504,
+      "Receiving objects:  82% (2572/3136)   \r"
+    ],
+    [
+      0.000673,
+      "remote: Total 3136 (delta 0), reused 0 (delta 0), pack-reused 3135\u001b[K\r\n"
+    ],
+    [
+      0.00053,
+      "Receiving objects:  83% (2603/3136)   \r"
+    ],
+    [
+      0.000548,
+      "Receiving objects:  84% (2635/3136)   \r"
+    ],
+    [
+      0.000469,
+      "Receiving objects:  85% (2666/3136)   \r"
+    ],
+    [
+      0.000402,
+      "Receiving objects:  86% (2697/3136)   \r"
+    ],
+    [
+      0.000551,
+      "Receiving objects:  87% (2729/3136)   \r"
+    ],
+    [
+      0.000403,
+      "Receiving objects:  88% (2760/3136)   \r"
+    ],
+    [
+      0.000412,
+      "Receiving objects:  89% (2792/3136)   \r"
+    ],
+    [
+      0.000386,
+      "Receiving objects:  90% (2823/3136)   \r"
+    ],
+    [
+      0.000488,
+      "Receiving objects:  91% (2854/3136)   \r"
+    ],
+    [
+      0.00048,
+      "Receiving objects:  92% (2886/3136)   \r"
+    ],
+    [
+      0.000572,
+      "Receiving objects:  93% (2917/3136)   \r"
+    ],
+    [
+      0.000393,
+      "Receiving objects:  94% (2948/3136)   \r"
+    ],
+    [
+      0.000431,
+      "Receiving objects:  95% (2980/3136)   \r"
+    ],
+    [
+      0.00052,
+      "Receiving objects:  96% (3011/3136)   \r"
+    ],
+    [
+      0.000468,
+      "Receiving objects:  97% (3042/3136)   \r"
+    ],
+    [
+      0.000511,
+      "Receiving objects:  98% (3074/3136)   \r"
+    ],
+    [
+      0.000446,
+      "Receiving objects:  99% (3105/3136)   \r"
+    ],
+    [
+      0.001034,
+      "Receiving objects: 100% (3136/3136)   \rReceiving objects: 100% (3136/3136), 933.44 KiB | 11.38 MiB/s, done.\r\n"
+    ],
+    [
+      0.000458,
+      "Resolving deltas:   0% (0/1105)   \r"
+    ],
+    [
+      0.001207,
+      "Resolving deltas:   2% (26/1105)   \r"
+    ],
+    [
+      0.000762,
+      "Resolving deltas:   3% (37/1105)   \r"
+    ],
+    [
+      0.001068,
+      "Resolving deltas:   4% (51/1105)   \r"
+    ],
+    [
+      0.001367,
+      "Resolving deltas:   5% (65/1105)   \r"
+    ],
+    [
+      0.000387,
+      "Resolving deltas:   6% (71/1105)   \r"
+    ],
+    [
+      0.000561,
+      "Resolving deltas:   7% (83/1105)   \r"
+    ],
+    [
+      0.001494,
+      "Resolving deltas:   9% (108/1105)   \r"
+    ],
+    [
+      0.003061,
+      "Resolving deltas:  16% (177/1105)   \r"
+    ],
+    [
+      0.00079,
+      "Resolving deltas:  19% (214/1105)   \r"
+    ],
+    [
+      0.00279,
+      "Resolving deltas:  26% (295/1105)   \r"
+    ],
+    [
+      0.000405,
+      "Resolving deltas:  27% (300/1105)   \r"
+    ],
+    [
+      0.001478,
+      "Resolving deltas:  33% (371/1105)   \r"
+    ],
+    [
+      0.000972,
+      "Resolving deltas:  35% (392/1105)   \r"
+    ],
+    [
+      0.000955,
+      "Resolving deltas:  36% (404/1105)   \r"
+    ],
+    [
+      0.000811,
+      "Resolving deltas:  37% (412/1105)   \r"
+    ],
+    [
+      0.000415,
+      "Resolving deltas:  38% (420/1105)   \r"
+    ],
+    [
+      0.000482,
+      "Resolving deltas:  39% (437/1105)   \r"
+    ],
+    [
+      0.000672,
+      "Resolving deltas:  41% (454/1105)   \r"
+    ],
+    [
+      0.00043,
+      "Resolving deltas:  42% (470/1105)   \r"
+    ],
+    [
+      0.000479,
+      "Resolving deltas:  43% (477/1105)   \r"
+    ],
+    [
+      0.002025,
+      "Resolving deltas:  44% (492/1105)   \r"
+    ],
+    [
+      0.000413,
+      "Resolving deltas:  45% (504/1105)   \r"
+    ],
+    [
+      0.00138,
+      "Resolving deltas:  47% (526/1105)   \r"
+    ],
+    [
+      0.000639,
+      "Resolving deltas:  48% (538/1105)   \r"
+    ],
+    [
+      0.001285,
+      "Resolving deltas:  52% (580/1105)   \r"
+    ],
+    [
+      0.000728,
+      "Resolving deltas:  53% (594/1105)   \r"
+    ],
+    [
+      0.000426,
+      "Resolving deltas:  54% (597/1105)   \r"
+    ],
+    [
+      0.000381,
+      "Resolving deltas:  56% (625/1105)   \r"
+    ],
+    [
+      0.000478,
+      "Resolving deltas:  57% (640/1105)   \r"
+    ],
+    [
+      0.000256,
+      "Resolving deltas:  58% (646/1105)   \r"
+    ],
+    [
+      0.00028,
+      "Resolving deltas:  59% (655/1105)   \r"
+    ],
+    [
+      0.00031,
+      "Resolving deltas:  60% (670/1105)   \r"
+    ],
+    [
+      0.000555,
+      "Resolving deltas:  62% (689/1105)   \r"
+    ],
+    [
+      0.000377,
+      "Resolving deltas:  63% (699/1105)   \r"
+    ],
+    [
+      0.000985,
+      "Resolving deltas:  66% (733/1105)   \r"
+    ],
+    [
+      0.00046,
+      "Resolving deltas:  67% (746/1105)   \r"
+    ],
+    [
+      0.001303,
+      "Resolving deltas:  73% (810/1105)   \r"
+    ],
+    [
+      0.000349,
+      "Resolving deltas:  74% (818/1105)   \r"
+    ],
+    [
+      0.000443,
+      "Resolving deltas:  75% (832/1105)   \r"
+    ],
+    [
+      0.000398,
+      "Resolving deltas:  77% (851/1105)   \r"
+    ],
+    [
+      0.000393,
+      "Resolving deltas:  78% (863/1105)   \r"
+    ],
+    [
+      0.000412,
+      "Resolving deltas:  79% (875/1105)   \r"
+    ],
+    [
+      0.000354,
+      "Resolving deltas:  80% (884/1105)   \r"
+    ],
+    [
+      0.000617,
+      "Resolving deltas:  81% (903/1105)   \rResolving deltas:  82% (907/1105)   \r"
+    ],
+    [
+      0.000409,
+      "Resolving deltas:  83% (918/1105)   \r"
+    ],
+    [
+      0.00031,
+      "Resolving deltas:  84% (929/1105)   \r"
+    ],
+    [
+      0.000306,
+      "Resolving deltas:  85% (940/1105)   \r"
+    ],
+    [
+      0.000339,
+      "Resolving deltas:  86% (951/1105)   \r"
+    ],
+    [
+      0.000355,
+      "Resolving deltas:  87% (970/1105)   \rResolving deltas:  88% (974/1105)   \r"
+    ],
+    [
+      0.000879,
+      "Resolving deltas:  90% (997/1105)   \r"
+    ],
+    [
+      0.000346,
+      "Resolving deltas:  91% (1012/1105)   \r"
+    ],
+    [
+      0.000316,
+      "Resolving deltas:  92% (1022/1105)   \r"
+    ],
+    [
+      0.000359,
+      "Resolving deltas:  94% (1044/1105)   \r"
+    ],
+    [
+      0.000589,
+      "Resolving deltas:  96% (1065/1105)   \r"
+    ],
+    [
+      0.000319,
+      "Resolving deltas:  97% (1074/1105)   \r"
+    ],
+    [
+      0.000513,
+      "Resolving deltas:  98% (1093/1105)   \rResolving deltas:  99% (1094/1105)   \r"
+    ],
+    [
+      0.000564,
+      "Resolving deltas: 100% (1105/1105)   \rResolving deltas: 100% (1105/1105), done.\r\n"
+    ],
+    [
+      0.061934,
+      "\u001b]0;root@vim-student4: ~\u0007root@vim-student4:~# \u001b[K"
+    ],
+    [
+      5.718279,
+      "e"
+    ],
+    [
+      0.247276,
+      "x"
+    ],
+    [
+      0.215199,
+      "i"
+    ],
+    [
+      0.104297,
+      "t"
+    ],
+    [
+      0.293175,
+      "\r\nlogout\r\n"
+    ],
+    [
+      0.269433,
+      "\u001b]0;student4@workshop-three: ~\u0007\u001b[01;32mstudent4@workshop-three\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+    ],
+    [
+      0.784391,
+      "e"
+    ],
+    [
+      0.182625,
+      "x"
+    ],
+    [
+      0.10254,
+      "i"
+    ],
+    [
+      0.103393,
+      "t"
+    ],
+    [
+      1.178127,
+      "\r\nexit\r\n"
+    ]
+  ]
+}
