@@ -36,27 +36,31 @@ Asciinema:  https://asciinema.org/docs/usage
 
 1.  vim\_demo\_ssh\_workshop.json
 
-2.  docker\_pull\_image.json
+2.  workshop\_clone\_repo.json
 
-3.  workshop\_clone\_repo.json
+3.  docker\_pull\_image.json
 
-4.  vim\_config\_step\_one.json
+4.  docker\_run\_container.json
 
-5.  vim\_config\_step\_two.json
+5.  vim\_demo\_install\_vundle.json
 
-6.  vim\_config\_step\_three.json
+6.  vim\_config\_step\_one.json
 
-7.  vim\_config\_step\_four.json
+7.  vim\_config\_step\_two.json
 
-8.  vim\_config\_step\_five.json
+8.  vim\_config\_step\_three.json
 
-9.  vim\_config\_add\_vundle.json
+9.  vim\_config\_step\_four.json
 
-10. vim\_config\_step\_seven.json
+10. vim\_config\_step\_five.json
 
-11. vim\_config\_step\_eight.json
+11. vim\_config\_add\_vundle.json
 
-12. vim\_config\_step\_nine.json
+12. vim\_config\_step\_seven.json
+
+13. vim\_config\_step\_eight.json
+
+14. vim\_config\_step\_nine.json
 
 ```
 # Use the syntax
